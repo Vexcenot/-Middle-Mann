@@ -1,5 +1,7 @@
 # Middle Mann
-
+![](https://cdn.discordapp.com/attachments/1120021759261941820/1126905044286066709/new_thumbnail.png)
+- *Vanilla Centered TF2 Hud with default health and ammo in the middle* - Vexcenot (he said it not me)
+# Description
 Lemme know watcha think. Ask me on Discord!: https://discord.gg/9QzHkQx
 
 It clears the clutters and keeps the Shit.
@@ -9,23 +11,31 @@ In other words, this HUD moves everything to the center of your screen while kee
 In other-other words, this is NOT another generic hud with random numbers floating at the centre of the screen. You weirdos.
 
 
-Features Include:
+### Features Include:
+- Health, ammo, and more moved closer to the middle of the screen
+- Vanilla TF2 visuals
+- Increased readability during intense fights
+- Supports all resolutions (including 4:3, 16:9, 16:10, etc.)
 
-    Health, ammo, and more moved closer to the middle of the screen
-    Vanilla TF2 visuals
-    Increased readability during intense fights
-    Supports all resolutions (including 4:3, 16:9, 16:10, etc.)
-
-Note: Does not work in minmode right now, please disable it from your advanced settings.
+Note: Does not work in minmode right now, please disable it from your advanced settings (or do cl_hud_minmode 0 in console).
 
 OFFICIAL ADD-ONS:
 Team Colored X hitmaker: https://gamebanana.com/mods/431361
 
 
-Maintained on Github by Techno, Original hud - Vexcenot
-
 # Install Instructions
-Drag and drop the folder into your "custom" directory
-D:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom
+download hud by either going to the "releases" tab in the right or clicking in the "code" button and "Download ZIP"
+
+Unzip then Drag and drop the folder into your "custom" directory
+(wherever steam is installed)\Team Fortress 2\tf\custom
 
 that's it.
+
+# Screenshots 
+![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/361560a3-98b3-42e5-8941-e47d02597fe1)
+![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/bd588f10-cbc2-4aac-a013-f076b52f26e9)
+![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/290a4155-6002-4cb4-ad06-6022e36dc61e)
+![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/bc1df8d9-149e-43dd-8b3d-7ad08698bd28)
+![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/f2e51909-fbff-4e78-8b89-73a44f9b2e00)
+![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/9edb8978-59e9-463b-ad2d-73fb77e63144)
+
