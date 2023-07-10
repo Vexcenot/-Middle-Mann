@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\tf2icon"
+	"$translucent" 1
+	"$ignorez" 1
+}
