@@ -14,10 +14,10 @@
 - Increased readability during intense fights
 - Supports all resolutions (including 4:3, 16:9, 16:10, etc.)
 
-#OFFICIAL ADD-ONS:
+# OFFICIAL ADD-ONS:
 Team Colored X hitmaker: https://gamebanana.com/mods/431361
 
-#DISCORD 🟣:
+# DISCORD 🟣:
 https://discord.gg/9QzHkQx
 
 
