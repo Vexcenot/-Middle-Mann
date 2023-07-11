@@ -24,8 +24,8 @@
 # ADD-ONS:
 Team Colored X hitmaker: https://gamebanana.com/mods/431361
 
-# DISCORD:
-https://discord.gg/9QzHkQx
+# DISCORD: https://discord.gg/9QzHkQx
+
 
 # Screenshots 
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/361560a3-98b3-42e5-8941-e47d02597fe1)
