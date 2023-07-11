@@ -22,9 +22,9 @@
 <sub>that's it. you fricking dummy.</sub>
 
 # ADD-ONS
-Team Colored X hitmaker: https://gamebanana.com/mods/431361
+[Team Colored X hitmaker](https://gamebanana.com/mods/431361)
 
-# DISCORD: https://discord.gg/9QzHkQx
+# [DISCORD](https://discord.gg/9QzHkQx) [GAMEBANANA](https://gamebanana.com/mods/445578) [GITHUB](https://github.com/Vexcenot/Middle-Mann)
 
 
 # Screenshots 
