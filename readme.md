@@ -14,19 +14,18 @@
 - Increased readability during intense fights
 - Supports all resolutions (including 4:3, 16:9, 16:10, etc.)
 
-# ADD-ONS:
-Team Colored X hitmaker: https://gamebanana.com/mods/431361
-
-# DISCORD:
-https://discord.gg/9QzHkQx
-
-
 # Install Instructions
 1. [Download Here](https://github.com/Vexcenot/Middle-Mann/archive/refs/heads/master.zip)
 2. Open the zip
 3. Drag and drop the folder into your customs folder. (C:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom)
 
 <sub>that's it. you fricking dummy.</sub>
+
+# ADD-ONS:
+Team Colored X hitmaker: https://gamebanana.com/mods/431361
+
+# DISCORD:
+https://discord.gg/9QzHkQx
 
 # Screenshots 
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/361560a3-98b3-42e5-8941-e47d02597fe1)
