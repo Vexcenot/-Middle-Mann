@@ -1,14 +1,14 @@
 # Middle Mann
 ![](https://cdn.discordapp.com/attachments/1120021759261941820/1126905044286066709/new_thumbnail.png)
-- *Vanilla Centered TF2 Hud with default health and ammo in the middle* - Vexcenot (he said it not me)
+- *Vanilla Centered TF2 Hud with default health and ammo in the middle*
 # Description
-Lemme know watcha think. Ask me on Discord!: https://discord.gg/9QzHkQx
-
-It clears the clutters and keeps the Shit.
+**It clears the clutters and keeps the Shit.
 
 In other words, this HUD moves everything to the center of your screen while keeping the default TF2 art style that we all SHOULD love. It's middle, & it's modern.
 
-In other-other words, this is NOT another generic hud with random numbers floating at the centre of the screen. You weirdos.
+In other-other words, this is NOT another generic hud with random numbers floating at the centre of the screen. You weirdos.**
+
+Lemme know watcha think. Ask me on Discord!: https://discord.gg/9QzHkQx
 
 
 ### Features Include:
@@ -17,19 +17,16 @@ In other-other words, this is NOT another generic hud with random numbers floati
 - Increased readability during intense fights
 - Supports all resolutions (including 4:3, 16:9, 16:10, etc.)
 
-Note: Does not work in minmode right now, please disable it from your advanced settings (or do cl_hud_minmode 0 in console).
-
-OFFICIAL ADD-ONS:
-Team Colored X hitmaker: https://gamebanana.com/mods/431361
+_OFFICIAL ADD-ONS:_
+**Team Colored X hitmaker:** https://gamebanana.com/mods/431361
 
 
 # Install Instructions
-download hud by either going to the "releases" tab in the right or clicking in the "code" button and "Download ZIP"
+1. [Download Here](https://github.com/Vexcenot/Middle-Mann/archive/refs/heads/master.zip)
+2. Open the zip
+3. Drag and drop the folder into your customs folder. "C:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom"
 
-Unzip then Drag and drop the folder into your "custom" directory
-(wherever steam is installed)\Team Fortress 2\tf\custom
-
-that's it.
+<sub>that's it. you fricking dummy.</sub>
 
 # Screenshots 
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/361560a3-98b3-42e5-8941-e47d02597fe1)
