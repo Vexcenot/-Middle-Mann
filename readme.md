@@ -2,11 +2,11 @@
 ![](https://cdn.discordapp.com/attachments/1120021759261941820/1126905044286066709/new_thumbnail.png)
 - *Vanilla Centered TF2 Hud with default health and ammo in the middle*
 # Description
-**It clears the clutters and keeps the Shit.
+**It clears the clutters and keeps the Shit.**
 
-In other words, this HUD moves everything to the center of your screen while keeping the default TF2 art style that we all SHOULD love. It's middle, & it's modern.
+**In other words, this HUD moves everything to the center of your screen while keeping the default TF2 art style that we all SHOULD love. It's middle, & it's modern.**
 
-In other-other words, this is NOT another generic hud with random numbers floating at the centre of the screen. You weirdos.**
+**In other-other words, this is NOT another generic hud with random numbers floating at the centre of the screen. You weirdos.**
 
 Lemme know watcha think. Ask me on Discord!: https://discord.gg/9QzHkQx
 
@@ -17,14 +17,14 @@ Lemme know watcha think. Ask me on Discord!: https://discord.gg/9QzHkQx
 - Increased readability during intense fights
 - Supports all resolutions (including 4:3, 16:9, 16:10, etc.)
 
-_OFFICIAL ADD-ONS:_
-**Team Colored X hitmaker:** https://gamebanana.com/mods/431361
+**OFFICIAL ADD-ONS:**
+Team Colored X hitmaker: https://gamebanana.com/mods/431361
 
 
 # Install Instructions
 1. [Download Here](https://github.com/Vexcenot/Middle-Mann/archive/refs/heads/master.zip)
 2. Open the zip
-3. Drag and drop the folder into your customs folder. "C:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom"
+3. Drag and drop the folder into your customs folder. (C:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom)
 
 <sub>that's it. you fricking dummy.</sub>
 
@@ -35,4 +35,6 @@ _OFFICIAL ADD-ONS:_
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/bc1df8d9-149e-43dd-8b3d-7ad08698bd28)
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/f2e51909-fbff-4e78-8b89-73a44f9b2e00)
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/9edb8978-59e9-463b-ad2d-73fb77e63144)
+
+[See more screen shots here](https://imgur.com/a/B1572CO)
 
