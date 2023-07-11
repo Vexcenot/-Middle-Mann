@@ -8,7 +8,7 @@
 
 **In other-other words, this is NOT another generic hud with random numbers floating at the centre of the screen. You weirdos.**
 
-# Features Include:
+# Features Include
 - Health, ammo, and more moved closer to the middle of the screen
 - Vanilla TF2 visuals
 - Increased readability during intense fights
@@ -21,7 +21,7 @@
 
 <sub>that's it. you fricking dummy.</sub>
 
-# ADD-ONS:
+# ADD-ONS
 Team Colored X hitmaker: https://gamebanana.com/mods/431361
 
 # DISCORD: https://discord.gg/9QzHkQx
