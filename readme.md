@@ -11,7 +11,7 @@
 # Features Include
 - Health, ammo, and more moved closer to the middle of the screen
 - Vanilla TF2 visuals
-- Increased readability during intense fights
+- Increased readability for intense fights
 - Supports all resolutions (including 4:3, 16:9, 16:10, etc.)
 
 # Install Instructions
@@ -38,5 +38,5 @@
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/f2e51909-fbff-4e78-8b89-73a44f9b2e00)
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/9edb8978-59e9-463b-ad2d-73fb77e63144)
 
-[See more screen shots here](https://imgur.com/a/B1572CO)
+[**See more screen shots here**](https://imgur.com/a/B1572CO)
 
