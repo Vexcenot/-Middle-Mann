@@ -11,11 +11,11 @@
 # Features Include
 - Health, ammo, and more moved closer to the middle of the screen
 - Vanilla TF2 visuals
-- Increased readability during intense fights
+- Increased readability for intense fights
 - Supports all resolutions (including 4:3, 16:9, 16:10, etc.)
 
 # Install Instructions
-1. [Download Here](https://github.com/Vexcenot/Middle-Mann/archive/refs/heads/master.zip)
+1. [Download Here](https://gamebanana.com/mods/445578)
 2. Open the zip
 3. Drag and drop the folder into your customs folder. (C:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom)
 
@@ -38,5 +38,5 @@
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/f2e51909-fbff-4e78-8b89-73a44f9b2e00)
 ![image](https://github.com/Vexcenot/Middle-Mann/assets/41777800/9edb8978-59e9-463b-ad2d-73fb77e63144)
 
-[See more screen shots here](https://imgur.com/a/B1572CO)
+[**_See more screen shots here_**](https://imgur.com/a/B1572CO)
 
