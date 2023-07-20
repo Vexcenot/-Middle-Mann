@@ -68,25 +68,24 @@
 		"wide"				"400"
 		"tall"				"200"
 	}
-   	 HudDemomanCharge
-   	{
-        "fieldName"        "HudDemomanCharge"
-        "visible"        "1"
-        "enabled"        "1"
-        "xpos"            "cs-0.56"    [$WIN32]
-        "xpos_minbad"    "r52"    [$WIN32]
-        "ypos"            "300"    [$WIN32]
-        "ypos_minbad"    "r40"    [$WIN32]
-        "xpos"            "r112"    [$X360]
-        "ypos"            "r45"    [$X360]
-        "zpos"            "1"            // draw in front of ammo
-        "wide"            "60"
-        "wide_minbad"    "50"
-        "tall"            "6"
-        "MeterFG"        "White"
-        "MeterBG"        "Gray"
-   	}    
-	
+	"HudDemomanCharge"
+	{
+		"fieldName"			"HudDemomanCharge"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"cs-0.56" [$WIN32]
+		"xpos_minbad"		"r52" [$WIN32]
+		"ypos"				"300" [$WIN32]
+		"ypos_minbad"		"r40" [$WIN32]
+		"xpos"				"r112" [$X360]
+		"ypos"				"r45" [$X360]
+		"zpos"				"1"
+		"wide"				"60"
+		"wide_minbad"		"50"
+		"tall"				"6"
+		"MeterFG"			"White"
+		"MeterBG"			"Gray"
+	}
 	"HudBowCharge"
 	{
 		"fieldName"			"HudBowCharge"
@@ -892,13 +891,10 @@
 		"fieldName"					"HudMenuSpyDisguise"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-235"
-		"ypos"						"c-52"
-		"ypos_hidef"				"c-42"
-		"ypos_lodef"				"c-42"
+		"xpos"						"c-200"
+		"ypos"						"204"
 		"wide"						"470"
-		"tall"						"200" [$WIN32]
-		"tall"						"180" [$X360]
+		"tall"						"200"
 		"PaintBackgroundType"		"0"
 	}
 	"HudDemomanPipes"
@@ -1329,16 +1325,16 @@
 	}
 	"CurrencyStatusPanel"
 	{
-	"ControlName"			"CCurrencyStatusPanel"
-	"fieldName"			"CurrencyStatusPanel"
-	"xpos"				"0"
-	"ypos"				"r100"
-	"wide"				"100"
-	"tall"				"100"
-	"xpos_minmode"			"65"
-	"ypos_minmode"			"r88"
-	"visible" 			"0"
-	"enabled" 			"1"
-	"PaintBackgroundType"		"2"
-}
+		"ControlName"				"CCurrencyStatusPanel"
+		"fieldName"					"CurrencyStatusPanel"
+		"xpos"						"0"
+		"ypos"						"r100"
+		"wide"						"100"
+		"tall"						"100"
+		"xpos_minmode"				"65"
+		"ypos_minmode"				"r88"
+		"visible"					"0"
+		"enabled"					"1"
+		"PaintBackgroundType"		"2"
+	}
 }
