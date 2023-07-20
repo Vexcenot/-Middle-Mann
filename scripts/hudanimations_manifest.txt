@@ -2,5 +2,6 @@ hudanimations_manifest
 {
 	"file"		"scripts/hudanimations_VEXCENOT'S centered default.txt"
 	"file"		"scripts/hudanimations.txt"
+	"file"		"resource/crosshairs/crosshair_animations.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }
