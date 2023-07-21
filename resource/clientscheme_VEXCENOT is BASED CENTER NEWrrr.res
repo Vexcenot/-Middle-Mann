@@ -582,7 +582,7 @@
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Verdana"
 				"tall"			"12"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -592,7 +592,7 @@
 			}
 			"2"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Verdana"
 				"tall"			"13" [$WIN32]
 				"tall"			"20" [$X360]
 				"weight"		"900"
@@ -601,7 +601,7 @@
 			}
 			"3"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Verdana"
 				"tall"			"14"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -610,7 +610,7 @@
 			}
 			"4"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Verdana"
 				"tall"			"20"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -619,7 +619,7 @@
 			}
 			"5"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Verdana"
 				"tall"			"24"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -628,7 +628,7 @@
 			}
 			"6"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Verdana"
 				"tall"			"12"
 				"range"			"0x0000 0x00FF"
 				"weight"		"900"
