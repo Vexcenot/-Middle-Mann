@@ -1,3 +1,4 @@
+#base "../resource/crosshairs/crosshair.res"
 "Resource/HudLayout.res"
 {
 	"HudPlayerStatus"
