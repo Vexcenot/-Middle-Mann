@@ -8,6 +8,7 @@
 //		borders			- description of all the borders
 //
 //
+#base "../resource/crosshairs/crosshair_scheme.res"
 Scheme
 {
 	//Name - currently overriden in code
