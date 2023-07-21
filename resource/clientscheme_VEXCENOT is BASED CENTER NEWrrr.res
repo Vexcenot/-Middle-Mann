@@ -1381,16 +1381,5 @@
 				"range"		"0x0000 0x0451"
 			}
 		}
-		"11"
-		{
-			"font"		"resource/fonts/FuturaStd-Heavy.otf"
-			"name"		"FuturaStd-Heavy"
-		}
-		"12"
-		{
-			"font"		"resource/fonts/nimbus.ttf"
-			"name"		"Nimbus Sans L Regular"
-		}
-		"13"		"resource/fonts/ToonHUD Montserrat.ttf"
 	}
 }
