@@ -8,7 +8,9 @@
 //		borders			- description of all the borders
 //
 //
-#base "../resource/crosshairs/crosshair_scheme.res"
+#base 	"../resource/crosshairs/crosshair_scheme.res"
+#base	"clientscheme_VEXCENOT is BASED CENTER NEWrrr.res"
+
 Scheme
 {
 	//Name - currently overriden in code
@@ -5917,4 +5919,3 @@ Scheme
 	}
 }
 
-"#base"		"clientscheme_VEXCENOT is BASED CENTER NEWrrr.res"
