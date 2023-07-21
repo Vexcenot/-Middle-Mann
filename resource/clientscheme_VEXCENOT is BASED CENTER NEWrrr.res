@@ -1196,7 +1196,7 @@
 	{
 		"8"
 		{
-			"font"		"resource/TF2.ttf"
+			"font"		"resource/fonts/TF2.ttf"
 			"name"		"TF2"
 			"turkish"
 			{
@@ -1257,7 +1257,7 @@
 		}
 		"9"
 		{
-			"font"		"resource/TF2Secondary.ttf"
+			"font"		"resource/fonts/TF2Secondary.ttf"
 			"name"		"TF2 Secondary"
 			"english"
 			{
@@ -1322,7 +1322,7 @@
 		}
 		"10"
 		{
-			"font"		"resource/TF2Build.ttf"
+			"font"		"resource/fonts/TF2Build.ttf"
 			"name"		"TF2 Build"
 			"turkish"
 			{
