@@ -88,10 +88,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"52"
-		"ypos"			"362"
+		"xpos"			"-5"
+		"ypos"			"-7"
 		"zpos"			"5"
-		"wide"			"84"
+		"wide"			"100"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
@@ -99,6 +99,7 @@
 		"textAlignment"	"center"	
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
+		pin_to_sibling 	"PlayerStatusHealthValue"
 	}		
 	"PlayerStatusHealthValueBG"
 		{
