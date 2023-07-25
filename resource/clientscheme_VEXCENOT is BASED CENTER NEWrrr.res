@@ -1191,6 +1191,15 @@
 				"antialias"		"1"
 			}
 		}
+		"TF2 Icons"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"16"
+				"antialias"									"1"
+			}
+		}	
 	}
 	"CustomFontFiles"
 	{
@@ -1391,6 +1400,15 @@
 			"font"		"resource/fonts/nimbus.ttf"
 			"name"		"Nimbus Sans L Regular"
 		}
-		"13"		"resource/fonts/ToonHUD Montserrat.ttf"
+		"13"		
+		{
+			"font"		"resource/fonts/ToonHUD Montserrat.ttf"	
+			"name"		"ToonHUD Montserrat"
+		}
+		"14"
+		{
+			"font"		"resource/fonts/TF2 Icons.ttf"
+			"name"		"TF2 Icons"
+		}
 	}
 }
