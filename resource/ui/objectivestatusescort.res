@@ -34,32 +34,31 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"../hud/cart_track_neutral_opaque"
 		"scaleImage"	"1"
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
+				"xpos"			"112"
+			"ypos"			"118"
 			"zpos"			"3"
-			"tall"			"12"
+			"tall"			"4"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"120"
-			"ypos_minbad"	"120"
-			"tall"			"10"
-			"tall_minbad"	"10"
+			"ypos"			"122"
+			"tall"			"7"
 			"image"			"../hud/cart_track_neutral_opaque"
-		}		
+		}	
 	}	
 	
 	"ProgressBar"
 	{
 		"ControlName"	"CTFHudEscortProgressBar"
 		"fieldName"		"ProgressBar"	
-		"xpos"			"120"
+		"xpos"			"112"
 		"ypos"			"123"
 		"zpos"			"4"
 		"wide"			"175"
@@ -67,13 +66,14 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
+
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
-			"zpos"			"5"
-			"tall"			"12"
-			"visible"		"1"
+			"ypos"		"118"
+			"zpos"		"6"
+			"tall"		"5"
+			"visible"	"1"
 		}
 	}
 	
@@ -82,10 +82,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
 		"xpos"			"109"
-		"ypos"			"114"
+		"ypos"			"116"
 		"zpos"			"1"
 		"wide"			"21"
-		"tall"			"21"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -102,10 +102,10 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"		"104"
+			"xpos"		"103"
 			"zpos"		"5"
 			"wide"		"18"
-			"tall"		"18"
+			"tall"		"23"
 			"image"		"../hud/cart_track_neutral_opaque"
 		}
 		
@@ -183,8 +183,8 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"		
 			"font"			"ItemFontAttribSmall"		
-			"xpos"			"23"			
-			"ypos"			"53"			
+			"xpos"			"22"			
+			"ypos"			"59"			
 			"zpos"			"2"
 			"wide"			"8"
 			"tall"			"8"
@@ -220,10 +220,10 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
-			"xpos"			"13"
+			"xpos"			"12"
 			"ypos"			"50"
 			"zpos"			"1"
-			"wide"			"26"
+			"wide"			"27"
 			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -246,10 +246,10 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"		"11"
-				"ypos"		"43"
-				"wide"		"30"
-				"tall"		"30"
+				"xpos"		"13"
+				"ypos"		"46"
+				"wide"		"25"
+				"tall"		"25"
 			}						
 		}
 		
@@ -283,10 +283,10 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"		"11"
-				"ypos"		"71"
-				"wide"		"30"
-				"tall"		"30"
+				"xpos"		"14"
+				"ypos"		"73"
+				"wide"		"25"
+				"tall"		"25"
 			}			
 		}
 		"SolarProgressBar"
@@ -346,8 +346,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
-			"xpos"			"23"
-			"ypos"			"53"
+			"xpos"			"22"
+			"ypos"			"60"
 			"zpos"			"2"
 			"wide"			"7"
 			"tall"			"7"
@@ -369,12 +369,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"		"46"
+				"ypos"		"55"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"83"
+				"ypos"		"82"
 			}	
 		}
 		
@@ -383,7 +383,7 @@
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
 			"xpos"			"21"
-			"ypos"			"52"
+			"ypos"			"59"
 			"zpos"			"3"
 			"wide"			"4"
 			"tall"			"8"
@@ -395,18 +395,19 @@
 			"if_multiple_trains"
 			{
 				"xpos"		"20"
-				"wide"		"4"
-				"tall"		"8"
+				"wide"		"5"
+				"tall"		"10"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"		"45"
+				"ypos"		"54"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"82"
+							"xpos"		"21"
+				"ypos"		"81"
 			}	
 		}
 
@@ -416,7 +417,7 @@
 			"fieldName"		"CapNumPlayers"
 			"font"			"ItemFontAttribSmall"
 			"xpos"			"25"
-			"ypos"			"53"
+			"ypos"			"59"
 			"zpos"			"4"
 			"wide"			"20"
 			"tall"			"7"
@@ -439,20 +440,21 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"		"45"
+				"ypos"		"53"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"81"
-			}	
+							"xpos"		"26"
+				"ypos"		"80"
+			}
 		}
 		
 		"Blocked"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
-			"xpos"			"23"
+			"xpos"			"22"
 			"ypos"			"53"
 			"zpos"			"2"
 			"wide"			"7"
@@ -475,12 +477,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"		"46"
+				"ypos"		"55"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"83"
+				"ypos"		"82"
 			}
 		}
 	
@@ -601,11 +603,11 @@
 				
 				"if_multiple_trains"
 				{
-					"xpos"		"3"
-					"ypos"		"6"			
-					"wide"		"30"			
-					"tall"		"30"			
-				}		
+					"xpos"		"6"
+					"ypos"		"17"			
+					"wide"		"20"			
+					"tall"		"20"			
+				}			
 			}			
 		}
 	}
