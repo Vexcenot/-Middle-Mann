@@ -282,7 +282,7 @@
 		"pin_corner_to_sibling" "1" 
 		"pin_to_sibling_corner" "1" 
 	}
-	"HudWeaponAmmoIcon"
+//	"HudWeaponAmmoIcon"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoIcon"
