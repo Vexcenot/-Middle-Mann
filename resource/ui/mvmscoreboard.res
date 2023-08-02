@@ -19,11 +19,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"HudFontSmallest"
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
 		"xpos"			"290"
-		"ypos"			"375"
+		"ypos"			"362"
 		"wide"			"290"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
