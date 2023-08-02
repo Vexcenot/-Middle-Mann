@@ -2212,10 +2212,16 @@
 			"visible"	    						"1"
 			"enabled"		    					"1"
 			"proportionaltoparent"					"1"
-			"PaintBackground"						"2"
+			"PaintBackground"						"1"
 			"PaintBackgroundType"					"2"
 			"bgcolor_override"						"TanLight"
 
 			"pin_to_sibling"						"TopBarAnchor"
+
+
+			if_mvm
+			{
+			"visible"		"0"
+			}
 		}
 }
