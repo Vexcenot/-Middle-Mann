@@ -243,8 +243,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	Animate	PlayerStatusHealthValue		FgColor	"TanLight"			Linear 0.0 0.0
-	Animate	PlayerStatusHealthValue	FgColor	"100 100 100 255"			Linear 0.0 0.0
-	Animate	PlayerStatusHealthValue	FgColor	"TanLight"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue2	FgColor	"TanLight"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue3	FgColor	"TanLight"			Linear 0.0 0.0
 }
 
 //===========================================
@@ -284,7 +284,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate	PlayerStatusHealthValue		FgColor	"TanLight"			Linear 0.0 0.0
-	Animate	PlayerStatusHealthValue2	FgColor	"100 100 100 255"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue2	FgColor	"TanLight"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue3	FgColor	"TanLight"			Linear 0.0 0.0
 // ORINAL v
 	Animate PlayerStatusHealthValue		Position "40 354" 			Linear 0.0 0.0
@@ -332,7 +332,7 @@ event HudLowAmmoPulseStop
 // stoppy stop AMMOY
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-	Animate 	AmmoInClip			FgColor		"100 100 100 255"			Linear 0.0 0.0
+	Animate 	AmmoInClip			FgColor		"TanLight"			Linear 0.0 0.0
 	Animate		AmmoInClip			Position	"-1 58"				Linear 0.0 0.0
 	Animate 	AmmoInReserve		FgColor		"TanLight"			Linear 0.0 0.0
 //	Animate		AmmoInReserve		Position	"88 66"				Linear 0.0 0.0
