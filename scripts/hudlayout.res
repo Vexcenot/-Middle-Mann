@@ -1,5 +1,11 @@
+// HYPNOTIZE CROSSHAIRS, CHECK RESOURCE/CROSSHAIRS/CROSSHAIR.RES FILE ON HOW TO ENABLE/EDIT
 #base "../resource/crosshairs/crosshair.res"
-#base "../resource/ui/custom/x_hitmarker.res"
+
+// TEAM-COLORED X HITMARKER, UNCOMMENT BOTH SLASHES TO USE (ONLY ONE CAN BE ENABLED AT A TIME)
+//#base "../resource/ui/custom/x_hitmarker.res"
+
+//CIRCLE HITMARKER, UNCOMMENT BOTH SLASHES TO USE (ONLY ONE CAN BE ENABLED AT A TIME)
+//#base "../resource/ui/custom/circle_hitmarker.res"
 
 "Resource/HudLayout.res"
 {

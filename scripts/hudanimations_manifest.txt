@@ -1,8 +1,8 @@
+// UNCOMMENT THE LAST LINE IF YOU WANT TO USE TEAM-COLORED X HITMARKER
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations_VEXCENOT'S centered default.txt"
 	"file"		"scripts/hudanimations.txt"
 	"file"		"resource/crosshairs/crosshair_animation.txt"
 	"file"		"scripts/hudanimations_tf.txt"
-	"file"		"scripts/hudanimations_x_hitmarker.txt"
 }
