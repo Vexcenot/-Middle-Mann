@@ -4,5 +4,4 @@ hudanimations_manifest
 	"file"		"scripts/hudanimations.txt"
 	"file"		"resource/crosshairs/crosshair_animation.txt"
 	"file"		"scripts/hudanimations_tf.txt"
-	"file"		"scripts/hudanimations_x_hitmarker.txt"
 }
