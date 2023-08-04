@@ -1,4 +1,3 @@
-// UNCOMMENT THE LAST LINE IF YOU WANT TO USE TEAM-COLORED X HITMARKER
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations_VEXCENOT'S centered default.txt"
