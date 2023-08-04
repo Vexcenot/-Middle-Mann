@@ -1,4 +1,6 @@
 #base "../resource/crosshairs/crosshair.res"
+#base "../resource/ui/custom/x_hitmarker.res"
+
 "Resource/HudLayout.res"
 {
 	"HudPlayerStatus"
