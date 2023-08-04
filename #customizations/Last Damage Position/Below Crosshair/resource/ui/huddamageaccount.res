@@ -25,7 +25,7 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"font"					"HudFontSmallerBold"
-		"fgcolor"				"TanLight"
+		"fgcolor"				"255 255 0 255"
 	}
 
 	"DamageAccountValueShadow"
