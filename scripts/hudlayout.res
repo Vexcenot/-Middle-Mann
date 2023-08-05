@@ -7,7 +7,8 @@
 //CIRCLE HITMARKER, UNCOMMENT BOTH SLASHES TO USE (ONLY ONE CAN BE ENABLED AT A TIME)
 //#base "../resource/ui/custom/circle_hitmarker.res"
 
-#base "../resource/ui/custom/hitmarker.res"
+// UNCOMMENT THE SLASHES BELOW #BASE TO USE MASTER HITMARKERS https://gamebanana.com/mods/460476
+//#base "../resource/ui/custom/hitmarker.res"
 
 "Resource/HudLayout.res"
 {

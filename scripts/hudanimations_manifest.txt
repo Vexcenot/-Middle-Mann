@@ -4,5 +4,5 @@ hudanimations_manifest
 	"file"		"scripts/hudanimations.txt"
 	"file"		"resource/crosshairs/crosshair_animation.txt"
 	"file"		"scripts/hudanimations_tf.txt"
-	"file"		"scripts/hudanimations_hitmarker.txt"
+	//"file"		"scripts/hudanimations_hitmarker.txt" // Uncomment this Line to use Master Hitmarkers https://gamebanana.com/mods/460476
 }
