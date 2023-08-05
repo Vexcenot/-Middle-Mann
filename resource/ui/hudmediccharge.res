@@ -1,5 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -12,12 +12,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"		
+		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
 		"alpha" 		"128"
 	}
-	
+
 	"MeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -30,17 +30,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"		
+		"teambg_3"		"../hud/color_panel_blu"
 		"alpha" 		"255"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-	}	
+		"draw_corner_height" 	"5"
+	}
 	   "MeterBG2"
 	{
 		"ControlName"			"ImagePanel"
@@ -54,8 +54,8 @@
 		"enabled"				"0"
 		"fillcolor"				"0 0 0 128"
 		"autoResize"	        "0"
-	}	
-		
+	}
+
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -77,7 +77,29 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 	}
-	
+	"ChargeLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelShadow"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"5"
+		"wide"			"256"
+		"tall"			"30"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		pin_to_sibling 	"ChargeLabel"
+	}
+
 	"ChargeLabelBar"
 	{
 		"ControlName"	"CExLabel"
@@ -99,7 +121,7 @@
 		"font"			"HudFontSmallest"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"ChargeLabelBarShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -121,7 +143,7 @@
 		"font"			"HudFontSmallest"
 		"fgcolor"		"Black"
 	}
-	
+
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -143,9 +165,9 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
@@ -153,7 +175,7 @@
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"197"
-		"tall"			"12"				
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -162,10 +184,10 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"TanLight"
-	}		
+	}
 
 	"ChargeMeter1"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
@@ -173,7 +195,7 @@
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"40"
-		"tall"			"12"				
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -184,7 +206,7 @@
 	}
 
 	"ChargeMeter2"
-	{	
+	{
 	"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
@@ -192,7 +214,7 @@
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"40"
-		"tall"			"12"				
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -203,7 +225,7 @@
 	}
 
 	"ChargeMeter3"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
@@ -211,7 +233,7 @@
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"40"
-		"tall"			"12"				
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -222,7 +244,7 @@
 	}
 
 	"ChargeMeter4"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
@@ -230,7 +252,7 @@
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"40"
-		"tall"			"12"				
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -239,7 +261,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -251,8 +273,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 // o no bad wurd :(
 	"fuckthevaccinator"
 	{
@@ -265,7 +287,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
-	
+
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -277,10 +299,10 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"image"	"../HUD/defense_buff_bullet_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"pin_to_sibling" "fuckthevaccinator"
-		"pin_corner_to_sibling" "1" 
-		"pin_to_sibling_corner" "1" 
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
 	"HudWeaponAmmoIcon"
 	{
@@ -296,8 +318,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/hud_obj_status_health_69"
-		"scaleImage"	"1"			
+		"scaleImage"	"1"
 		"fgcolor"		"TanLight"
 	}
-	
+
 }
