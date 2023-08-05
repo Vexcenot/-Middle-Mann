@@ -7,6 +7,8 @@
 //CIRCLE HITMARKER, UNCOMMENT BOTH SLASHES TO USE (ONLY ONE CAN BE ENABLED AT A TIME)
 //#base "../resource/ui/custom/circle_hitmarker.res"
 
+#base "../resource/ui/custom/hitmarker.res"
+
 "Resource/HudLayout.res"
 {
 	"HudPlayerStatus"
