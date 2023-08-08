@@ -1199,7 +1199,7 @@
 				"tall"										"16"
 				"antialias"									"1"
 			}
-		}	
+		}
 	}
 	"CustomFontFiles"
 	{
@@ -1207,187 +1207,43 @@
 		{
 			"font"		"resource/fonts/TF2.ttf"
 			"name"		"TF2"
-			"turkish"
+			"russian"
 			{
-				"range"		"0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range"		"0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range"		"0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range"		"0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range"		"0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range"		"0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range"		"0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range"		"0x0000 0x0171"
-			}
-			"german"
-			{
-				"range"		"0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range"		"0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range"		"0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range"		"0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range"		"0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range"		"0x0000 0x0451"
+				"range" "0x0000 0xFFFF"
 			}
 		}
 		"9"
 		{
 			"font"		"resource/fonts/TF2Secondary.ttf"
 			"name"		"TF2 Secondary"
-			"english"
+			"russian"
 			{
-				"range"		"0x0000 0x2014"
-			}
-			"turkish"
-			{
-				"range"		"0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range"		"0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range"		"0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range"		"0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range"		"0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range"		"0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range"		"0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range"		"0x0000 0x0171"
-			}
-			"german"
-			{
-				"range"		"0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range"		"0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range"		"0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range"		"0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range"		"0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range"		"0x0000 0x0451"
+				"range" "0x0000 0xFFFF"
 			}
 		}
 		"10"
 		{
 			"font"		"resource/fonts/TF2Build.ttf"
 			"name"		"TF2 Build"
-			"turkish"
+			"russian"
 			{
-				"range"		"0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range"		"0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range"		"0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range"		"0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range"		"0x0000 0x017C"
+				"range" "0x0000 0xFFFF"
 			}
-			"norwegian"
+			"turkish"
 			{
-				"range"		"0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range"		"0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range"		"0x0000 0x0171"
-			}
-			"german"
-			{
-				"range"		"0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range"		"0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range"		"0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range"		"0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range"		"0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range"		"0x0000 0x0451"
+				"range" "0x0000 0xFFFF"
 			}
 		}
 		"11"
@@ -1400,9 +1256,9 @@
 			"font"		"resource/fonts/nimbus.ttf"
 			"name"		"Nimbus Sans L Regular"
 		}
-		"13"		
+		"13"
 		{
-			"font"		"resource/fonts/ToonHUD Montserrat.ttf"	
+			"font"		"resource/fonts/ToonHUD Montserrat.ttf"
 			"name"		"ToonHUD Montserrat"
 		}
 		"14"
