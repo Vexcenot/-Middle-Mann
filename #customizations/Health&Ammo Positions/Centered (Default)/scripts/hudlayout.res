@@ -8,7 +8,7 @@
 //#base "../resource/ui/custom/circle_hitmarker.res"
 
 // UNCOMMENT THE SLASHES BELOW #BASE TO USE MASTER HITMARKERS https://gamebanana.com/mods/460476
-//#base "../resource/ui/custom/hitmarker.res"
+#base "../resource/ui/custom/master_hitmarkers.res"
 
 "Resource/HudLayout.res"
 {
