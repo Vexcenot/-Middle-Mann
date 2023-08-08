@@ -8,7 +8,8 @@
 //		borders			- description of all the borders
 //
 //
-#base "../resource/crosshairs/crosshair_scheme.res"
+#base 		"../resource/crosshairs/crosshair_scheme.res"
+"#base"		"clientscheme_VEXCENOT is BASED CENTER NEWrrr.res"
 Scheme
 {
 	//Name - currently overriden in code
@@ -5811,7 +5812,7 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/TF2.ttf"
+			"font" "resource/fonts/TF2.ttf"
 			"name" "TF2"
 			"russian"
 			{
@@ -5824,7 +5825,7 @@ Scheme
 		}
 		"4"
 		{
-			"font" "resource/TF2Secondary.ttf"
+			"font" "resource/fonts/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
 			"russian"
 			{
@@ -5837,7 +5838,7 @@ Scheme
 		}
 		"5"
 		{
-			"font" "resource/TF2Professor.ttf"
+			"font" "resource/fonts/TF2Professor.ttf"
 			"name" "TF2 Professor"
 			"russian"
 			{
@@ -5850,7 +5851,7 @@ Scheme
 		}
 		"6"
 		{
-			"font" "resource/TF2Build.ttf"
+			"font" "resource/fonts/TF2Build.ttf"
 			"name" "TF2 Build"
 			"russian"
 			{
@@ -5867,7 +5868,7 @@ Scheme
 		}
 		"7"
 		{
-			"font"	"resource/ocra.ttf"
+			"font"	"resource/fonts/ocra.ttf"
 			"name" "ocra"
 			"turkish"
 			{
@@ -5929,4 +5930,3 @@ Scheme
 	}
 }
 
-"#base"		"clientscheme_VEXCENOT is BASED CENTER NEWrrr.res"
