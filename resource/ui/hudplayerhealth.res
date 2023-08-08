@@ -124,9 +124,22 @@
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
+		"pin_to_sibling" "suckmydickvalve"
+		"pin_corner_to_sibling" "1" 
+		"pin_to_sibling_corner" "1" 
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"wide"			"0"	
-		"tall"			"0"	
+		"xpos"			"60"
+		"ypos"			"-30"
+		"zpos"			"0"
+		"wide"			"55"	[$WIN32]
+		"wide_minbad"	"40"	[$WIN32]
+		"wide"			"35"	[$X360]
+		"tall"			"55"	[$WIN32]
+		"tall_minbad"	"40"	[$WIN32]
+		"tall"			"35"	[$X360]
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusBleedImage"
