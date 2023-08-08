@@ -689,5 +689,37 @@
 		"wide"			"23"
 		"tall"			"23"
 	}
+	"LowHpLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LowHpLabel"
+		"xpos"			"c-100"
+		"ypos"			"c-150"
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"LOW HEALTH"
+		"textAlignment"	"center"
+		"font"			"DeniProxNovaBold16"
+		"fgcolor"		"0 0 0 0"
+	}
+	"LowHpLabelSha"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LowHpLabelSha"
+		"xpos"			"c-99"
+		"ypos"			"c-149"
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"LOW HEALTH"
+		"textAlignment"	"center"
+		"font"			"DeniProxNovaBold16"
+		"fgcolor"		"0 0 0 0"
+	}
 
 }

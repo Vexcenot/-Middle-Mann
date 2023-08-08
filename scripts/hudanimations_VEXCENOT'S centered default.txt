@@ -252,6 +252,15 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 //Shaky shake HEALTHY
 {
+
+	// bring up the LOW HEALTH label
+	Animate  LowHpLabel						fgcolor		"RedSolid"		Linear 0.001 0.002
+	Animate  LowHpLabelSha				fgcolor		"Black"		Linear 0.001 0.002
+
+	// fade it out
+	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 2.0 2.51
+	Animate  LowHpLabelSha				fgcolor		"0 0 0 0"		Linear 2.0 2.51
+
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.125 0.075
 	Animate	PlayerStatusHealthValue			FgColor		"TanLight"			Linear 0.0 0.075
@@ -280,6 +289,10 @@ event HudHealthDyingPulseLoop
 // stoppy stop HEALTHY
 event HudHealthDyingPulseStop
 {
+
+	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 0.0001 0.01
+	Animate  LowHpLabelSha				fgcolor		"0 0 0 0"		Linear 0.0001 0.01
+
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate	PlayerStatusHealthValue		FgColor	"TanLight"			Linear 0.0 0.0
