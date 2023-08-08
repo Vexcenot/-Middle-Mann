@@ -128,15 +128,11 @@
 		"pin_corner_to_sibling" "1" 
 		"pin_to_sibling_corner" "1" 
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"60"
-		"ypos"			"-30"
+		"xpos"			"42"
+		"ypos"			"120"
 		"zpos"			"0"
-		"wide"			"55"	[$WIN32]
-		"wide_minbad"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minbad"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"23"
+		"tall"			"23"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
