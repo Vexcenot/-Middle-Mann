@@ -1,5 +1,5 @@
 // UNCOMMENT THE SLASHES BELOW #BASE TO USE MASTER HITMARKERS https://gamebanana.com/mods/460476
-//#base "../resource/ui/custom/master_hitmarkers.res"
+#base "../resource/ui/custom/master_hitmarkers.res"
 
 // HYPNOTIZE CROSSHAIRS, CHECK RESOURCE/CROSSHAIRS/CROSSHAIR.RES FILE ON HOW TO ENABLE/EDIT
 #base "../resource/crosshairs/crosshair.res"
