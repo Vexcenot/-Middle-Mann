@@ -1,5 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
-//a deream cometrue
+//this da shit
 {
 	"HudPlayerHealth"
 	{
