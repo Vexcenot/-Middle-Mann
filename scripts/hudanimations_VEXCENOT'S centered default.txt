@@ -48,6 +48,7 @@ event LevelInit
 }
 event HitMarker // DO NOT UNCOMMENT THIS LAGS PEOPLE SHIELDBASHING ON MEDIC IN MVM
 {
+
 	//Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
 	//Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.50 	// tcHitmarker end
 
@@ -252,15 +253,6 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 //Shaky shake HEALTHY
 {
-
-	// bring up the LOW HEALTH label
-	Animate  LowHpLabel						fgcolor		"RedSolid"		Linear 0.001 0.002
-	Animate  LowHpLabelSha				fgcolor		"Black"		Linear 0.001 0.002
-
-	// fade it out
-	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 2.0 2.51
-	Animate  LowHpLabelSha				fgcolor		"0 0 0 0"		Linear 2.0 2.51
-
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.125 0.075
 	Animate	PlayerStatusHealthValue			FgColor		"TanLight"			Linear 0.0 0.075
@@ -270,13 +262,13 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValue3		FgColor		"TanLight"			Linear 0.0 0.075
 	Animate	PlayerStatusHealthValue3		FgColor		"255 100 100 255"	Linear 0.125 0.075
 // ORINAL v
-	Animate PlayerStatusHealthValue			Position 	"40 354" 				Linear 0.0 0.1
+//	Animate PlayerStatusHealthValue			Position 	"40 354" 				Linear 0.0 0.1
 // END ^
-	Animate PlayerStatusHealthValue			Position 	"40 354" 			Pulse 1.0 0.2 1.0
-	Animate PlayerStatusHealthValue2		Position 	"40 354" 				Linear 0.0 0.1
-	Animate PlayerStatusHealthValue2		Position 	"40 354" 				Pulse 1.0 0.2 1.0
-	Animate PlayerStatusHealthValue3		Position 	"40 354" 				Linear 0.0 0.1
-	Animate PlayerStatusHealthValue3		Position 	"40 354" 				Pulse 1.0 0.2 1.0
+//	Animate PlayerStatusHealthValue			Position 	"40 354" 			Pulse 1.0 0.2 1.0
+//	Animate PlayerStatusHealthValue2		Position 	"40 354" 				Linear 0.0 0.1
+//	Animate PlayerStatusHealthValue2		Position 	"40 354" 				Pulse 1.0 0.2 1.0
+//	Animate PlayerStatusHealthValue3		Position 	"40 354" 				Linear 0.0 0.1
+//	Animate PlayerStatusHealthValue3		Position 	"40 354" 				Pulse 1.0 0.2 1.0
 
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -289,22 +281,18 @@ event HudHealthDyingPulseLoop
 // stoppy stop HEALTHY
 event HudHealthDyingPulseStop
 {
-
-	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 0.0001 0.01
-	Animate  LowHpLabelSha				fgcolor		"0 0 0 0"		Linear 0.0001 0.01
-
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate	PlayerStatusHealthValue		FgColor	"TanLight"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue2	FgColor	"TanLight"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue3	FgColor	"TanLight"			Linear 0.0 0.0
 // ORINAL v
-	Animate PlayerStatusHealthValue		Position "40 354" 			Linear 0.0 0.0
+//	Animate PlayerStatusHealthValue		Position "40 354" 			Linear 0.0 0.0
 // END ^
-	Animate PlayerStatusHealthValue2	Position "40 354" 			Linear 0.0 0.0
-	Animate PlayerStatusHealthValue3	Position "40 354" 				Linear 0.0 0.0
-	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "100"		Linear 0.5 0.0
-	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "0"		Pulse 5.0 0.5 1.5
+//	Animate PlayerStatusHealthValue2	Position "40 354" 			Linear 0.0 0.0
+//	Animate PlayerStatusHealthValue3	Position "40 354" 				Linear 0.0 0.0
+//	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "100"		Linear 0.5 0.0
+//	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "0"		Pulse 5.0 0.5 1.5
 }
 
 //===========================================
@@ -2405,4 +2393,41 @@ event DelayQuestMapClose
 	FireCommand	1.0 "close"
 }
 
-//
+
+event HudHealthBonusPulse
+{
+	Animate HealthBGBuff Alpha 175 linear 0.0 0.4
+	Animate HealthBGBuff Alpha 0 linear 0.4 0.4
+	Animate SpectatorGUIHealth FgColor "152 214 17  255" linear 0.4 0.4
+	Animate PlayerStatusHealthValueSpec FgColor "152 214 17  255" linear 0.4 0.4
+	RunEvent HudHealthBonusPulseLoop 0.8
+}
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate HealthBGBuff Alpha 0 linear 0.0 0.2
+	Animate HealthBGBuff Alpha 0 linear 0.2 0.4
+}
+event HudHealthDyingPulse
+{
+	Animate HealthBGLow Alpha 255 linear 0.0 0.2
+	Animate HealthBGLow Alpha 0 linear 0.2 0.4
+	RunEvent HudHealthDyingPulseLoop 0.4
+}
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+	Animate HealthBGLow Alpha 0 accel 0.0 0.0
+	StopEvent PlayerStatusHealthValueSpec 0.0
+	StopEvent PlayerStatusHealthValueSpec 0.0
+}
