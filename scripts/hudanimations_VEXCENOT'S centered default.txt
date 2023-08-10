@@ -37,7 +37,7 @@
 //	StopPanelAnimations <panel name> <start time>
 //		stops all active animations operating on the specified panel
 //
-//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time>
+//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
 //
 //	SetTexture <panel name> <textureidname> <texturefilename> <set time>
 //
@@ -46,18 +46,19 @@
 event LevelInit
 {
 }
-event HitMarker // gonna see if this fixes mvm lag
+event HitMarker
 {
-	//Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
-	//Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.50 	// tcHitmarker end
+
+	Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
+	Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.50 	// tcHitmarker end
 
 }
 event DamagedPlayer
 {
-	//StopEvent 	HitMarker 	0.0
-	//RunEvent 		HitMarker	0.01
-	//Animate		HitIcon						Alpha	"255"	Linear 0.0 0.1
-	//Animate		HitIcon						Alpha	"0"		Linear 1.5 0.4
+	StopEvent 	HitMarker 	0.0
+	RunEvent 	HitMarker	0.01
+	Animate		HitIcon						Alpha	"255"	Linear 0.0 0.1
+	Animate		HitIcon						Alpha	"0"		Linear 1.5 0.4
 }
 
 event OpenWeaponSelectionMenu
@@ -89,7 +90,7 @@ event CloseWeaponSelectionMenu
 
 event MenuOpen
 {
-	StopEvent	MenuClose 0.0
+	StopEvent	MenuClose 0.0 
 
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
@@ -104,7 +105,7 @@ event MenuOpen
 }
 
 event MenuClose
-{
+{	
 	// Hide it
 	Animate HudMenu Alpha 		"0" Linear 0.0 1
 	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
@@ -181,7 +182,7 @@ event HintMessageShow
 	Animate HudHintDisplay FgColor	"255 220 0 255" Linear 3.0 0.2
 	Animate HudHintDisplay FgColor	"FgColor" 	Linear 3.2 0.2
 
-	// hide the panel after a while
+	// hide the panel after a while	
 	Animate HudHintDisplay FgColor	"255 220 0 0"   Linear  10.0 	0.2
 	Animate HudHintDisplay HintSize	"0"		Deaccel 10.2	0.3
 }
@@ -205,7 +206,7 @@ event KeyHintMessageShow
 	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 1.5 0.2
 	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 1.7 0.2
 
-	// hide the panel after a while
+	// hide the panel after a while	
 	Animate HudHintKeyDisplay Alpha	0 Linear 12.0 1.0
 }
 
@@ -252,15 +253,6 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 //Shaky shake HEALTHY
 {
-
-	// bring up the LOW HEALTH label
-	Animate  LowHpLabel						fgcolor		"RedSolid"		Linear 0.001 0.002
-	Animate  LowHpLabelSha				fgcolor		"Black"		Linear 0.001 0.002
-
-	// fade it out
-	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 2.0 2.51
-	Animate  LowHpLabelSha				fgcolor		"0 0 0 0"		Linear 2.0 2.51
-
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.125 0.075
 	Animate	PlayerStatusHealthValue			FgColor		"TanLight"			Linear 0.0 0.075
@@ -270,13 +262,13 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValue3		FgColor		"TanLight"			Linear 0.0 0.075
 	Animate	PlayerStatusHealthValue3		FgColor		"255 100 100 255"	Linear 0.125 0.075
 // ORINAL v
-	Animate PlayerStatusHealthValue			Position 	"40 354" 				Linear 0.0 0.1
+//	Animate PlayerStatusHealthValue			Position 	"40 354" 				Linear 0.0 0.1
 // END ^
-	Animate PlayerStatusHealthValue			Position 	"40 354" 			Pulse 1.0 0.2 1.0
-	Animate PlayerStatusHealthValue2		Position 	"40 354" 				Linear 0.0 0.1
-	Animate PlayerStatusHealthValue2		Position 	"40 354" 				Pulse 1.0 0.2 1.0
-	Animate PlayerStatusHealthValue3		Position 	"40 354" 				Linear 0.0 0.1
-	Animate PlayerStatusHealthValue3		Position 	"40 354" 				Pulse 1.0 0.2 1.0
+//	Animate PlayerStatusHealthValue			Position 	"40 354" 			Pulse 1.0 0.2 1.0
+//	Animate PlayerStatusHealthValue2		Position 	"40 354" 				Linear 0.0 0.1
+//	Animate PlayerStatusHealthValue2		Position 	"40 354" 				Pulse 1.0 0.2 1.0
+//	Animate PlayerStatusHealthValue3		Position 	"40 354" 				Linear 0.0 0.1
+//	Animate PlayerStatusHealthValue3		Position 	"40 354" 				Pulse 1.0 0.2 1.0
 
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -289,22 +281,18 @@ event HudHealthDyingPulseLoop
 // stoppy stop HEALTHY
 event HudHealthDyingPulseStop
 {
-
-	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 0.0001 0.01
-	Animate  LowHpLabelSha				fgcolor		"0 0 0 0"		Linear 0.0001 0.01
-
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate	PlayerStatusHealthValue		FgColor	"TanLight"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue2	FgColor	"TanLight"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue3	FgColor	"TanLight"			Linear 0.0 0.0
 // ORINAL v
-	Animate PlayerStatusHealthValue		Position "40 354" 			Linear 0.0 0.0
+//	Animate PlayerStatusHealthValue		Position "40 354" 			Linear 0.0 0.0
 // END ^
-	Animate PlayerStatusHealthValue2	Position "40 354" 			Linear 0.0 0.0
-	Animate PlayerStatusHealthValue3	Position "40 354" 				Linear 0.0 0.0
-	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "100"		Linear 0.5 0.0
-	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "0"		Pulse 5.0 0.5 1.5
+//	Animate PlayerStatusHealthValue2	Position "40 354" 			Linear 0.0 0.0
+//	Animate PlayerStatusHealthValue3	Position "40 354" 				Linear 0.0 0.0
+//	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "100"		Linear 0.5 0.0
+//	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "0"		Pulse 5.0 0.5 1.5
 }
 
 //===========================================
@@ -329,7 +317,7 @@ event HudLowAmmoPulse
 	Animate AmmoNoClip					FgColor		"255 100 100 255"	Linear 0.125 0.075
 	Animate AmmoNoClip					Position	"28 58"				Linear 0.0 0.1
 	Animate AmmoNoClip					Position	"28 58"				Pulse 1.0 0.2 1.0
-
+	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
@@ -407,14 +395,14 @@ event FlagOutline
 {
 	RunEvent FlagOutlineHide 0.0
 	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
-
+	
 	Animate OutlineImage	Position	"c-200 140"		Linear 0.1 0.2
 	Animate OutlineImage	Size		"400 200"		Linear 0.1 0.2
 
 	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2	[$WIN32]
 	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[$X360]
 	Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
-
+	
 	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
 }
 
@@ -424,7 +412,7 @@ event FlagOutline
 event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
-
+	
 	Animate PlayerStatusSpyOutlineImage		Position	"-100 -100"		Linear 0.0 0.2
 	Animate PlayerStatusSpyOutlineImage		Size		"10 10"			Linear 0.0 0.2
 
@@ -435,20 +423,20 @@ event HudSpyDisguiseHide
 {
 	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
 	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
-
+	
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
 
 event HudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
 }
 
 event HudSpyDisguiseFadeOut
 {
 	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
 }
 
 //===========================================
@@ -456,8 +444,8 @@ event HudSpyDisguiseFadeOut
 // Show the Overtime panel
 event OvertimeShow
 {
-	Animate OvertimeLabel				Alpha		"255"			Linear 0.0 0.1
-	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1
+	Animate OvertimeLabel				Alpha		"255"			Linear 0.0 0.1	
+	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1	
 }
 
 
@@ -512,7 +500,7 @@ event HudMedicCharged
 {
 	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
 	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
-
+	
 	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
 
@@ -529,7 +517,7 @@ event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
-
+	
 	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
 }
@@ -555,7 +543,7 @@ event ArenaVsPanelOnShow
 	Animate bluepanel	Position	"-200 50"	Linear 0.0 0.001
 	Animate redpanel	Position	"r-200 140"	Linear 0.0 0.001
 	Animate vslabel	Alpha	"0"		Linear 0.0 0.001
-
+		
 	RunEvent ArenaVsPanelSlideIn	1.0
 	RunEvent ArenaVsPanelSlideOut	4.8
 }
@@ -569,7 +557,7 @@ event ArenaVsPanelSlideIn
 
 event ArenaVsPanelSlideOut
 {
-	Animate bluepanel	Position	"-200 50"	Spline 0.0 0.2
+	Animate bluepanel	Position	"-200 50"	Spline 0.0 0.2	
 	Animate redpanel	Position	"r-200 140"	Spline 0.0 0.2
 	Animate vslabel	Alpha	"0"		Linear 0.0 0.05
 }
@@ -581,7 +569,7 @@ event HudCartAlarmPulse
 {
 	Animate	EscortItemImageAlert 	Alpha		"160"		Linear 0.0 0.3
 	Animate	EscortItemImageAlert 	Alpha		"0"		Linear 0.6 0.3
-
+	
 	RunEvent HudCartAlarmPulseLoop	1.2
 }
 
@@ -603,10 +591,10 @@ event ActiveTimerBGPulse
 {
 	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
 	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
-
+	
 	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
 	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
-
+	
 	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
 	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
 }
@@ -623,7 +611,7 @@ event ActiveTimerHighlight
 	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 1.1 0.1
 
 	Animate TimePanelValue FgColor	TanLight		Linear 1.3 0.3
-
+	
 }
 
 event ActiveTimerDim
@@ -657,7 +645,7 @@ event TeamsFullArrowAnimate
 	Animate TeamsFullArrow	Position	"c-118 165"		Linear	0	0
 	Animate TeamsFullArrow	Position	"c-118 180"		Linear	0	0.4
 	Animate TeamsFullArrow	Position	"c-118 165"		Linear	0.4	0.4
-
+	
 	RunEvent TeamsFullArrowAnimateLoop	0.8
 }
 
@@ -684,13 +672,13 @@ event TrainingPressSpacebarBlink
 {
 	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.0 0.1
 	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 0.2 0.1
-
+		
 	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.4 0.1
 	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 0.6 0.1
-
+	
 	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.8 0.1
 	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 1.0 0.1
-
+	
 	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 1.2 0.1
 
 	RunEvent TrainingPressSpacebarBlinkLoop		3.0
@@ -713,13 +701,13 @@ event IntroMovieContinueBlink
 {
 	Animate	continue 	Alpha		"255"		Linear 0.0 0.1
 	Animate	continue 	Alpha		"0"			Linear 0.2 0.1
-
+		
 	Animate	continue 	Alpha		"255"		Linear 0.4 0.1
 	Animate	continue 	Alpha		"0"			Linear 0.6 0.1
-
+	
 	Animate	continue 	Alpha		"255"		Linear 0.8 0.1
 	Animate	continue 	Alpha		"0"			Linear 1.0 0.1
-
+	
 	Animate	continue 	Alpha		"255"		Linear 1.2 0.1
 
 	RunEvent IntroMovieContinueBlinkLoop		2.0
@@ -742,13 +730,13 @@ event HasMOTDBlink
 {
 	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
 	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
-
+		
 	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
 	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
-
+	
 	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
 	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
-
+	
 	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
 
 	RunEvent HasMOTDBlinkLoop		2.0
@@ -772,13 +760,13 @@ event HasNotificationsBlink
 {
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
-
+		
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
-
+	
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
-
+	
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
 
 	RunEvent HasNotificationsBlinkLoop		2.0
@@ -802,19 +790,19 @@ event AddToCartBlink
 {
 	Animate	CartButton	BgColor	"TanDark"		Linear 0.0 0.01
 	Animate	CartButton	BgColor	"255 150 0 255"	Linear 0.1 0.01
-
+		
 	Animate	CartButton 	BgColor	"TanDark"		Linear 0.2 0.01
 	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.3 0.01
-
+	
 	Animate	CartButton 	BgColor	"TanDark"		Linear 0.4 0.01
 	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.5 0.01
-
+	
 	Animate	CartButton	BgColor	"TanDark"		Linear 0.6 0.01
 	Animate	CartButton	BgColor	"255 150 0 255"	Linear 0.7 0.01
-
+		
 	Animate	CartButton 	BgColor	"TanDark"		Linear 0.8 0.01
 	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.9 0.01
-
+	
 	Animate	CartButton 	BgColor	"TanDark"		Linear 1.0 0.01
 }
 
@@ -824,13 +812,13 @@ event NotificationsPresentBlink
 {
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
 	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.2 0.1
-
+		
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.4 0.1
 	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.6 0.1
-
+	
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.8 0.1
 	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 1.0 0.1
-
+	
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 1.2 0.1
 
 	RunEvent NotificationsPresentBlinkLoop		2.0
@@ -861,7 +849,7 @@ event SpyWarningFlash
 {
 	Animate	EnemyCountImageBG	BgColor	"RedSolid"		Linear 0.0 0.01
 	Animate	EnemyCountImageBG	BgColor	"TanLight"		Linear 0.21 0.01
-
+	
 	RunEvent	SpyWarningFlashLoop		0.42
 }
 
@@ -869,7 +857,7 @@ event SpyWarningFlashLoop
 {
 	RunEvent SpyWarningFlash			0.0
 }
-
+ 
 event SpyWarningFlashEnd
 {
 	StopEvent SpyWarningFlash			0.0
@@ -892,7 +880,7 @@ event HudReadyPulseLoop
 event HudReadyPulseEnd
 {
 	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-
+	
 	StopEvent HudReadyPulse			0.0
 	StopEvent HudReadyPulseLoop		0.0
 }
@@ -902,7 +890,7 @@ event RespecEarnedPulse
 {
 	Animate	RespecTextLabelWin	FgColor	"TanLight"		Linear 0.0 0.1
 	Animate	RespecTextLabelWin	FgColor	"RedSolid"		Linear 0.3 0.4
-
+	
 	RunEvent RespecEarnedPulseLoop		0.5
 }
 
@@ -914,7 +902,7 @@ event RespecEarnedPulseLoop
 event RespecEarnedPulseEnd
 {
 	Animate	RespecTextLabelWin 	FgColor		"TanLight"		Linear 0.0 0.1
-
+	
 	StopEvent RespecEarnedPulse			0.0
 	StopEvent RespecEarnedPulseLoop		0.0
 }
@@ -924,7 +912,7 @@ event RespecEarnedPulseLoss
 {
 	Animate	RespecTextLabelLoss	FgColor	"TanLight"		Linear 0.0 0.1
 	Animate	RespecTextLabelLoss	FgColor	"RedSolid"		Linear 0.3 0.4
-
+	
 	RunEvent RespecEarnedPulseLoopLoss		0.5
 }
 
@@ -937,7 +925,7 @@ event RespecEarnedPulseEndLoss
 {
 	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
 	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
-
+	
 	StopEvent RespecEarnedPulseLoss		0.0
 	StopEvent RespecEarnedPulseLoopLoss	0.0
 }
@@ -1038,13 +1026,13 @@ event CollectionCrafting_Intro
 	Animate LetterBack_Top			ypos 400	Accel	0 0
 	SetVisible ReturnModel			0					0
 	Animate SendEvelopeButton		ypos 280	Accel	0 0
-	SetVisible	SendEvelopeButton		 0				0
+	SetVisible	SendEvelopeButton		 0				0 
 	SetVisible ResponseTimeout		0					0
 	SetVisible WaitingForResponse	0					0
 
 	SetVisible ShowExplanationsButton1			1					0
 	SetVisible ShowExplanationsButton2			0					0
-	Animate TradeUpContainer	wide 800	Accel 0 0
+	Animate TradeUpContainer	wide 800	Accel 0 0	
 
 	// Slide paper down
 	Animate TradeUpContainer Position	"0 60"	Deaccel	0	0.3
@@ -1068,17 +1056,17 @@ event CollectionCrafting_LetterStart
 	// Close flap
 	FireCommand	0.3 "playsound ui/trade_up_envelope_fold.wav"
 	Animate LetterBack_Flap		tall 250 Deaccel 0.4 0.2
-
+	
 	// Start Flip
 	FireCommand	0.8 "playsound ui/trade_up_envelope_spin.wav"
-	Animate TradeUpContainer	wide 0	Accel 0.8 0
+	Animate TradeUpContainer	wide 0	Accel 0.8 0	
 	Animate LetterBack_Bottom	wide 0	Accel 0.8 0.2
 	Animate LetterBack_Bottom	xpos c0	Accel 0.8 0.2
 	Animate LetterBack_Flap		wide 0	Accel 0.8 0.2
 	Animate LetterBack_Flap		xpos c0	Accel 0.8 0.2
 	Animate LetterBack_Top		wide 0	Accel 0.8 0.2
 	Animate LetterBack_Top		xpos c0	Accel 0.8 0.2
-
+	
 	// End Flips
 	Animate LetterFront			xpos c-250	Deaccel 1.0 0.2
 	Animate LetterFront			wide 500	Deaccel 1.0 0.2
@@ -1098,7 +1086,7 @@ event CollectionCrafting_PlaceStamp
 event CollectionCrafting_LetterSend
 {
 	SetVisible ShowExplanationsButton2	0			0
-	SetVisible	SendEvelopeButton		0			0
+	SetVisible	SendEvelopeButton		0			0 
 	Animate Stamp				xpos	c70	Deaccel	0 0.3
 	Animate LetterFront			xpos	c-320	Deaccel 0 0.3
 	Animate DrawingPanel		xpos	c-320	Deaccel 0 0.3
@@ -1139,18 +1127,18 @@ event CollectionCrafting_ItemRecieved
 {
 	RunEventChild NewItemPanel ShowFoundLabels	0
 	FireCommand 0	"playcratesequence1"
-	SetVisible	NewItemPanel					0 0
+	SetVisible	NewItemPanel					0 0 
 	SetVisible ReturnModel						1 0.05
 	RunEventChild BehindItemParticlePanel StartParticle1 0.2
 
 	FireCommand	0 "playsound ui/trade_up_crate_smash.wav"
 
-	SetVisible	NewItemPanel	  1			1.5
+	SetVisible	NewItemPanel	  1			1.5 
 	SetVisible CloseButton		  1			1.5
 
 	FireCommand 2.1 "playcratesequence2"
 //	RunEventChild BehindItemParticlePanel PlayNewItemParticles 1.5
-
+	
 	FireCommand	1.0 "playsound ../player/taunt_medic_heroic.wav"
 }
 
@@ -1171,7 +1159,7 @@ event CollectionCrafting_OKBlink
 
 event CollectionCrafting_ShowSendButton
 {
-	SetVisible	SendEvelopeButton	  1					0
+	SetVisible	SendEvelopeButton	  1					0 
 	Animate SendEvelopeButton		ypos	320 Deaccel 0 0.5
 }
 
@@ -1195,15 +1183,15 @@ event CollectionCrafting_WaitForItemsOnly
 {
 	// Set Everything Invisible
 	SetVisible ReturnModel			0					0
-	SetVisible	SendEvelopeButton		 0				0
+	SetVisible	SendEvelopeButton		 0				0 
 	SetVisible ResponseTimeout		0					0
 	SetVisible WaitingForResponse	0					0
 	SetVisible ShowExplanationsButton1			0					0
 	SetVisible ShowExplanationsButton2			0					0
 	SetVisible ShowExplanationsButton2	0			0
-	SetVisible	SendEvelopeButton		0			0
+	SetVisible	SendEvelopeButton		0			0 
 	SetVisible CloseButton		0					0
-
+	
 	SetVisible ApplyStampButton		0					0
 	SetVisible Stamp				0					0
 	Animate Stamp					xpos c140	Accel	0 0
@@ -1222,7 +1210,7 @@ event CollectionCrafting_WaitForItemsOnly
 	Animate LetterBack_Flap			wide 500	Accel	0 0
 	Animate LetterBack_Flap			tall 0		Deaccel 0.6 0.4
 	Animate LetterBack_Top			ypos 400	Accel	0 0
-
+	
 	// Slider BG up
 	Animate BG			Position	"0 34"	Deaccel	0	0.3
 
@@ -1492,7 +1480,7 @@ event QuestItem_Back_NoneSelected
 //--------------------------------------------------------------------------
 event QuestItem_Highlight_On_Halloween
 {
-	SetVisible GlowImage 1 0
+	SetVisible GlowImage 1 0	
 	Animate GlowImage Alpha 255 Bias 0.8 0 0.2
 }
 
@@ -1575,7 +1563,7 @@ event HudMatchStatus_ShowMatchStartDoors
 	SetVisible CountdownLabelShadow 0 9.9
 
 	RunEvent HudTournament_DoorsCleanup 10
-
+	
 	SetVisible CountdownBG 1 11
 }
 
@@ -1765,10 +1753,10 @@ event MMenu_PlayList_Collapse_Immediate
 
 event MMenu_SafeMode_Blink
 {
-	Animate InfoImage	alpha 255 Linear	0.0 0.1
+	Animate InfoImage	alpha 255 Linear	0.0 0.1 
 	Animate InfoImage	alpha 0 Linear		0.1 0.1
 
-	Animate InfoImage	alpha 255 Linear	0.2 0.1
+	Animate InfoImage	alpha 255 Linear	0.2 0.1 
 	Animate InfoImage	alpha 0 Linear		0.3 0.1
 
 	Animate InfoImage	alpha 255 Linear		0.4 0.1
@@ -1787,7 +1775,7 @@ event PvPRankLevelUpXPBar
 	Animate ContinuousProgressBar BgColor ProgressBackground Linear 0.1 0.3
 
 	Animate LevelLabel FgColor "100 255 100 255"	Linear 0.0 0.1
-	Animate LevelLabel FgColor TanLight				Linear 4.0 0.3
+	Animate LevelLabel FgColor TanLight				Linear 4.0 0.3 
 }
 
 event PvPRankLevelUpModel
@@ -1804,7 +1792,7 @@ event PvPRankLevelDownXPBar
 	Animate ContinuousProgressBar FgColor CreditsGreen Linear 0.1 0.3
 
 	Animate LevelLabel FgColor "255 100 100 255"	Linear 0.0 0.1
-	Animate LevelLabel FgColor TanLight				Linear 4.0 0.3
+	Animate LevelLabel FgColor TanLight				Linear 4.0 0.3 
 }
 
 event PvPRankLevelDownModel
@@ -1997,7 +1985,7 @@ event SurveyDelete
 
 event SurveyHideSequence
 {
-	SetVisible CloseButton 0 0
+	SetVisible CloseButton 0 0 
 
 	Animate Survey		ypos	130		Deaccel 0 0.3
 	Animate Survey		ypos	480		Accel	0.3 0.2
@@ -2041,7 +2029,7 @@ event QuestMap_Start
 	Animate StaticOverlay	wide 0 Linear 0 0
 	Animate StaticOverlay	tall 0 Linear 0 0
 	Animate BlackOverlay	alpha 255 Linear 0 0
-
+	
 
 	// Grow full wide, and a little tall
 	Animate StaticOverlay ypos 155	Accel 0.01 0.25
@@ -2054,7 +2042,7 @@ event QuestMap_Start
 	Animate StaticOverlay ypos 0	Accel 0.3 0.15
 
 	Animate BlackOverlay	alpha 0 Linear 0.6 0
-
+	
 	// Start mostly staticy, then reduce to the loop
 	RunEvent QuestMap_StaticBarOverlayLoop 2
 	RunEvent QuestMap_StaticBar1Loop 0.7
@@ -2087,14 +2075,14 @@ event QuestMap_StaticFadeOut
 event QuestMap_StaticBar1Loop
 {
 	Animate StaticBar1	ypos	-50	Linear 0 0 // Reset
-	Animate StaticBar1	ypos	r0	Linear 0 5
+	Animate StaticBar1	ypos	r0	Linear 0 5 
 	RunEvent QuestMap_StaticBar1Loop 5
 }
 
 event QuestMap_StaticBar2Loop
 {
 	Animate StaticBar2	ypos	-10	Linear 0 0 // Reset
-	Animate StaticBar2	ypos	r0	Linear 0 15
+	Animate StaticBar2	ypos	r0	Linear 0 15 
 	RunEvent QuestMap_StaticBar2Loop 15
 }
 
@@ -2106,7 +2094,7 @@ event QuestMap_StaticBarOverlayLoop
 
 event QuestMap_StaticBarOverlayBrighten
 {
-	Animate StaticOverlay	alpha	30	Linear 0 3
+	Animate StaticOverlay	alpha	30	Linear 0 3 
 	RunEvent QuestMap_StaticBarOverlayBrighten 3
 }
 
@@ -2127,12 +2115,12 @@ event QuestNodeView_PinTipHighlight
 
 event QuestMapIntro_StageReveal
 {
-	Animate StageDesc	xpos	300 Linear 0 0
-	Animate StageDesc	Alpha	0 Linear 0 0
+	Animate StageDesc	xpos	300 Linear 0 0 
+	Animate StageDesc	Alpha	0 Linear 0 0 
 	Animate StageDesc	fgcolor	TanDark Linear 0 0
 
 	Animate StageDesc	xpos	270  Deaccel	0 0.4
-	Animate StageDesc	Alpha	255 Bias 0.3 0 0.4
+	Animate StageDesc	Alpha	255 Bias 0.3 0 0.4 
 	Animate StageDesc	fgcolor	TanLight Linear 0.4 0.4
 }
 
@@ -2167,7 +2155,7 @@ event QuestViewSubPanel_QuestPurchased
 	FireCommand 1 "toggle_expand"
 	FireCommand 1 "playsoundentry CYOA.objectivepanelexpand"
 
-	SetVisible AcceptButton 0 0
+	SetVisible AcceptButton 0 0 
 }
 
 event QuestViewSubPanel_SelectMouseOver
@@ -2228,7 +2216,7 @@ event QuestMap_CreditShowAnim
 	Animate StaticBG Alpha 255 Linear 0 0
 	Animate StaticDarken Alpha 255 Linear 0 0
 	SetVisible Body 1 0
-	SetVisible OkButton 1 0
+	SetVisible OkButton 1 0 
 }
 
 event ObjectiveCompletedByUser
@@ -2243,13 +2231,13 @@ event ObjectiveCompletedByUser
 event QuestReport_ContractComplete
 {
 	RunEventChild QuestCompletionContainer ObjectiveCompletionFanfare 0
-	firecommand				3.2 "soundentry plng_contract_fully_completed"
+	firecommand				3.2 "soundentry plng_contract_fully_completed" 
 }
 
 event QuestReport_ContractProgress
 {
 	RunEventChild QuestCompletionContainer ObjectiveCompletionFanfare 0
-	firecommand				3.2 "soundentry plng_contract_partially_completed"
+	firecommand				3.2 "soundentry plng_contract_partially_completed" 
 }
 
 event ObjectiveCompletionFanfare
@@ -2274,10 +2262,10 @@ event ObjectiveCompletionFanfare
 	//
 	// Animate in
 	//
-	PlaySound				2 "ui/quest_alert.wav"
+	PlaySound				2 "ui/quest_alert.wav" 
 	Animate TopBar		xpos 0 Bias 0.7 2 0.4
 	Animate BottomBar	xpos 0 Bias 0.7 2 0.4
-
+	
 	//
 	// Grow the title and bottom
 	//
@@ -2302,7 +2290,7 @@ event ObjectiveCompletionFanfareEnd
 
 	Animate ProgressTitle tall 0 Linear  2 0.2
 	Animate ProgressTitle ypos 75 Linear 2 0.2
-
+	
 	Animate BottomBar ypos 74 Linear 2 0.2
 	Animate AlphaBG tall 0 Linear 2 0.2
 	Animate LineItemContainer tall 0 Linear 2 0.2
@@ -2342,14 +2330,14 @@ event EndRegionZoomIn
 	// Snap to full-size
 	Animate bgimage xpos 0 Linear 0 0
 	Animate bgimage ypos 0 Linear 0 0
-
+							  
 	Animate bgimage wide 540 Linear 0 0
 	Animate bgimage tall 315 Linear 0 0
 
 	// Zoom in
 	Animate bgimage xpos -10 Linear 0.4 0.6
 	Animate bgimage ypos -10 Linear 0.4 0.6
-
+									  
 	Animate bgimage wide 560 Linear 0.4 0.6
 	Animate bgimage tall 335 Linear 0.4 0.6
 }
@@ -2374,10 +2362,10 @@ event EndRegionZoomOut
 event DelayQuestMapClose
 {
 	// Stop everything
-	StopPanelAnimations StaticOverlay 0
-	StopPanelAnimations BlackOverlay 0
-	StopPanelAnimations StaticBar1 0
-	StopPanelAnimations StaticBar2 0
+	StopPanelAnimations StaticOverlay 0 
+	StopPanelAnimations BlackOverlay 0 
+	StopPanelAnimations StaticBar1 0 
+	StopPanelAnimations StaticBar2 0 
 	StopEvent QuestMap_StaticFadeOut 0
 	StopEvent QuestMap_StaticBarOverlayLoop 0
 	StopEvent QuestMap_StaticBar1Loop 0
@@ -2392,7 +2380,7 @@ event DelayQuestMapClose
 	// Move the bars up off the top.  It's a pain to shrink them, so just hide them
 	Animate StaticBar1		ypos -50 Linear 0 0.3
 	Animate StaticBar2		ypos -10 Linear 0 0.3
-
+	
 	// Do the reverse of how we turn on.  Shring vertically.
 	Animate StaticOverlay	ypos 160 Accel 0.3 0.25
 	Animate StaticOverlay	tall 10 Accel   0.3 0.25
@@ -2405,4 +2393,41 @@ event DelayQuestMapClose
 	FireCommand	1.0 "close"
 }
 
-//
+
+event HudHealthBonusPulse
+{
+	Animate HealthBGBuff Alpha 175 linear 0.0 0.4
+	Animate HealthBGBuff Alpha 0 linear 0.4 0.4
+	Animate SpectatorGUIHealth FgColor "152 214 17  255" linear 0.4 0.4
+	Animate PlayerStatusHealthValueSpec FgColor "152 214 17  255" linear 0.4 0.4
+	RunEvent HudHealthBonusPulseLoop 0.8
+}
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate HealthBGBuff Alpha 0 linear 0.0 0.2
+	Animate HealthBGBuff Alpha 0 linear 0.2 0.4
+}
+event HudHealthDyingPulse
+{
+	Animate HealthBGLow Alpha 255 linear 0.0 0.2
+	Animate HealthBGLow Alpha 0 linear 0.2 0.4
+	RunEvent HudHealthDyingPulseLoop 0.4
+}
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+	Animate HealthBGLow Alpha 0 accel 0.0 0.0
+	StopEvent PlayerStatusHealthValueSpec 0.0
+	StopEvent PlayerStatusHealthValueSpec 0.0
+}
