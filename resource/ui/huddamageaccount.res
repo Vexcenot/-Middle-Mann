@@ -9,8 +9,8 @@
 		"PositiveColor"			"TargetHealth"
 		"NegativeColor"			"TargetDamage"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"FontBold20Outline"
-		"delta_item_font_big"	"FontBold20Outline"
+		"delta_item_font"		"FontBold20Shadow"
+		"delta_item_font_big"	"FontBold20Shadow"
 	}
 	"DamageAccountValue"
 	{
