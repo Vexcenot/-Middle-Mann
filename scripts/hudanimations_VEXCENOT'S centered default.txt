@@ -46,7 +46,7 @@
 event LevelInit
 {
 }
-event HitMarker // gonna see if this fixes mvm lag
+event HitMarker // DO NOT UNCOMMENT THIS LAGS PEOPLE SHIELDBASHING ON MEDIC IN MVM
 {
 	//Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
 	//Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.50 	// tcHitmarker end
