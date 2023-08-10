@@ -468,6 +468,18 @@
 				"outline"		"1"
 			}
 		}
+		"FontBold20Shadow"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"20"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
 		"HudFontSmallerBold"
 		{
 			"1"
