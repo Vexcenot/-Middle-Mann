@@ -120,19 +120,6 @@
 		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
 	}
-	"PlayerStatusHealthBonusImage"
-	{
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/ow_overheal"
-		"scaleImage"	"1"
-	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
