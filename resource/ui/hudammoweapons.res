@@ -21,11 +21,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz3_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
 		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
 	}
 		"HudWeaponAmmoIcon"
 	{
@@ -41,7 +41,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/hud_obj_status_ammo_64"
-		"scaleImage"	"1"			
+		"scaleImage"	"1"
 		"fgcolor"		"TanLight"
 	}
 	"AmmoInClip"
@@ -57,28 +57,28 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
-		
-	}		
+
+	}
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"3"
-		"ypos"			"62"
+		"xpos"			"-3"
+		"ypos"			"-4"
 		"ypos_minbad"	"2"
-		"zpos"			"5"
+		"zpos"			"4"
 		"wide"			"84"
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
-		
-	}						
+		"pin_to_sibling" "AmmoInClip"
+	}
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
@@ -96,9 +96,9 @@
 		//"tall_lodef"	"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
-	}		
+	}
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -116,9 +116,9 @@
 		//"tall_lodef"	"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
-	}									
+	}
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -135,10 +135,10 @@
 		//"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"		
+		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
-		
-	}	
+
+	}
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -159,8 +159,8 @@
 		//"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"		
+		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
-		
-	}									
+
+	}
 }

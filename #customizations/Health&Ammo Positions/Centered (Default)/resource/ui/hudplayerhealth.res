@@ -99,7 +99,7 @@
 		"textAlignment"	"center"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		pin_to_sibling 	"PlayerStatusHealthValue"
+		"pin_to_sibling" 	"PlayerStatusHealthValue"
 	}
 	"PlayerStatusHealthValueBG"
 		{
