@@ -73,6 +73,7 @@
 			{
 				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
+				"inventory_image_type" 				"1" // hq item models
 			}
 		}
 		"itemoptionpanels_kv"
