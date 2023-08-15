@@ -1,52 +1,49 @@
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
+"Resource/UI/HudItemEffectMeter_Raygun.res"
 {
     HudItemEffectMeter
     {
         "fieldName"     "HudItemEffectMeter"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-70"  [$WIN32]
-        "ypos"          "c104"  [$WIN32]
-        "ypos_minmode"  "c101"
+        "xpos"          "r110"  [$WIN32]
+        "ypos"          "c127"  [$WIN32]
+        "ypos_minmode"  "c111"
         "wide"          "140"
         "tall"          "30"
+        "tall_minmode"  "40"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }
     "ItemEffectMeterBG"
     {
-        "ControlName"   "CTFImagePanel"
-        "fieldName"     "ItemEffectMeterBG"
-        "xpos"          "42"
-        "ypos"          "2"
-        "zpos"          "-1"
-        "wide"          "60"
-        "tall"          "24"
-        "autoResize"        "0"
-        "pinCorner"     "0"
-        "visible"       "1"
-        "visible_minmode"   "0"
-        "enabled"       "1"
-        "image"         "../hud/color_panel_brown"
-        "scaleImage"        "1"
-        "teambg_1"      "../hud/color_panel_brown"
-        "teambg_2"      "../hud/color_panel_red"
-        "teambg_2_lodef"    "../hud/color_panel_red"
-        "teambg_3"      "../hud/color_panel_blu"
-        "teambg_3_lodef"    "../hud/color_panel_blu"
-        
-        "src_corner_height"     "23"                // pixels inside the image
-        "src_corner_width"      "23"
-            
-        "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"AccountBG"
+		"xpos"			"42"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"60"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/misc_ammo_area_blue"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	   
     }
     "ItemEffectMeterLabel"
     {
         "ControlName"           "CExLabel"
         "fieldName"             "ItemEffectMeterLabel"
         "xpos"                  "-3"
-        "ypos"                  "4"
+        "ypos"                  "2"
         "ypos_minmode"          "-3"
         "zpos"                  "2"
         "wide"                  "150"
@@ -68,7 +65,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"47"
-		"ypos"					"7"
+		"ypos"					"5"
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"6"				

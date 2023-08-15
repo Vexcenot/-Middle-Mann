@@ -1,15 +1,15 @@
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
+"Resource/UI/HudItemEffectMeter.res"
 {
     HudItemEffectMeter
     {
         "fieldName"     "HudItemEffectMeter"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-70"  [$WIN32]
-        "ypos"          "c104"  [$WIN32]
-        "ypos_minmode"  "c101"
+        "xpos"          "r110"  [$WIN32]
+        "ypos"          "c125"  [$WIN32]
+        "ypos_minmode"  "c123"
         "wide"          "140"
-        "tall"          "30"
+        "tall"          "300"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }
@@ -17,7 +17,7 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "ItemEffectMeterBG"
-        "xpos"          "42"
+        "xpos"          "40"
         "ypos"          "2"
         "zpos"          "-1"
         "wide"          "60"
@@ -34,18 +34,18 @@
         "teambg_2_lodef"    "../hud/color_panel_red"
         "teambg_3"      "../hud/color_panel_blu"
         "teambg_3_lodef"    "../hud/color_panel_blu"
-        
+
         "src_corner_height"     "23"                // pixels inside the image
         "src_corner_width"      "23"
-            
+
         "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     
+        "draw_corner_height"    "5"
     }
     "ItemEffectMeterLabel"
     {
         "ControlName"           "CExLabel"
         "fieldName"             "ItemEffectMeterLabel"
-        "xpos"                  "-3"
+        "xpos"                  "-5"
         "ypos"                  "4"
         "ypos_minmode"          "-3"
         "zpos"                  "2"
@@ -61,17 +61,17 @@
         "dulltext"              "0"
         "brighttext"            "0"
         "fgcolor_override"      "TanLight"
-    }   
+    }
     "ItemEffectMeter"
-    {   
+    {
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
+		"xpos"					"45"
 		"ypos"					"7"
 		"zpos"					"2"
 		"wide"					"50"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

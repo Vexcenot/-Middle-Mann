@@ -1,15 +1,16 @@
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
     HudItemEffectMeter
     {
         "fieldName"     "HudItemEffectMeter"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-70"  [$WIN32]
+        "xpos"          "r100"  [$WIN32]
         "ypos"          "c104"  [$WIN32]
-        "ypos_minmode"  "c101"
+        "ypos_minmode"  "c111"
         "wide"          "140"
         "tall"          "30"
+        "tall_minmode"  "40"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }
@@ -17,7 +18,7 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "ItemEffectMeterBG"
-        "xpos"          "42"
+        "xpos"          "40"
         "ypos"          "2"
         "zpos"          "-1"
         "wide"          "60"
@@ -39,15 +40,15 @@
         "src_corner_width"      "23"
             
         "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     
+        "draw_corner_height"    "5"  
     }
     "ItemEffectMeterLabel"
     {
         "ControlName"           "CExLabel"
         "fieldName"             "ItemEffectMeterLabel"
-        "xpos"                  "-3"
+        "xpos"                  "-5"
         "ypos"                  "4"
-        "ypos_minmode"          "-3"
+        "ypos_minmode"          "-2"
         "zpos"                  "2"
         "wide"                  "150"
         "tall"                  "30"
@@ -60,24 +61,26 @@
         "textAlignment"         "center"
         "dulltext"              "0"
         "brighttext"            "0"
-        "fgcolor_override"      "TanLight"
-    }   
+        "fgcolor_override"      "Black"
+    }
     "ItemEffectMeter"
     {   
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"47"
-		"ypos"					"7"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"6"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
+        "ControlName"           "ContinuousProgressBar"
+        "fieldName"             "ItemEffectMeter"
+        "font"                  "Default"
+        "xpos"                  "45"
+        "ypos"                  "7"
+        "ypos_minmode"          "10"
+        "zpos"                  "50"
+        "wide"                  "50"
+        "tall"                  "6" 
+        "tall_minmode"          "7"
+        "autoResize"            "0"
+        "pinCorner"             "0"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "Left"
+        "dulltext"              "0"
+        "brighttext"            "0"
     }
 }
