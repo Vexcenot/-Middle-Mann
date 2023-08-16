@@ -48,7 +48,6 @@
         "textAlignment"            "center"
         "dulltext"                "0"
         "brighttext"              "0"
-        "font"                    "TFFontSmall"
         "fgcolor_override"     	  "HudWhite"
 	}
 	"ChargeMeter"
@@ -69,8 +68,8 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"HudWhite"
-		"fgcolor_override"				"HudWhite"
-		        "MeterFG"       "White"
+		"fgcolor_override"		"HudWhite"
+		"MeterFG"      			"White"
 
 
 	}
