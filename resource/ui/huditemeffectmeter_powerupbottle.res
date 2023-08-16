@@ -1,3 +1,4 @@
+#base "huditemeffectmeter.res"
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
     HudItemEffectMeter
@@ -5,14 +6,14 @@
         "fieldName"     "HudItemEffectMeter"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c200"   [$WIN32]
-        "ypos"          "r132"  [$WIN32]
+        "xpos"          "c-300"   [$WIN32]
+        "ypos"          "r75"  [$WIN32]
         "wide"          "100"
         "tall"          "60"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }
-    
+
     "ItemEffectMeterBG"
     {
         "ControlName"   "CTFImagePanel"
@@ -33,14 +34,14 @@
         "teambg_2_lodef"    "../hud/color_panel_red"
         "teambg_3"      "../hud/color_panel_blu"
         "teambg_3_lodef"    "../hud/color_panel_blu"
-        
+
         "src_corner_height"     "23"                // pixels inside the image
         "src_corner_width"      "23"
-            
+
         "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     
+        "draw_corner_height"    "5"
     }
-    
+
     "ItemEffectIcon"
     {
         "ControlName"   "CTFImagePanel"
@@ -57,7 +58,7 @@
         "image"         "../hud/ico_powerup_critboost_red"
         "scaleImage"    "1"
     }
-    
+
     "ItemEffectMeterLabel"
     {
         "ControlName"           "CExLabel"
@@ -81,7 +82,7 @@
     }
 
     "ItemEffectMeter"
-    {   
+    {
         "ControlName"           "ContinuousProgressBar"
         "fieldName"             "ItemEffectMeter"
         "font"                  "Default"
@@ -89,7 +90,7 @@
         "ypos"                  "23"
         "zpos"                  "2"
         "wide"                  "40"
-        "tall"                  "6"             
+        "tall"                  "6"
         "autoResize"            "0"
         "pinCorner"             "0"
         "visible"               "0"
@@ -97,8 +98,8 @@
         "textAlignment"         "Left"
         "dulltext"              "0"
         "brighttext"            "0"
-    }                   
-    
+    }
+
     "ItemEffectMeterCount"
     {
         "ControlName"           "CExLabel"
@@ -107,7 +108,7 @@
         "ypos"                  "11"
         "zpos"                  "2"
         "wide"                  "40"
-        "tall"                  "20"    
+        "tall"                  "20"
         "pinCorner"             "2"
         "visible"               "1"
         "enabled"               "1"
@@ -118,7 +119,7 @@
         "brighttext"            "0"
         "font"                  "HudFontMedium"
     }
-    
+
     "ItemEffectMeterCountShadow"
     {
         "ControlName"   "CExLabel"
