@@ -18,7 +18,7 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "ItemEffectMeterBG"
-        "xpos"          "rs1-526"
+        "xpos"          "54" // rs1-526 breaks on 16:9 :(((((
         "ypos"          "1"
         "zpos"          "-1"
         "wide"          "60"
