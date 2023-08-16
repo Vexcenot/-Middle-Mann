@@ -5,8 +5,8 @@
         "fieldName"     "HudItemEffectMeter"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-69"  [$WIN32]
-        "ypos"          "c83"   [$WIN32]
+        "xpos"          "c-30"  [$WIN32]
+        "ypos"          "c80"   [$WIN32]
         "ypos_minmode"  "c101"
         "wide"          "140"
         "tall"          "30"
@@ -20,7 +20,7 @@
         "xpos"          "2"
         "ypos"          "4"
         "zpos"          "-1"
-        "wide"          "137"
+        "wide"          "60"
         "tall"          "22"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -34,22 +34,22 @@
         "teambg_2_lodef"    "../hud/color_panel_red"
         "teambg_3"      "../hud/color_panel_blu"
         "teambg_3_lodef"    "../hud/color_panel_blu"
-        
+
         "src_corner_height"     "23"                // pixels inside the image
         "src_corner_width"      "23"
-            
+
         "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     
+        "draw_corner_height"    "5"
     }
     "ItemEffectMeterLabel"
     {
         "ControlName"           "CExLabel"
         "fieldName"             "ItemEffectMeterLabel"
-        "xpos"                  "-5"
+        "xpos"                  "2"
         "ypos"                  "5"
         "ypos_minmode"          "-3"
         "zpos"                  "2"
-        "wide"                  "150"
+        "wide"                  "60"
         "tall"                  "30"
         "autoResize"            "1"
         "pinCorner"             "2"
@@ -63,15 +63,15 @@
         "fgcolor_override"      "Black"
     }
     "ItemEffectMeter"
-    {   
+    {
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"7"
 		"ypos"					"9"
 		"zpos"					"2"
-		"wide"					"128"
-		"tall"					"6"				
+		"wide"					"50"
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
