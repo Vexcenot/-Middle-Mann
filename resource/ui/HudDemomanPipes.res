@@ -3,9 +3,9 @@
 	"background"
 	{
         "ControlName"   "CTFImagePanel"
-        "fieldName"     "ItemEffectMeterBG"
-        "xpos"          "15"
-        "ypos"          "10"
+        "fieldName"     "background"
+        "xpos"          "16"
+        "ypos"          "53"
         "zpos"          "-1"
         "wide"          "60"
         "tall"          "24"
@@ -21,46 +21,46 @@
         "teambg_2_lodef"    "../hud/color_panel_red"
         "teambg_3"      "../hud/color_panel_blu"
         "teambg_3_lodef"    "../hud/color_panel_blu"
-        
+
         "src_corner_height"     "23"                // pixels inside the image
         "src_corner_width"      "23"
-            
+
         "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     		
+        "draw_corner_height"    "5"
 	}
-	
+
 	"ChargeLabel"
 	{
         "ControlName"            "CExLabel"
         "fieldName"                "ChargeLabel"
         "xpos"                    "27"
-        "ypos"                    "16"
+        "ypos"                    "60"
         "zpos"                    "20"
         "wide"                    "37"
         "tall"                    "21"
-        "autoResize"            "1"
-        "pinCorner"                "2"
-        "visible"                "1"
-        "visible_minmode"        "1"
-        "enabled"                "1"
-        "tabPosition"            "0"
+        "autoResize"              "1"
+        "pinCorner"               "2"
+        "visible"                 "1"
+        "visible_minmode"         "1"
+        "enabled"                 "1"
+        "tabPosition"             "0"
         "labelText"                "#TF_Charge"
         "textAlignment"            "center"
         "dulltext"                "0"
-        "brighttext"            "0"
+        "brighttext"              "0"
         "font"                    "TFFontSmall"
-        "fgcolor_override"      "TanLight"
+        "fgcolor_override"     	  "HudWhite"
 	}
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"20"
-		"ypos"					"15"
+		"xpos"					"21"
+		"ypos"					"58"
 		"zpos"					"2"
 		"wide"					"50"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -68,20 +68,25 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor"				"HudWhite"
+		"fgcolor_override"				"HudWhite"
+		        "MeterFG"       "White"
+
+
 	}
 
-		
+
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"0"
-		"ypos"			"-6"
+		"ypos"			"38"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -98,9 +103,9 @@
 			"image"			"../vgui/class_icons/no_border_demo_icon"
 			"scaleImage"	"1"
 			"teambg_2"		"../vgui/class_icons/no_border_demo_icon"
-			"teambg_3"		"../vgui/class_icons/no_border_demo_icon"	
-		}	
-		
+			"teambg_3"		"../vgui/class_icons/no_border_demo_icon"
+		}
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -151,26 +156,26 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 "disabledfgcolor2_override" "TransparentBlack"
-		}		
+		}
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
 		"xpos"			"0"
-		"ypos"			"-6"
+		"ypos"			"38"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PipeIcon"
 			"xpos"			"18"
-			"ypos"			"19"
+			"ypos"			"69"
 			"ypos_minmode"	"12"
 			"wide"			"18"
 			"wide_minmode"	"14"
@@ -181,9 +186,9 @@
 			"image"			"../vgui/class_icons/no_border_demo_icon"
 			"scaleImage"	"1"
 			"teambg_2"		"../vgui/class_icons/no_border_demo_icon"
-			"teambg_3"		"../vgui/class_icons/no_border_demo_icon"	
-		}	
-		
+			"teambg_3"		"../vgui/class_icons/no_border_demo_icon"
+		}
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -234,6 +239,6 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 "disabledfgcolor2_override" "TransparentBlack"
-		}			
-	}				
+		}
+	}
 }

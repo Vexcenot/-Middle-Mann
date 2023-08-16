@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
     {
@@ -9,8 +9,8 @@
         "ypos"          "c103"  [$WIN32]   //c125 c143
         "xpos_minmode"  "r90"
         "ypos_minmode"  "r30"
-        "wide"          "1328"
-        "tall"          "38"
+        "wide"          "140"
+        "tall"          "300"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }
@@ -18,10 +18,10 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "ItemEffectMeterBG"
-        "xpos"          "15"
-        "ypos"          "3"
+        "xpos"          "rs1-526"
+        "ypos"          "1"
         "zpos"          "-1"
-        "wide"          "137"
+        "wide"          "60"
         "tall"          "24"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -35,12 +35,12 @@
         "teambg_2_lodef"    "../hud/color_panel_red"
         "teambg_3"      "../hud/color_panel_blu"
         "teambg_3_lodef"    "../hud/color_panel_blu"
-        
+
         "src_corner_height"     "23"                // pixels inside the image
         "src_corner_width"      "23"
-            
+
         "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     
+        "draw_corner_height"    "5"
     }
     "ItemEffectMeterLabel"
     {
@@ -65,21 +65,21 @@
         "dulltext"              "0"
         "brighttext"            "0"
         "fgcolor_override"      "TanLight"
-    }   
-    
+    }
+
     "ItemEffectMeter"
-    {   
+    {
         "ControlName"           "ContinuousProgressBar"
         "fieldName"             "ItemEffectMeter"
         "font"                  "Default"
         "xpos"                  "21"
-        "ypos"                  "23"
+        "ypos"                  "21"
         "ypos_minmode"          "0"
         "xpos_minmode"          "0"
         "zpos"                  "2"
         "wide"                  "38"
         "wide_minmode"          "38"
-        "tall"                  "6"             
+        "tall"                  "6"
         "autoResize"            "0"
         "pinCorner"             "0"
         "visible"               "0"
@@ -87,15 +87,15 @@
         "textAlignment"         "Left"
         "dulltext"              "0"
         "brighttext"            "0"
-    }   
-    
+    }
+
     "ItemEffectMeterCount"
     {
         "ControlName"   "CExLabel"
         "fieldName"     "ItemEffectMeterCount"
         "xpos"          "69"
         "xpos_minmode"  "45"
-        "ypos"          "6"
+        "ypos"          "4"
         "ypos_minmode"  "1"
         "zpos"          "2"
         "wide"          "35"
@@ -114,14 +114,14 @@
         "font"          "HudFontMediumSmall"
         "font_minmode"  "HudFontMediumSmallSecondary"
     }
-    
+
     "ItemEffectMeterCountShadow"
     {
         "ControlName"   "CExLabel"
         "fieldName"     "ItemEffectMeterCountShadow"
-        "xpos"          "71"
+        "xpos"          "-2"
         "xpos_minmode"  "46"
-        "ypos"          "7"
+        "ypos"          "-1"
         "ypos_minmode"  "2"
         "zpos"          "2"
         "wide"          "35"
@@ -141,14 +141,15 @@
         "font_minmode"  "HudFontMediumSmallSecondary"
 					"fgcolor"		"black"
       "fgcolor_override"  "TransparentBlack"
+      "pin_to_sibling"  "ItemEffectMeterCount"
     }
-    
+
     "CritIcon"
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "CritIcon"
-        "xpos"          "20"
-        "ypos"          "8"
+        "xpos"          "58"
+        "ypos"          "6"
         "wide"          "14"
         "tall"          "14"
         "visible"       "1"
@@ -157,5 +158,5 @@
         "image"         "../hud/hud_obj_status_kill_64"
         "scaleImage"    "1"
 	"iconColor"		"ProgressOffWhite"
-    }	
+    }
 }
