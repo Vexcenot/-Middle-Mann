@@ -22,7 +22,7 @@
 <sub>that's it. you fricking dummy.</sub>
 
 # ADD-ONS
-- [Team Colored X hitmaker](https://gamebanana.com/mods/431361)
+- [Team Colored X hitmaker](https://gamebanana.com/mods/460476)
 
 # LINKS
 - [DISCORD](https://discord.gg/9QzHkQx)
