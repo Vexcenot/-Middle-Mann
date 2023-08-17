@@ -50,7 +50,7 @@
         "xpos_minmode"          "5"
         "ypos"                  "0"
         "zpos"                  "2"
-        "wide"                  "138"
+        "wide"                  "150"
         "tall"                  "30"
         "wide_minmode"          "38"
         "tall_minmode"          "20"
