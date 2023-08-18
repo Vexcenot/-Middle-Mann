@@ -1,5 +1,5 @@
 "Resource/UI/HudMannVsMachineStatus.res"
-{	
+{
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
@@ -13,7 +13,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"WaveCompleteSummaryPanel"
 	{
 		"ControlName"		"CWaveCompleteSummaryPanel"
@@ -26,7 +26,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"BossStatusPanel"
 	{
 		"ControlName"		"CMvMBossStatusPanel"
@@ -38,12 +38,12 @@
 		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"pin_to_sibling"               "WaveStatusPanel"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6"  
+		"pin_corner_to_sibling"        "4"
+		"pin_to_sibling_corner"        "6"
 	}
-	
+
 	"InWorldCurrencyPanel"
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
@@ -71,19 +71,19 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/warning_highlight"
 		"scaleImage"	"1"
-		"time"			"0.3"		
+		"time"			"0.3"
 	}
-	
+
 	"UpgradeLevelContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UpgradeLevelContainer"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"5"
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
-					
+
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
@@ -92,10 +92,10 @@
 			"ypos"			"r35"
 			"wide"			"640"
 			"tall"			"480"
-			"visible"		"1"	
+			"visible"		"1"
 		}
-		
-		"UpgradeLevel1" 
+
+		"UpgradeLevel1"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel1"
@@ -111,8 +111,8 @@
 			"image"			"../hud/hud_mvm_bomb_upgrade_1_disabled"
 			"scaleImage"	"1"
 		}
-		
-		"UpgradeLevel2" 
+
+		"UpgradeLevel2"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel2"
@@ -128,8 +128,8 @@
 			"image"			"../hud/hud_mvm_bomb_upgrade_2_disabled"
 			"scaleImage"	"1"
 		}
-		
-		"UpgradeLevel3" 
+
+		"UpgradeLevel3"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel3"
@@ -146,7 +146,7 @@
 			"scaleImage"	"1"
 		}
 
-		"UpgradeLevelBoss" 
+		"UpgradeLevelBoss"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevelBoss"
@@ -163,7 +163,7 @@
 			"scaleImage"	"1"
 		}
 	}
-	
+
 	"VictorySplash"
 	{
 		"ControlName"		"CVictorySplash"
@@ -174,9 +174,9 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"			
+		"enabled"			"1"
 	}
-	
+
 	"VictoryPanelContainer"
 	{
 		"ControlName"	"CMvMVictoryPanelContainer"
@@ -187,7 +187,7 @@
 		"tall"			"480"
 		"visible"		"0"
 	}
-	
+
 	"WaveLossPanel"
 	{
 		"ControlName"	"CMvMWaveLossPanel"
@@ -198,7 +198,7 @@
 		"tall"			"480"
 		"visible"		"0"
 	}
-	
+
 	"ServerChangeMessage"
 	{
 		"ControlName"	"EditablePanel"
@@ -208,7 +208,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
-		
+
 		"Background"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -225,11 +225,11 @@
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
+
 			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
-	
+
 		"ServerChangeLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -243,8 +243,8 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"tanlight"
 		}
 	}
-	
+
 }
