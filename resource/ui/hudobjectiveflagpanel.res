@@ -1,6 +1,6 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
 //this da shit
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -12,7 +12,7 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"if_hybrid"
 		{
 			"zpos"			"-1"
@@ -31,15 +31,15 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/color_panel_blu"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"paintborder"	"0"
 		"border"		"G_TargetBorder"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
-	
+
 	"G_BluePanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -52,15 +52,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"G_TeamBlue"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
@@ -79,15 +79,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
@@ -106,15 +106,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
@@ -133,15 +133,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
@@ -160,15 +160,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
@@ -187,15 +187,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
@@ -214,15 +214,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
@@ -241,15 +241,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
@@ -268,15 +268,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"TanLight"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
@@ -296,18 +296,18 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"G_TeamBlueBG"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -320,24 +320,24 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_left"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"RedPanel"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -350,15 +350,15 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/color_panel_red"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"paintborder"	"0"
 		"border"		"G_TargetBorder"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
-	
+
 	"G_RedPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -371,21 +371,21 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"paintbackgroundtype" "0"
 		"bgcolor_override"	"G_TeamRed"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-	
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"G_RedPanel_BG"
 	{
 		"ControlName"	"EditablePanel"
@@ -400,18 +400,18 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"G_TeamRedBG"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
 		}
-	
+
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -424,18 +424,18 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_right"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -454,24 +454,24 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -488,23 +488,23 @@
 		"labelText"		"%bluescore%"
 		"font"			"G_FontMedium"
 		"fgcolor"		"TanLight"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -517,12 +517,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"textAlignment"	"center"
-		"textinsetx"	"20"		
+		"textinsetx"	"20"
 		"labelText"		"%bluescore%"
 		"font"			"G_FontMedium"
 		"fgcolor"		"G_Shadow"
-	}	
-							
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -538,24 +538,24 @@
 		"textinsetx"	"20"
 		"labelText"		"%redscore%"
 		"font"			"G_FontMedium"
-		"fgcolor"		"TanLight"		
-		
+		"fgcolor"		"TanLight"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -567,13 +567,13 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"textinsetx"	"20"
 		"labelText"		"%redscore%"
 		"font"			"G_FontMedium"
-		"fgcolor"		"G_Shadow"		
-	}	
-															
+		"fgcolor"		"G_Shadow"
+	}
+
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -587,9 +587,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
-		"scaleImage"	"1"	
-	}		
-	
+		"scaleImage"	"1"
+	}
+
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -603,12 +603,12 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-		
+
 		"if_hybrid"
 		{
 			"ypos"		"r142"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"wide"			"55"
@@ -616,8 +616,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"r87"
 		}
-	}		
-	
+	}
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -637,22 +637,22 @@
 		"fgcolor"		"G_White"
 		"centerwrap"	"1"
 		"bgcolor_override" "G_panelBG"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 
 	"BlueFlag"
 	{
@@ -667,18 +667,18 @@
 		"enabled"		"1"
 		"paintbackground"	"1"
 		"bgcolor_override"	"0 200 0 0"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
-		
+
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
@@ -688,18 +688,18 @@
 		{
 			"ypos"		"r80"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
-			"ypos"	"r85"
+			"ypos"	"r77"
 		}
 	}
-			
+
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -711,18 +711,18 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
-		
+
 		"if_hybrid_double"
 		{
 			"xpos"		"c-45"
@@ -732,13 +732,13 @@
 		{
 			"ypos"		"r80"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
-	}	
-			
+	}
+
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -750,18 +750,18 @@
 		"tall"			"75"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		"if_hybrid"
 		{
 			"ypos"		"r100"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"ypos"		"r80"
 		}
 	}
-	
+
 	"PoisonIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -789,12 +789,12 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"G_FontSmall"
 		"fgcolor"		"G_White"
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -808,5 +808,5 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-	}			
+	}
 }
