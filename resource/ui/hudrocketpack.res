@@ -3,7 +3,7 @@
 {
 	HudItemEffectMeter
     {
-        "ypos"          "c123"  [$WIN32]
+        "ypos"          "c129"  [$WIN32]
     }
     "ItemEffectMeterBG"
     {
