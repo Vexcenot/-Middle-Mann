@@ -918,7 +918,7 @@
 		"enabled"			"1"
 		"xpos"				"c-44"
 		"xpos_minbad"		"r110"
-		"ypos"				"c75"
+		"ypos"				"c74"
 		"ypos_minbad"		"r30"
 		"wide"				"100"
 		"tall"				"500"
