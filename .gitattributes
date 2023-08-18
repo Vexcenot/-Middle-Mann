@@ -14,3 +14,5 @@ resource/*.txt text working-tree-encoding=UTF-16LE-BOM
 .gitattributes export-ignore
 .gitignore export-ignore
 .github export-ignore
+readme.md export-ignore
+README, stupid.txt export-ignore
