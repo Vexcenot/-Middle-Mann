@@ -1,45 +1,16 @@
+#base "huditemeffectmeter.res"
 "Resource/UI/HudRocketPack.res"
 {
 	HudItemEffectMeter
     {
-        "fieldName"     "HudItemEffectMeter"
-        "visible"       "1"
-        "enabled"       "1"
-        "xpos"          "c-70"  [$WIN32]
-        "ypos"          "c124"  [$WIN32]
-        "ypos_minmode"  "c123"
-        "wide"          "140"
-        "tall"          "300"
-        "MeterFG"       "White"
-        "MeterBG"       "Gray"
+        "ypos"          "c123"  [$WIN32]
     }
     "ItemEffectMeterBG"
     {
-        "ControlName"   "CTFImagePanel"
-        "fieldName"     "ItemEffectMeterBG"
         "xpos"          "22"
         "ypos"          "4"
-        "zpos"          "-1"
         "wide"          "97"
         "tall"          "22"
-        "autoResize"        "0"
-        "pinCorner"     "0"
-        "visible"       "1"
-        "visible_minmode"       "0"
-        "enabled"       "1"
-        "image"         "../hud/color_panel_brown"
-        "scaleImage"        "1"
-        "teambg_1"      "../hud/color_panel_brown"
-        "teambg_2"      "../hud/color_panel_red"
-        "teambg_2_lodef"    "../hud/color_panel_red"
-        "teambg_3"      "../hud/color_panel_blu"
-        "teambg_3_lodef"    "../hud/color_panel_blu"
-        
-        "src_corner_height"     "23"                // pixels inside the image
-        "src_corner_width"      "23"
-            
-        "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     
     }
 	"ItemEffectIcon"
 	{
@@ -55,7 +26,7 @@
 		"visible_minmode"	"1"
 		"enabled"			"1"
 		"image"				"../hud/pyro_jetpack_off2"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
     "ItemEffectMeterLabel"
     {
@@ -79,7 +50,7 @@
         "fgcolor_override"      "Black"
     }
     "ItemEffectMeter"
-    {   
+    {
         "ControlName"           "ContinuousProgressBar"
         "fieldName"             "ItemEffectMeter"
         "font"                  "Default"
@@ -88,7 +59,7 @@
         "zpos"                  "2"
         "wide"                  "30"
         "tall"                  "12"
-        "tall_minmode"          "7"        
+        "tall_minmode"          "7"
         "autoResize"            "0"
         "pinCorner"             "0"
         "visible"               "1"
@@ -98,7 +69,7 @@
         "brighttext"            "0"
     }
 	"ItemEffectMeter2"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
 		"font"			"Default"
@@ -107,7 +78,7 @@
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"12"
-		"tall_minmode"  "7"        		
+		"tall_minmode"  "7"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

@@ -13,6 +13,5 @@
         "scaleImage"    "1"
         "teambg_2"      "replay/thumbnails/ico_crit"
         "teambg_3"      "replay/thumbnails/ico_crit_blu"
-
     }
 }

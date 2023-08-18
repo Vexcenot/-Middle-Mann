@@ -191,7 +191,7 @@
 	{
 		"fieldName"					"CHudAccountPanel"
 		"xpos"						"c-38"
-		"ypos"						"c66"
+		"ypos"						"c68"
 		"ypos_minbad"				"r134"
 		"zpos"						"1"
 		"wide"						"116"
