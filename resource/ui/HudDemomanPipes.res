@@ -166,14 +166,14 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"0"
+		"visible"		"1"
 
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PipeIcon"
 			"xpos"			"18"
-			"ypos"			"69"
+			"ypos"			"19"
 			"ypos_minmode"	"12"
 			"wide"			"18"
 			"wide_minmode"	"14"
