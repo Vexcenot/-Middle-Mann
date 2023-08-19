@@ -1,3 +1,6 @@
+// UNCOMMENT THE SLASHES BELOW #BASE TO USE MASTER HITMARKERS https://gamebanana.com/mods/460476
+#base "../resource/ui/custom/master_hitmarkers.res"
+
 // HYPNOTIZE CROSSHAIRS, CHECK RESOURCE/CROSSHAIRS/CROSSHAIR.RES FILE ON HOW TO ENABLE/EDIT
 #base "../resource/crosshairs/crosshair.res"
 
@@ -7,8 +10,7 @@
 //CIRCLE HITMARKER, UNCOMMENT BOTH SLASHES TO USE (ONLY ONE CAN BE ENABLED AT A TIME)
 //#base "../resource/ui/custom/circle_hitmarker.res"
 
-// UNCOMMENT THE SLASHES BELOW #BASE TO USE MASTER HITMARKERS https://gamebanana.com/mods/460476
-#base "../resource/ui/custom/master_hitmarkers.res"
+
 
 "Resource/HudLayout.res"
 {
@@ -17,8 +19,8 @@
 		"fieldName"		"HudPlayerStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-10"
+		"ypos"			"rs1"
 		"wide"			"f0"
 		"tall"			"480"
 	}
