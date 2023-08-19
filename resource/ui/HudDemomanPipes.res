@@ -109,7 +109,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"37"
+			"xpos"			"32"
 			"xpos_minmode"	"42"
 			"ypos"			"19"
 			"ypos_minmode"	"12"
@@ -134,10 +134,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"39"
-			"xpos_minmode"	"43"
-			"ypos"			"20"
-			"ypos_minmode"	"13"
+			"xpos"			"-2"
+			"ypos"			"1"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -154,7 +152,8 @@
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
-"disabledfgcolor2_override" "TransparentBlack"
+			"disabledfgcolor2_override" "TransparentBlack"
+			"pin_to_sibling"	"NumPipesLabel"
 		}
 	}
 
@@ -167,14 +166,14 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"0"
+		"visible"		"1"
 
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PipeIcon"
 			"xpos"			"18"
-			"ypos"			"69"
+			"ypos"			"19"
 			"ypos_minmode"	"12"
 			"wide"			"18"
 			"wide_minmode"	"14"
@@ -192,7 +191,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"37"
+			"xpos"			"32"
 			"xpos_minmode"	"42"
 			"ypos"			"19"
 			"ypos_minmode"	"12"
@@ -217,10 +216,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"39"
-			"xpos_minmode"	"43"
-			"ypos"			"20"
-			"ypos_minmode"	"13"
+			"xpos"			"-2"
+			"ypos"			"-1"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -237,7 +234,8 @@
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
-"disabledfgcolor2_override" "TransparentBlack"
+			"disabledfgcolor2_override" "TransparentBlack"
+			"pin_to_sibling"	"NumPipesLabel"
 		}
 	}
 }

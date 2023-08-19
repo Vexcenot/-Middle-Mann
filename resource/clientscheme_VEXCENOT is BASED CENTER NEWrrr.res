@@ -561,7 +561,7 @@
 				"weight"		"0"
 			}
 		}
-		"HudFontMediumOutline"
+		"HudFontMediumShadow"
 		{
 			"1"
 			{
@@ -570,9 +570,9 @@
 				"wide"				"23"
 				"tall_lodef"		"28"
 				"weight"			"500"
-				"additive"			"0"
-				"antialias"			"0"
-				"outline"			"1"
+				"additive"			"1"
+				"antialias"			"1"
+				"dropshadow"		"1"
 			}
 		}
 		"TFFontSmall"
