@@ -14,26 +14,26 @@
 		"tall_minmode"	"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"51"
+		"xpos"			"52"
 		"xpos_minmode"	"6"
-		"ypos"			"-1"
+		"ypos"			"1"
 		"ypos_minmode"	"6"
 		"zpos"			"2"
-		"wide"			"13"
+		"wide"			"11"
 		"wide_minmode"	"16"
-		"tall"			"13"
+		"tall"			"11"
 		"tall_minmode"	"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -50,8 +50,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"OtherPlayerStatusHealthValue"
 	{
@@ -89,7 +89,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"HudFontMediumBoldsmaller"
 		"font_minmode"  "HudFontSmallestBold"
 		"fgcolor"		"TanLight"
@@ -103,7 +103,7 @@
         "font"          "HudFontMediumBoldsmaller"
         "font_minmode"          "HudFontSmallestBold"
         "fgcolor"       "Black"
-        "textAlignment" "center"    
+        "textAlignment" "center"
         "labelText"     "%health%"
 	    "xpos" "8"
 		"ypos" "-11"
@@ -125,8 +125,8 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
-	}							
+	}
 }
