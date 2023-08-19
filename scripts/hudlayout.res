@@ -19,8 +19,8 @@
 		"fieldName"		"HudPlayerStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-10"
+		"ypos"			"rs1"
 		"wide"			"f0"
 		"tall"			"480"
 	}
