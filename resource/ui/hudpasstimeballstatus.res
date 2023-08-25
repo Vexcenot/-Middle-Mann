@@ -1,4 +1,4 @@
-// enum PinCorner_e 
+// enum PinCorner_e
 // {
 // 	PIN_TOPLEFT = 0,
 // 	PIN_TOPRIGHT,
@@ -13,7 +13,7 @@
 // };
 
 "Resource/UI/HudPasstimeBallStatus.res"
-{	
+{
 	"HudPasstimeBallStatus"
 	{
 		"ControlName"		"EditablePanel"
@@ -90,11 +90,11 @@
 	"ProgressLevelBar"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ProgressLevelBar"	
-		"xpos"			"c-190"
+		"fieldName"		"ProgressLevelBar"
+		"xpos"			"cs-0.5"
 		"ypos"			"r88"
 		"zpos"			"0"
-		"wide"			"380"
+		"wide"			"250"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
@@ -109,7 +109,7 @@
 		// might be padded for npot reasons.
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
-		"xpos"			"c-152"
+		"xpos"			"cs-0.5-80"
 		"ypos"			"r64"
 		"visible"		"0"
 	}
@@ -120,18 +120,18 @@
 		// might be padded for npot reasons.
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
-		"xpos"			"c152"
+		"xpos"			"cs-0.5+120"
 		"ypos"			"r64"
 		"visible"		"0"
-	}	
+	}
 
 	"GoalBlue0"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalBlue0"	
+		"fieldName"		"GoalBlue0"
 		"xpos"			"c-162"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"17"
 		"tall"			"17"
 		"autoResize"	"0"
@@ -141,16 +141,16 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GoalBlue1"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalBlue1"	
+		"fieldName"		"GoalBlue1"
 		"xpos"			"c-132"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"17"
 		"tall"			"17"
 		"autoResize"	"0"
@@ -160,16 +160,16 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GoalBlue2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalBlue2"	
+		"fieldName"		"GoalBlue2"
 		"xpos"			"c-102"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"17"
 		"tall"			"17"
 		"autoResize"	"0"
@@ -179,17 +179,17 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 
 	"GoalRed0"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalRed0"	
+		"fieldName"		"GoalRed0"
 		"xpos"			"c146"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"17"
 		"tall"			"17"
 		"autoResize"	"0"
@@ -199,7 +199,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GoalRed1"
@@ -208,7 +208,7 @@
 		"fieldName"		"GoalRed1"
 		"xpos"			"c116"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"17"
 		"tall"			"17"
 		"autoResize"	"0"
@@ -218,7 +218,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 
@@ -228,7 +228,7 @@
 		"fieldName"		"GoalRed2"
 		"xpos"			"c86"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"17"
 		"tall"			"17"
 		"autoResize"	"0"
@@ -238,7 +238,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"ProgressBallIcon"
@@ -257,8 +257,8 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_ball"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 
 	"ProgressSelfPlayerIcon"
 	{
@@ -275,8 +275,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 
 	"ProgressBallCarrierName"
 	{
@@ -301,7 +301,7 @@
 
 
 
-	"BallPowerCluster" 
+	"BallPowerCluster"
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "BallPowerCluster"
@@ -317,7 +317,7 @@
 		"BallPowerMeterFrame"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"BallPowerMeterFrame"	
+			"fieldName"		"BallPowerMeterFrame"
 			"xpos"			"c-100"
 			"ypos"			"0"
 			"zpos"			"5"
@@ -329,7 +329,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"image"			"../passtime/hud/passtime_powerball_meter_frame"
-			"scaleImage"	"1"					
+			"scaleImage"	"1"
 		}
 
 		"BallPowerMeterFinalSectionContainer"
@@ -352,7 +352,7 @@
 			"BallPowerMeterFinalSection"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"BallPowerMeterFinalSection"	
+				"fieldName"		"BallPowerMeterFinalSection"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
@@ -364,10 +364,10 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"image"			"white"
-				"scaleImage"	"1"					
+				"scaleImage"	"1"
 			}
 		}
-		
+
 		"BallPowerMeterFillContainer"
 		{
 			// This exists because the bar is filled by changing the width dynamically
@@ -388,7 +388,7 @@
 			"BallPowerMeterFill"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"BallPowerMeterFill"	
+				"fieldName"		"BallPowerMeterFill"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
@@ -400,7 +400,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"image"			"white"
-				"scaleImage"	"1"					
+				"scaleImage"	"1"
 			}
 		}
 	}
