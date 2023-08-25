@@ -32,8 +32,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"suckmydickvalve"
-		"xpos"	"50"
-		"ypos"	"c85"
+		"xpos"	"90"
+		"ypos"	"c125"
 		"wide"	"0"
 		"tall"	"0"
 		"visible"	"1"
