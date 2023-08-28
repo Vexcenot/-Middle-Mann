@@ -25,4 +25,5 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: 
- - Resolution:
+ - Resolution (Aspect Ratio):
+ - HUD Version:
