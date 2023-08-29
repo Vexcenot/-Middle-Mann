@@ -119,26 +119,6 @@
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
 	}
-	"AmmoNoClip"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClip"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"TanLight"
-		"xpos"			"28"
-		"ypos"			"600"
-		"zpos"			"5"
-		"wide"			"84"
-		"wide_lodef"	"83"
-		"tall"			"40"
-		"tall_minbad"	"36"
-		//"tall_lodef"	"45"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"labelText"		"%Ammo%"
-
-	}
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -152,6 +132,26 @@
 		"ypos_hidef"	"4"
 		//"ypos_lodef"	"4"
 		"zpos"			"5"
+		"wide"			"84"
+		"wide_lodef"	"83"
+		"tall"			"40"
+		"tall_minbad"	"36"
+		//"tall_lodef"	"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"%Ammo%"
+
+	}
+	"AmmoNoClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClip"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"TanLight"
+		"xpos"			"28"
+		"ypos"			"600"
+		"zpos"			"6"
 		"wide"			"84"
 		"wide_lodef"	"83"
 		"tall"			"40"
