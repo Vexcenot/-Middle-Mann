@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Create a report to help us improve
+about: Create a report to help me (tekunotri) fix stuff that i did not test
 title: ''
 labels: bug
 assignees: ''
@@ -26,4 +26,8 @@ If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
  - OS: 
  - Resolution (Aspect Ratio):
- - HUD Version:
+
+**TF2 Specific Info (please complete the following information):**
+ - HUD Version (either commit #:
+ - Customizations Applied (if any):
+ - Other Mods (only applies if you have mods in `tf/custom`):
