@@ -119,30 +119,6 @@
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
 	}
-	"AmmoNoClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClipShadow"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
-		"xpos"			"32"
-		"xpos_hidef"	"2"
-		"xpos_lodef"	"2"
-		"ypos"			"62"
-		"ypos_hidef"	"4"
-		//"ypos_lodef"	"4"
-		"zpos"			"5"
-		"wide"			"84"
-		"wide_lodef"	"83"
-		"tall"			"40"
-		"tall_minbad"	"36"
-		//"tall_lodef"	"45"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"labelText"		"%Ammo%"
-
-	}
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -150,7 +126,7 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 		"xpos"			"28"
-		"ypos"			"600"
+		"ypos"			"62"
 		"zpos"			"6"
 		"wide"			"84"
 		"wide_lodef"	"83"
@@ -163,4 +139,29 @@
 		"labelText"		"%Ammo%"
 
 	}
+	"AmmoNoClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClipShadow"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"xpos"			"-4"
+		"xpos_hidef"	"2"
+		"xpos_lodef"	"2"
+		"ypos"			"-2"
+		"ypos_hidef"	"4"
+		//"ypos_lodef"	"4"
+		"zpos"			"5"
+		"wide"			"84"
+		"wide_lodef"	"83"
+		"tall"			"40"
+		"tall_minbad"	"36"
+		//"tall_lodef"	"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"%Ammo%"
+		"pin_to_sibling"	"AmmoNoClip"
+	}
+
 }
