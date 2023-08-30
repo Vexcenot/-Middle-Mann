@@ -28,6 +28,6 @@ If applicable, add screenshots to help explain your problem.
  - Resolution (Aspect Ratio):
 
 **TF2 Specific Info (please complete the following information):**
- - HUD Version (either commit #:
+ - HUD Version (either commit # or release version):
  - Customizations Applied (if any):
  - Other Mods (only applies if you have mods in `tf/custom`):
