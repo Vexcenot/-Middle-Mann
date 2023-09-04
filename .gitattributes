@@ -1,6 +1,10 @@
 # These filetypes should be recognized as VDF, not ReScript
-*.res linguist-language=vdf
-**/*.res linguist-detectable=true
+*.vdf linguist-detectable=true
+*.res linguist-detectable=true linguist-language=vdf
+*.txt linguist-detectable=true linguist-language=vdf
+*.vmt linguist-detectable=true linguist-language=vdf
+
+resource/chat_english.txt diff
 # Keep these filetypes binary
 *.png binary
 *.jpg binary
