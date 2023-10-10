@@ -14,3 +14,7 @@ sv_unlockedchapters 99
 // Apply HUD settings
 cl_hud_minmode 0 // minmode isnt supported yet!!
 vgui_cache_res_files 0 // makes it easier to edit the HUD
+
+
+//terrible attempt to fix clipless ammo having only shadow
+wait 200; hud_reloadscheme 

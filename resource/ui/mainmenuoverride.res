@@ -1728,12 +1728,7 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2018 Cosmetic Key"
-						"show_market"	"0"
-					}
-					"1"
-					{
-						"item"		"Winter 2018 Cosmetic Case"
+						"item"		"The Original"
 						"show_market"	"1"
 					}
 				}
