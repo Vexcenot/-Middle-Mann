@@ -681,6 +681,19 @@
 				"name"			"Helvetica" [$POSIX]
 			}
 		}
+		"Fucky"
+		{
+			"1"
+			{
+				"name"			"TF2 Secondary"
+				"tall"			"30"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+				"name"			"Segoe UI" [$WINDOWS]
+				"name"			"Helvetica" [$POSIX]
+			}
+		}
 		"HudSelectionText"
 		{
 			"1"

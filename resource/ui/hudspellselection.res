@@ -78,7 +78,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ActionText"
-		"font"				"Default"
+		"font"				"Fucky"
 		"labelText"			"%actiontext%"
 		"textAlignment" 	"west"
 		"xpos"				"1000"
@@ -94,7 +94,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SpellText"
-		"font"				"Default"
+		"font"				"Fucky"
 		"labelText"			"%selectedspell%"
 		"textAlignment" 	"west"
 		"xpos"				"35"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CountTextShadow"
-		"font"				"HudFontMediumBigBold"
+		"font"				"fucky"
 		"labelText"			"%counttext%"
 		"textAlignment" 	"center"
 		"xpos"				"48"
@@ -125,7 +125,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CountText"
-		"font"				"HudFontMediumBigBold"
+		"font"				"fucky"
 		"labelText"			"%counttext%"
 		"textAlignment" 	"center"
 		"xpos"				"46"
