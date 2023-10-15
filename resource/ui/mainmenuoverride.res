@@ -1728,8 +1728,153 @@
 				{
 					"0"
 					{
-						"item"		"The Original"
+						"item"		"Halloween 2023 Key"
+						"show_market"	"0"
+					}
+					"1"
+					{
+						"item"		"Halloween 2023 Case"
 						"show_market"	"1"
+					}
+					"2"
+					{
+						"item"		"Taunt: The Crypt Creeper"
+						"show_market"	"0"
+					}
+					"3"
+					{
+						"item"		"Taunt: Roar O'War"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Taunt: Neck Snap"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: Borrowed Bones"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Map Token Perks"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Map Token Slime"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Map Token Lava Pit"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Map Token Mannsylvania"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Map Token Sandcastle"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Map Token Spineyard"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Map Token Corruption"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Map Token Murky"
+						"show_market"	"0"
+					}
+					"14"
+					{
+						"item"		"Map Token Atoll"
+						"show_market"	"0"
+					}
+					"15"
+					{
+						"item"		"Map Token Woods"
+						"show_market"	"0"
+					}
+					"16"
+					{
+						"item"		"Map Token Sanitarium"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Map Token Devastation"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Strange Filter: Perks (Community)"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Strange Filter: Slime (Community)"
+						"show_market"	"0"
+					}
+					"20"
+					{
+						"item"		"Strange Filter: Lava Pit (Community)"
+						"show_market"	"0"
+					}
+					"21"
+					{
+						"item"		"Strange Filter: Mannsylvania (Community)"
+						"show_market"	"0"
+					}
+					"22"
+					{
+						"item"		"Strange Filter: Sandcastle (Community)"
+						"show_market"	"0"
+					}
+					"23"
+					{
+						"item"		"Strange Filter: Spineyard (Community)"
+						"show_market"	"0"
+					}
+					"24"
+					{
+						"item"		"Strange Filter: Corruption (Community)"
+						"show_market"	"0"
+					}
+					"25"
+					{
+						"item"		"Strange Filter: Murky (Community)"
+						"show_market"	"0"
+					}
+					"26"
+					{
+						"item"		"Strange Filter: Atoll (Community)"
+						"show_market"	"0"
+					}
+					"27"
+					{
+						"item"		"Strange Filter: Woods (Community)"
+						"show_market"	"0"
+					}
+					"28"
+					{
+						"item"		"Strange Filter: Sanitarium (Community)"
+						"show_market"	"0"
+					}
+					"29"
+					{
+						"item"		"Strange Filter: Devastation (Community)"
+						"show_market"	"0"
 					}
 				}
 			}
