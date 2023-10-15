@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+** Fill these checkmarks before reporting a bug!**
+- [] i am not using any additional mods that might overwrite any hud files (things like portraits and stuff of the sort)
+
 **Describe the Issue**
 A clear and concise description of what the Issue is.
 
@@ -25,9 +28,9 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: 
- - Resolution (Aspect Ratio):
+ - Resolution (and Aspect Ratio, eg. 1280x960 4:3):
 
 **TF2 Specific Info (please complete the following information):**
  - HUD Version (either commit # or release version):
- - Customizations Applied (if any):
- - Other Mods (only applies if you have mods in `tf/custom`):
+ - Customizations Applied (if any, if none type "none"):
+ - Other Mods in tf/custom? if so, which ones?:
