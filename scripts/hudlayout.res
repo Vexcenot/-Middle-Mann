@@ -1,17 +1,5 @@
-// UNCOMMENT THE SLASHES BELOW #BASE TO USE MASTER HITMARKERS https://gamebanana.com/mods/460476
-#base "../resource/ui/custom/master_hitmarkers.res"
-
-// HYPNOTIZE CROSSHAIRS, CHECK RESOURCE/CROSSHAIRS/CROSSHAIR.RES FILE ON HOW TO ENABLE/EDIT
-#base "../resource/crosshairs/crosshair.res"
-
-// TEAM-COLORED X HITMARKER, UNCOMMENT BOTH SLASHES TO USE (ONLY ONE CAN BE ENABLED AT A TIME)
-//#base "../resource/ui/custom/x_hitmarker.res"
-
-//CIRCLE HITMARKER, UNCOMMENT BOTH SLASHES TO USE (ONLY ONE CAN BE ENABLED AT A TIME)
-//#base "../resource/ui/custom/circle_hitmarker.res"
-
-
-
+"#base"		"../resource/crosshairs/crosshair.res"
+"#base"		"../resource/ui/custom/master_hitmarkers.res"
 "Resource/HudLayout.res"
 {
 	"HudPlayerStatus"
@@ -19,8 +7,8 @@
 		"fieldName"		"HudPlayerStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"-10"
-		"ypos"			"rs1"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 	}
@@ -191,7 +179,7 @@
 	{
 		"fieldName"					"CHudAccountPanel"
 		"xpos"						"c-38"
-		"ypos"						"c68"
+		"ypos"						"c66"
 		"ypos_minbad"				"r134"
 		"zpos"						"1"
 		"wide"						"116"
@@ -526,17 +514,21 @@
 	}
 	"HudCloseCaption"
 	{
-		"xpos"										"c-400"
-		"xpos_minmode"								"c-35"
-		"ypos"										"r95"
-		"wide"										"150"
-		"tall"										"50"
-		"BgAlpha"									"64"
-		"GrowTime"									"0"
-		"ItemHiddenTime"							"0"
-		"ItemFadeInTime"							"0"
-		"ItemFadeOutTime"							"0.2"
-		"topoffset"									"0"
+		"fieldName"				"HudCloseCaption"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-250"
+		"ypos"					"276" [$WIN32]
+		"ypos"					"236" [$X360]
+		"wide"					"500"
+		"tall"					"136" [$WIN32]
+		"tall"					"176" [$X360]
+		"BgAlpha"				"128"
+		"GrowTime"				"0.25"
+		"ItemHiddenTime"		"0.2"
+		"ItemFadeInTime"		"0.15"
+		"ItemFadeOutTime"		"0.3"
+		"topoffset"				"0"
 	}
 	"HudHistoryResource"
 	{
@@ -639,8 +631,8 @@
 		"fieldName"		"HudVoiceSelfStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r42" [$WIN32]
-		"ypos"			"355" [$WIN32]
+		"xpos"			"c-210" [$WIN32]
+		"ypos"			"320" [$WIN32]
 		"xpos"			"r75" [$X360]
 		"ypos"			"375" [$X360]
 		"wide"			"32"
@@ -914,7 +906,7 @@
 		"enabled"			"1"
 		"xpos"				"c-44"
 		"xpos_minbad"		"r110"
-		"ypos"				"c74"
+		"ypos"				"c75"
 		"ypos_minbad"		"r30"
 		"wide"				"100"
 		"tall"				"500"
@@ -1079,7 +1071,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"50"
 	}
