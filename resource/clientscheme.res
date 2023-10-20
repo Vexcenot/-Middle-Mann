@@ -484,6 +484,23 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+//test font for improved health gained dont touch without asking tech
+		"HudFontMediumOutline"
+		{
+			"1"
+			{
+				"name"				"TF2 Secondary"
+				"tall"				"33"
+				"wide"				"33"
+				"tall_lodef"		"28"
+				"weight"			"500"
+				"additive"			"0"
+				"antialias"			"1"
+				"dropshadow"			"0"
+				"outline"			"0"
+
+			}
+		}
 		"Default"
 		{
 			"1"
