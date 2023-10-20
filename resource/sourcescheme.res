@@ -77,7 +77,7 @@ Scheme
 		RadioButton.SelectedTextColor	"TFTanLight"
 		RadioButton.ArmedTextColor	"TFTextMedium"
 		
-		Frame.BgColor					"46 43 42 250"
+		Frame.BgColor					"46 43 42 255"
 		Frame.OutOfFocusBgColor			"46 43 42 196"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
