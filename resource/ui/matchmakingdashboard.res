@@ -104,7 +104,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"xpos"			"0"
+			"xpos"			"-1"
 			"ypos"			"-1"
 			"zpos"			"100"
 			"wide"			"25"
@@ -153,7 +153,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"24"
+			"xpos"			"23"
 			"ypos"			"rs1-5"
 			"zpos"			"100"
 			"wide"			"o1"
