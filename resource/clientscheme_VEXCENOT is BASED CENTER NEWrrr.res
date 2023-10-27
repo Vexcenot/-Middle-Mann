@@ -4,7 +4,7 @@
 	{
 		"TanLight"				"235 226 202 255"
 		"Black"					"46 43 42 255"
-		"TransparentBlack"		"0 0 0 196"
+		"TransparentBlack"		"46 43 42 196"
 		"TanDark"				"117 107 94 255"
 		"StoreDarkTan"			"131 121 104 255"
 		"TargetHealth"			"0 253 31 255"
