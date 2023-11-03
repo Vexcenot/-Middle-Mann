@@ -535,7 +535,7 @@
 			{
 				"fieldName"				"RedVictoryContainer"
 				"ControlName"			"EditablePanel"
-				"xpos"					"-21"
+				"xpos"					"-24"
 				"ypos"					"22"
 				"zpos"					"5"
 				"wide"					"f0"
@@ -632,7 +632,7 @@
 				"xpos"					"105"
 				"ypos"					"0"
 				"zpos"					"2"
-				"wide"					"106"
+				"wide"					"105"
 				"tall"					"f0"
 				"scaleimage"			"0"
 				"positionImage"			"0"

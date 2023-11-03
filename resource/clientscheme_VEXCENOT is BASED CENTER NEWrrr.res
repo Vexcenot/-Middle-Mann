@@ -2,7 +2,7 @@
 {
 	"Colors"
 	{
-		"TanLight"				"235 226 202 255"
+		"TanLight"				"239 228 195 255"
 		"Black"					"46 43 42 255"
 		"TransparentBlack"		"46 43 42 196"
 		"TanDark"				"117 107 94 255"
