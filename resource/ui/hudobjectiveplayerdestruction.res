@@ -535,7 +535,7 @@
 			{
 				"fieldName"				"RedVictoryContainer"
 				"ControlName"			"EditablePanel"
-				"xpos"					"-24"
+				"xpos"					"-23"
 				"ypos"					"22"
 				"zpos"					"5"
 				"wide"					"f0"
