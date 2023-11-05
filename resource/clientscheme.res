@@ -54,7 +54,7 @@ Scheme
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
 		"BrightYellow"		"251 235 0 255"
-		//"Black"				"0 0 0 255"
+		//"Black"				"46 43 42 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 
@@ -490,8 +490,7 @@ Scheme
 			"1"
 			{
 				"name"				"TF2 Secondary"
-				"tall"				"34"
-				"wide"				"34"
+				"tall"				"36"
 				"tall_lodef"		"28"
 				"weight"			"500"
 				"additive"			"0"
@@ -2107,7 +2106,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"8"
+				"tall"		"5"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
