@@ -5,13 +5,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-244"
-		"xpos_minbad"	"c-290"
-		"ypos"			"80"
+		"xpos"			"0"
+		"xpos_minbad"	"0"
+		"ypos"			"0"
 		"ypos_minbad"	"r100"
 		"zpos"			"1000"
-		"wide"			"580"
-		"tall"			"400"
+		"wide"			"9999"
+		"tall"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"	"0"
@@ -32,8 +32,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"suckmydickvalve"
-		"xpos"	"90"
-		"ypos"	"c125"
+		"xpos"	"212"
+		"ypos"	"c-40"
 		"wide"	"0"
 		"tall"	"0"
 		"visible"	"1"
@@ -44,8 +44,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"33"
-		"ypos"			"356"
+		"xpos"			"216"
+		"ypos"			"437"
 		"zpos"			"4"
 		"wide"			"14"
 		"tall"			"15"
@@ -57,9 +57,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"30"
-		"xpos_minbad"	"30"
-		"ypos"			"353"
+		"xpos"			"213"
+		"ypos"			"434"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"21"
@@ -72,8 +71,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"40"
-		"ypos"			"354"
+		"xpos"			"c-205"
+		"ypos"			"433"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"50"
@@ -88,8 +87,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"-5"
-		"ypos"			"-7"
+		"xpos"			"-4"
+		"ypos"			"-8"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"40"
@@ -105,9 +104,9 @@
 		{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"-60"
+		"xpos"			"c-305"
+		"ypos"			"405"
 		"xpos_minbad"	"28"
-		"ypos"			"325"
 		"ypos_minbad"	"7"
 		"zpos"			"1"
 		"wide"			"300"
@@ -120,14 +119,6 @@
 		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
-	}
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"wide"			"0"
-		"tall"			"0"
-		"scaleImage"	"1"
 	}
 	"PlayerStatusBleedImage"
 	{
@@ -358,17 +349,18 @@
 		"pin_to_sibling" "suckmydickvalve"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"120"
+		"ypos"			"-170"
 		"zpos"			"7"
-		"wide"			"23"
-		"tall"			"23"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
+
 
 	"PlayerStatus_SoldierOffenseBuff"
 	{
@@ -698,7 +690,7 @@
 		"zpos"			"5"
 		"wide"			"90"
 		"tall"			"50"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"LOW HEALTH"
 		"textAlignment"	"center"
@@ -714,7 +706,7 @@
 		"zpos"			"5"
 		"wide"			"90"
 		"tall"			"50"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"LOW HEALTH"
 		"textAlignment"	"center"
@@ -722,5 +714,17 @@
 		"fgcolor"		"0 0 0 0"
 		"pin_to_sibling"	"LowHpLabel"
 	}
-
+		"PlayerStatusHealthBonusImage"
+	{
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/ow_overheal"
+		"scaleImage"	"1"
+	}
 }
