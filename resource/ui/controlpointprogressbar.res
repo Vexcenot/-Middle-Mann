@@ -21,8 +21,8 @@
 		"xpos"    "cs-0.5"
 		"ypos"		"c210" //c-60 for crosshair centered c-30 for upper right
 		"zpos"		"0"
-		"wide"		"22"
-		"tall"		"22"
+		"wide"		"25"
+		"tall"		"25"
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
