@@ -100,7 +100,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"237 225 202 255"
+		"TanLight"				"239 225 201 255"
 		"TanDarker"				"46 43 42 255"
 
 		"StoreDarkTan"			"131 121 104 255"
