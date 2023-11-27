@@ -1,5 +1,5 @@
 "Resource/UI/MvMScoreboard.res"
-{		
+{
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
@@ -11,10 +11,10 @@
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"verbose"			"1"
 	}
-	
+
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -33,12 +33,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
-		"ypos"			"30"
+		"xpos"			"475"
+		"ypos"			"17"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		
+
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -52,7 +52,7 @@
 			"tall"			"10"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
@@ -67,7 +67,7 @@
 			"fgcolor"		"tanlight"
 		}
 	}
-	
+
 	"PlayerListBackground"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -77,19 +77,19 @@
 		"zpos"			"-1"
 		"wide"			"550"
 		"tall"			"150"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/tournament_panel_brown"
-		
+
 		"scaleImage"		"1"
-		
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
-	
+
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
@@ -106,7 +106,7 @@
 		"linespacing"	"22"
 		"textcolor"		"White"
 	}
-	
+
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -116,7 +116,7 @@
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
-		
+
 		"CreditStatsBackground"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -128,17 +128,17 @@
 			"tall"			"135"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
+
 			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
-		
+
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -152,7 +152,7 @@
 			"tall"			"25"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -164,7 +164,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -176,7 +176,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -188,7 +188,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
