@@ -687,6 +687,8 @@
 		"if_specialdelivery"
 		{
 			"ypos"		"r80"
+			"xpos"			"cs-0.7"
+
 		}
 
 		"if_no_flags"
@@ -731,6 +733,7 @@
 		"if_specialdelivery"
 		{
 			"ypos"		"r80"
+			"xpos"			"cs-0.7"
 		}
 
 		"if_no_flags"

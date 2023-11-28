@@ -22,9 +22,9 @@
 		"HudOffWhite"			"200 187 161 255"
 		"HudBlack"				"16 16 16 230"
 		"TFOrange"				"145 73 59 255"
-		"G_TeamBlue"			"98 122 150 210"
+		"G_TeamBlue"			"100 122 150 210"
 		"G_TeamBlueBG"			"58 78 89 255"
-		"G_TeamRed"				"171 55 55 210"
+		"G_TeamRed"				"167 65 65 230"
 		"G_TeamRedBG"			"97 29 29 255"
 		"G_Shadow"				"0 0 0 250"
 		"G_White"				"255 255 255 255"
@@ -461,7 +461,19 @@
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"20"
+				"tall"			"27"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		"FontBold21Outline"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"38"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
