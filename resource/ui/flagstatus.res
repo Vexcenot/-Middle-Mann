@@ -45,7 +45,15 @@
 		}
 		"if_specialdelivery"
 		{
+		"xpos"	"60"
+		"ypos"	"34"
+		"zpos"	"3"
+		"wide"	"27"
+		"tall"	"27"
 			"visible"		"1"
+					"enabled"		"1"
+		"image"			"../hud/ico_missions"
+\
 		}
 	}
 	"StatusIcon"
@@ -68,8 +76,14 @@
 		}
 		"if_specialdelivery"
 		{
-			"visible"		"0"
-					"enabled"		"0"
+		"xpos"	"60"
+		"ypos"	"34"
+		"zpos"	"3"
+		"wide"	"27"
+		"tall"	"27"
+			"visible"		"1"
+					"enabled"		"1"
+		"image"			"../hud/ico_missions"
 		}
 	}
 }
