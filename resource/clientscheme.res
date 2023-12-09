@@ -994,7 +994,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"24"
+				"tall"		"23"
 				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
@@ -2094,7 +2094,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"12"
+				"tall"		"11"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
