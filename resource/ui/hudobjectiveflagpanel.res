@@ -65,6 +65,10 @@
 		{
 			"visible"		"0"
 		}
+"if_hybrid"
+{
+    "visible"    "0"
+}
 	}
 	"G_BluePanelTOP"
 	{
@@ -384,6 +388,10 @@
 		{
 			"visible"		"0"
 		}
+"if_hybrid"
+{
+    "visible"    "0"
+}
 	}
 
 	"G_RedPanel_BG"
@@ -676,7 +684,7 @@
 
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"			"cs-0.72"
 		}
 
 		"if_hybrid_double"
@@ -722,7 +730,7 @@
 
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"			"cs-0.72"
 		}
 
 		"if_hybrid_double"
