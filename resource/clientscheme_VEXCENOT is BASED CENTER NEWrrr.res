@@ -1237,6 +1237,24 @@
 				"antialias"									"1"
 			}
 		}
+		"TF2 Icons18"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"18"
+				"antialias"									"1"
+			}
+		}
+		"TF2 Icons20"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"20"
+				"antialias"									"1"
+			}
+		}
 	}
 	"CustomFontFiles"
 	{
