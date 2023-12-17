@@ -44,7 +44,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"216"
+		"xpos"			"c-211"
 		"ypos"			"437"
 		"zpos"			"4"
 		"wide"			"14"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"213"
+		"xpos"			"c-214"
 		"ypos"			"434"
 		"zpos"			"3"
 		"wide"			"20"
