@@ -24,7 +24,7 @@
 		"TFOrange"				"145 73 59 255"
 		"G_TeamBlue"			"101 121 140 210"
 		"G_TeamBlueBG"			"58 78 89 255"
-		"G_TeamRed"				"162 61 60 240"
+		"G_TeamRed"				"164 65 62 238"
 		"G_TeamRedBG"			"97 29 29 255"
 		"G_Shadow"				"0 0 0 250"
 		"G_White"				"255 255 255 255"
