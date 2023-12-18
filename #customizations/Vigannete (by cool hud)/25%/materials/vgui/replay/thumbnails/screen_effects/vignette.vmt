@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/screen_effects/vignette"
+	"$translucent" 1
+}
+

@@ -2,8 +2,8 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"				"522"
-		"ypos"				"r107"
+		"xpos"				"c90"
+		"ypos"				"r97"
 		"xpos_minmode"		"138"
 		"ypos_minmode"		"r164"
 		"zpos"				"-2"

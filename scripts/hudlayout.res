@@ -2,6 +2,20 @@
 "#base"		"../resource/ui/custom/master_hitmarkers.res"
 "Resource/HudLayout.res"
 {
+		"Vignette"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"Vignette"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"-999"
+		"wide"						"f0"
+		"tall"						"480"
+		"image"						"replay/thumbnails/screen_effects/vignette"
+		"scaleImage"				"1"
+		"enabled"					"0"
+		"visible"					"1"
+	}
 	"HudPlayerStatus"
 	{
 		"fieldName"		"HudPlayerStatus"

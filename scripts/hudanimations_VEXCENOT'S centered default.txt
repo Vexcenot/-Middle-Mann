@@ -285,24 +285,24 @@ event HudHealthDyingPulseStop
 //shaky shaky AMMOY
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
-	Animate AmmoInClip					FgColor		"TanLight"			Linear 0.0 0.075
-	Animate AmmoInClip					FgColor		"255 100 100 255"	Linear 0.125 0.075
+//	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0 0.075
+//	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
+//	Animate AmmoInClip					FgColor		"TanLight"			Linear 0.0 0.075
+//	Animate AmmoInClip					FgColor		"255 100 100 255"	Linear 0.125 0.075
 // ORINAL v
-	Animate AmmoInClip					Position	"-1 58"				Linear 0.0 0.1
+//	Animate AmmoInClip					Position	"-1 58"				Linear 0.0 0.1
 // END ^
 //	Animate AmmoInClip					Position	"-3 7"				Pulse 1.0 0.2 1.0
-	Animate AmmoInReserve				FgColor		"TanLight"			Linear 0.0 0.075
-	Animate AmmoInReserve				FgColor		"255 20 20 255"		Linear 0.125 0.075
+//	Animate AmmoInReserve				FgColor		"TanLight"			Linear 0.0 0.075
+//	Animate AmmoInReserve				FgColor		"255 20 20 255"		Linear 0.125 0.075
 // ORINAL v
-	Animate AmmoInReserve				Position	"88 66"				Linear 0.0 0.1
+//	Animate AmmoInReserve				Position	"88 66"				Linear 0.0 0.1
 // END ^
-	Animate AmmoInReserve				Position	"88 66"				Pulse 1.0 0.2 1.0
-	Animate AmmoNoClip					FgColor		"TanLight"			Linear 0.0 0.075
-	Animate AmmoNoClip					FgColor		"255 100 100 255"	Linear 0.125 0.075
-	Animate AmmoNoClip					Position	"28 58"				Linear 0.0 0.1
-	Animate AmmoNoClip					Position	"28 58"				Pulse 1.0 0.2 1.0
+//	Animate AmmoInReserve				Position	"88 66"				Pulse 1.0 0.2 1.0
+//	Animate AmmoNoClip					FgColor		"TanLight"			Linear 0.0 0.075
+//	Animate AmmoNoClip					FgColor		"255 100 100 255"	Linear 0.125 0.075
+//	Animate AmmoNoClip					Position	"28 58"				Linear 0.0 0.1
+//	Animate AmmoNoClip					Position	"28 58"				Pulse 1.0 0.2 1.0
 
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
