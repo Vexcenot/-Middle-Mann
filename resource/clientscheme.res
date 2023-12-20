@@ -490,7 +490,7 @@ Scheme
 			"1"
 			{
 				"name"				"TF2 Secondary"
-				"tall"				"36"
+				"tall"				"38"
 				"tall_lodef"		"28"
 				"weight"			"500"
 				"additive"			"0"
