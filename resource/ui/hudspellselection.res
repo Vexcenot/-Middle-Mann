@@ -8,13 +8,13 @@
 		"ypos_minmode"		"r164"
 		"zpos"				"-2"
 
-		"if_killstreak_visible"
-		{
-			"xpos"			"522"
-			"ypos"			"r107"
-			"xpos_minmode"	"135"
-			"ypos_minmode"	"r197"
-		}
+		//"if_killstreak_visible"
+		//{
+		//	"xpos"			"522"
+		//	"ypos"			"r107"
+		//	"xpos_minmode"	"135"
+		//	"ypos_minmode"	"r197"
+		//}
 	}
 			
 	"ItemEffectMeterBG"
