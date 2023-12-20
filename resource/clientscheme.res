@@ -922,7 +922,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"44"
+				"tall"		"43"
 				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
