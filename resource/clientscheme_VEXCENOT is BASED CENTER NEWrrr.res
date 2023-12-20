@@ -24,7 +24,7 @@
 		"TFOrange"				"145 73 59 255"
 		"G_TeamBlue"			"101 121 140 210"
 		"G_TeamBlueBG"			"58 78 89 255"
-		"G_TeamRed"				"164 65 62 238"
+		"G_TeamRed"				"164 65 62 235"
 		"G_TeamRedBG"			"97 29 29 255"
 		"G_Shadow"				"0 0 0 250"
 		"G_White"				"255 255 255 255"
@@ -322,6 +322,30 @@
 	}
 	"Fonts"
 	{
+		"HudFontMediumBoldDAMAGE"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontMediumSmallDAMAGE"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"18"
+				"tall_hidef"	"24"
+				"tall_lodef"	"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontGiantBold"
 		{
 			"1"
@@ -424,7 +448,7 @@
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"33"
+				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -578,8 +602,8 @@
 			"1"
 			{
 				"name"				"TF2 Build"
-				"tall"				"23"
-				"wide"				"23"
+				"tall"				"22"
+				"wide"				"22"
 				"tall_lodef"		"28"
 				"weight"			"500"
 				"additive"			"1"

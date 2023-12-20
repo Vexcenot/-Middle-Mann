@@ -7,7 +7,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"					"c-370"
-		"ypos"					"r220"
+		"ypos"					"r250"
 		"wide"					"220"
 		"tall"					"100"
 		"PaintBackgroundType"	"0"
