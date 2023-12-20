@@ -333,6 +333,18 @@
 				"antialias" "1"
 			}
 		}
+		"HudFontGiantBoldStats"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"43"
+				"tall_lodef"	"52"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontMediumSmallDAMAGE"
 		{
 			"1"
