@@ -857,7 +857,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"visible_lodef"	"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
 		"font"			"MenuMainTitle"
@@ -1657,11 +1657,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"c-200"
-		"ypos"			"c-208"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"		
-		"wide"			"480"
-		"tall"			"480"
+		"wide"			"f0"
+		"tall"			"f0"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1669,7 +1669,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"18"
+		"fov"			"30"
 		"allow_rot"		"1"
 
 		"paintbackground" "1"		
@@ -1680,12 +1680,12 @@
 		{
 			"force_pos"	"1"
 
-			"angles_x" "-4"
-			"angles_y" "172"
+			"angles_x" "-5"
+			"angles_y" "176"
 			"angles_z" "0"
-			"origin_x" "330"
-			"origin_y" "6"
-			"origin_z" "-49"
+			"origin_x" "320"
+			"origin_y" "-5"
+			"origin_z" "-59"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
