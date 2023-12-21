@@ -291,7 +291,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"MainBG2"
 		"xpos"			"2"
-		"ypos"			"63"
+		"ypos"			"62"
 		"xpos_//minmode"			"0"
 		"ypos_//minmode"			"150"
 		"zpos"			"0"
