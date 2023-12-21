@@ -839,30 +839,6 @@
 		"Command"		"resetclass"
 		"font"			"HudFontSmallBold"
 	}
-
-	"ClassMenuSelect"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassMenuSelect"
-		"xpos"			"c-79"
-		"xpos_lodef"			"62"
-		"xpos_hidef"			"72"
-		"ypos"			"r230"
-		"ypos_lodef"			"r60"
-		"ypos_hidef"			"r54"
-		"zpos"			"-1"
-		"wide"			"250"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"visible_lodef"	"0"
-		"enabled"		"0"
-		"labelText"		"#TF_SelectAClass"
-		"textAlignment"	"west"
-		"font"			"MenuMainTitle"
-		"fgcolor"		"HudOffWhite"
-	}
 	
 	"MenuActualBG"
 	{
@@ -1684,7 +1660,7 @@
 			"angles_y" "176"
 			"angles_z" "0"
 			"origin_x" "320"
-			"origin_y" "-5"
+			"origin_y" "-2"
 			"origin_z" "-59"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
