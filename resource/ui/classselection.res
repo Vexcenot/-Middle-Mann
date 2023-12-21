@@ -844,7 +844,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
-		"xpos"			"c-270"
+		"xpos"			"c-265"
 		"xpos_lodef"			"62"
 		"xpos_hidef"			"72"
 		"ypos"			"r40"
