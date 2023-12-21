@@ -80,7 +80,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBoldSTATSSTATS"
+		"font"			"HudFontGiantBoldSTATS"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusHealthValueShadow"
