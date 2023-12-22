@@ -34,7 +34,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"c-260"
+		"xpos"				"c-150"
 		"xpos_lodef"				"c-360"
 		"xpos_hidef"				"c-360"
 		"ypos"			"r101"
@@ -84,10 +84,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"22"
 			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
+			"wide"			"45"
+			"tall"			"90"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_random_inactive"
@@ -766,7 +766,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"EditLoadoutButton"
-		"xpos"			"c-150"
+		"xpos"			"c100"
 		"ypos"			"r70"
 		"zpos"				"6"
 		"wide"				"90"
@@ -808,11 +808,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"9"
-			"ypos"			"3"
+			"xpos"			"12"
+			"ypos"			"23"
 			"zpos"			"7"
-			"wide"			"43"
-			"tall"			"43"
+			"wide"			"33"
+			"tall"			"33"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"..\hud\backpack_01"
@@ -1018,13 +1018,26 @@
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 	}
-	
+	"team count"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"team count"
+		"xpos"	"c15"
+		"ypos"	"r120"
+		"wide"	"0"
+		"tall"	"0"
+		"visible"	"1"
+		"enabled"	"1"
+	}
 	"countImage0" [$WIN32]
 	{
+			"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
-		"xpos"			"c80"
-		"ypos"			"415"
+		"xpos"			"-130"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1036,10 +1049,13 @@
 	
 	"countImage1" [$WIN32]
 	{
+			"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
-		"xpos"			"c105"
-		"ypos"			"415"
+		"xpos"			"-105"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1051,10 +1067,13 @@
 	
 	"countImage2" [$WIN32]
 	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
-		"xpos"			"c130"
-		"ypos"			"415"
+		"xpos"			"-80"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1066,10 +1085,13 @@
 	
 	"countImage3" [$WIN32]
 	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
-		"xpos"			"c155"
-		"ypos"			"415"
+		"xpos"			"-55"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1081,10 +1103,13 @@
 	
 	"countImage4" [$WIN32]
 	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
-		"xpos"			"c180"
-		"ypos"			"415"
+		"xpos"			"-30"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1096,10 +1121,13 @@
 	
 	"countImage5" [$WIN32]
 	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
-		"xpos"			"c205"
-		"ypos"			"415"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1111,10 +1139,13 @@
 	
 	"countImage6" [$WIN32]
 	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
-		"xpos"			"c230"
-		"ypos"			"415"
+		"xpos"			"30"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1126,10 +1157,13 @@
 	
 	"countImage7" [$WIN32]
 	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
-		"xpos"			"c255"
-		"ypos"			"415"
+		"xpos"			"55"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1141,10 +1175,13 @@
 	
 	"countImage8" [$WIN32]
 	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
-		"xpos"			"c280"
-		"ypos"			"415"
+		"xpos"			"80"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1156,10 +1193,13 @@
 	
 	"countImage9" [$WIN32]
 	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
-		"xpos"			"c305"
-		"ypos"			"415"
+		"xpos"			"105"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1171,10 +1211,13 @@
 	
 	"countImage10" [$WIN32]
 	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
-		"xpos"			"c330"
-		"ypos"			"415"
+		"xpos"			"130"
+		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1657,10 +1700,10 @@
 			"force_pos"	"1"
 
 			"angles_x" "-5"
-			"angles_y" "176"
+			"angles_y" "174"
 			"angles_z" "0"
 			"origin_x" "320"
-			"origin_y" "-2"
+			"origin_y" "-1"
 			"origin_z" "-59"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
