@@ -1029,13 +1029,13 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
-	"countImage0" [$WIN32]
+	"countImage9" [$WIN32]
 	{
 			"pin_to_sibling" "team count"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage0"
+		"fieldName"		"countImage9"
 		"xpos"			"-130"
 		"ypos"			"0"
 		"zpos"			"9"
@@ -1047,13 +1047,13 @@
 		"scaleImage"	"1"	
 	}							
 	
-	"countImage1" [$WIN32]
+	"countImage7" [$WIN32]
 	{
 			"pin_to_sibling" "team count"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage1"
+		"fieldName"		"countImage7"
 		"xpos"			"-105"
 		"ypos"			"0"
 		"zpos"			"9"
@@ -1065,13 +1065,13 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage2" [$WIN32]
+	"countImage5" [$WIN32]
 	{
 				"pin_to_sibling" "team count"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage2"
+		"fieldName"		"countImage5"
 		"xpos"			"-80"
 		"ypos"			"0"
 		"zpos"			"9"
@@ -1101,13 +1101,13 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage4" [$WIN32]
+	"countImage1" [$WIN32]
 	{
 				"pin_to_sibling" "team count"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage4"
+		"fieldName"		"countImage1"
 		"xpos"			"-30"
 		"ypos"			"0"
 		"zpos"			"9"
@@ -1119,14 +1119,50 @@
 		"scaleImage"	"1"	
 	}
 	
-	"countImage5" [$WIN32]
+	"countImage0" [$WIN32]
 	{
 				"pin_to_sibling" "team count"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage5"
+		"fieldName"		"countImage0"
 		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage2" [$WIN32]
+	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage2"
+		"xpos"			"30"
+		"ypos"			"0"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage4" [$WIN32]
+	{
+				"pin_to_sibling" "team count"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage4"
+		"xpos"			"55"
 		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1144,25 +1180,7 @@
 		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
-		"xpos"			"30"
-		"ypos"			"0"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
-	}
-	
-	"countImage7" [$WIN32]
-	{
-				"pin_to_sibling" "team count"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage7"
-		"xpos"			"55"
+		"xpos"			"80"
 		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1180,24 +1198,6 @@
 		"pin_to_sibling_corner" "1"
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
-		"xpos"			"80"
-		"ypos"			"0"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
-	}
-	
-	"countImage9" [$WIN32]
-	{
-				"pin_to_sibling" "team count"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage9"
 		"xpos"			"105"
 		"ypos"			"0"
 		"zpos"			"9"
