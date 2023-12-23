@@ -65,6 +65,10 @@
 		{
 			"visible"		"0"
 		}
+				"if_no_flags"
+		{
+			"visible"	"0"
+		}
 "if_hybrid"
 {
     "visible"    "0"
@@ -96,6 +100,10 @@
 		{
 			"visible"		"0"
 		}
+				"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 	"G_BluePanelBOTTOM"
 	{
@@ -122,6 +130,10 @@
 		"if_specialdelivery"
 		{
 			"visible"		"0"
+		}
+				"if_no_flags"
+		{
+			"visible"	"0"
 		}
 	}
 	"G_BluePanelRIGHT"
@@ -150,6 +162,10 @@
 		{
 			"visible"		"0"
 		}
+				"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 	"G_BluePanelLEFT"
 	{
@@ -176,6 +192,10 @@
 		"if_specialdelivery"
 		{
 			"visible"		"0"
+		}
+				"if_no_flags"
+		{
+			"visible"	"0"
 		}
 	}
 	"G_redPanelTOP"
@@ -204,6 +224,10 @@
 		{
 			"visible"		"0"
 		}
+				"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 	"G_redPanelBOTTOM"
 	{
@@ -230,6 +254,10 @@
 		"if_specialdelivery"
 		{
 			"visible"		"0"
+		}
+				"if_no_flags"
+		{
+			"visible"	"0"
 		}
 	}
 	"G_redPanelRIGHT"
@@ -258,6 +286,10 @@
 		{
 			"visible"		"0"
 		}
+				"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 	"G_redPanelLEFT"
 	{
@@ -285,6 +317,10 @@
 		{
 			"visible"		"0"
 		}
+				"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 	"G_BluePanel_BG"
 	{
@@ -309,6 +345,10 @@
 		"if_specialdelivery"
 		{
 			"visible"		"0"
+		}
+				"if_no_flags"
+		{
+			"visible"	"0"
 		}
 	}
 
@@ -388,6 +428,10 @@
 		{
 			"visible"		"0"
 		}
+				"if_no_flags"
+		{
+			"visible"	"0"
+		}
 "if_hybrid"
 {
     "visible"    "0"
@@ -418,6 +462,10 @@
 		{
 			"visible"		"0"
 		}
+				"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"RightSideBG"
@@ -445,6 +493,10 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+				"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -478,6 +530,10 @@
 		{
 			"visible"	"0"
 		}
+				"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"BlueScore"
@@ -508,6 +564,10 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+				"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -559,6 +619,10 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+				"if_no_flags"
 		{
 			"visible"	"0"
 		}
