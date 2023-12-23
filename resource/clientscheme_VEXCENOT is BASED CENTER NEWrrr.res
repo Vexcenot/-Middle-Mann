@@ -28,9 +28,45 @@
 		"G_TeamRedBG"			"97 29 29 255"
 		"G_Shadow"				"0 0 0 250"
 		"G_White"				"255 255 255 255"
+		"MenuButton"			"71 66 59 255"
+				"LabelDark"			"48 43 42 255"
+		
 	}
 	"Borders"
 	{
+		"MainMenuSubButtonBorder"
+		{
+			"inset"		"0 0 1 1"
+			"Left"
+			{
+				"1"
+				{
+					"color"			"TanDarker"
+					"offset"		"0 1"
+				}
+			}
+			"Right"
+			{
+				"1"
+				{
+					"color"			"TanDarker"
+					"offset"		"1 0"
+				}
+			}
+		}
+		"MainMenuSubButtonBorder2"
+		{
+			"inset"		"0 0 0 0"
+			"Left"
+			{
+				"1"
+				{
+					"color"			"TanDarker"
+					"offset"		"1 0"
+				}
+			}
+		}
+
 		"MainMenuHighlightBorder"
 		{
 			"bordertype"				"scalable_image"
