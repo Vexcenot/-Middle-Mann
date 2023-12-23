@@ -431,8 +431,8 @@
 		"fieldName"						"HudDeathNotice"
 		"visible"						"1"
 		"enabled"						"1"
-		//"xpos"							"c-210"
-						"xpos"	 "r640"	[$WIN32]
+		"xpos"							"c-210"
+						//"xpos"	 "r640"	[$WIN32]
 		"ypos"							"23"
 		"wide"							"628"
 		"tall"							"468"

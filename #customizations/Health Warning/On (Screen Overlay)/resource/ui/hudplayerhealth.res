@@ -80,7 +80,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontGiantBoldStats"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -96,7 +96,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontGiantBoldstats"
 		"fgcolor"		"Black"
 		pin_to_sibling 	"PlayerStatusHealthValue"
 	}

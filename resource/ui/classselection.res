@@ -1707,6 +1707,102 @@
 				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
 			}				
 		}
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+			"fov"  		"35"
+			"angles_x" "-5"
+			"angles_y" "174"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "-1"
+			"origin_z" "-59"
+			}
+			"Sniper"
+			{
+			"fov"  		"35"
+			"angles_x" "-5"
+			"angles_y" "174"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "-1"
+			"origin_z" "-59"
+			}
+			"Soldier"
+			{
+			"fov"  		"35"
+			"angles_x" "-5"
+			"angles_y" "174"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "-1"
+			"origin_z" "-59"
+			}
+			"Demoman"
+			{
+			"fov"  		"35"
+			"angles_x" "-5"
+			"angles_y" "174"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "-1"
+			"origin_z" "-59"
+			}
+			"Medic"
+			{
+			"fov"  		"35"
+			"angles_x" "-5"
+			"angles_y" "174"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "-1"
+			"origin_z" "-59"
+			}
+			"Heavy"
+			{
+			"fov"  		"35"
+			"angles_x" "-5"
+			"angles_y" "174"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "-1"
+			"origin_z" "-59"
+			}
+			"Pyro"
+			{
+			"fov"  		"35"
+			"angles_x" "-5"
+			"angles_y" "174"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "-1"
+			"origin_z" "-59"
+			}
+			"Spy"
+			{
+			"fov"  		"35"
+			"angles_x" "-5"
+			"angles_y" "174"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "-1"
+			"origin_z" "-59"
+			}
+			"Engineer"
+			{
+			"fov"  		"35"
+			"angles_x" "-5"
+			"angles_y" "174"
+			"angles_z" "0"
+			"origin_x" "320"
+			"origin_y" "-1"
+			"origin_z" "-59"
+			}
+		}
 	}
 	
 	"ClassTipsPanel"

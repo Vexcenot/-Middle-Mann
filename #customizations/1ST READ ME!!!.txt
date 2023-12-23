@@ -12,3 +12,6 @@
 // that's pretty much it.
 //===================================================================================================================================
 
+
+
+Customizations with  ★  in the name aren't compatible with each other.
