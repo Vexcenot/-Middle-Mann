@@ -316,17 +316,17 @@ event HudLowAmmoPulseLoop
 event HudLowAmmoPulseStop
 {
 // stoppy stop AMMOY
-	StopEvent HudLowAmmoPulse 0.0
-	StopEvent HudLowAmmoPulseLoop 0.0
-	Animate 	AmmoInClip			FgColor		"TanLight"			Linear 0.0 0.0
-	Animate		AmmoInClip			Position	"-1 58"				Linear 0.0 0.0
-	Animate 	AmmoInReserve		FgColor		"TanLight"			Linear 0.0 0.0
+//	StopEvent HudLowAmmoPulse 0.0
+//	StopEvent HudLowAmmoPulseLoop 0.0
+//	Animate 	AmmoInClip			FgColor		"TanLight"			Linear 0.0 0.0
+//	Animate		AmmoInClip			Position	"-1 58"				Linear 0.0 0.0
+//	Animate 	AmmoInReserve		FgColor		"TanLight"			Linear 0.0 0.0
 //	Animate		AmmoInReserve		Position	"88 66"				Linear 0.0 0.0
-	Animate 	AmmoNoClip			FgColor		"TanLight"			Linear 0.0 0.0
+//	Animate 	AmmoNoClip			FgColor		"TanLight"			Linear 0.0 0.0
 // original pos V
-	Animate 	AmmoNoClip			Position	"28 58"				Linear 0.0 0.0
-	Animate		HudWeaponAmmoBGWhiteGlow	Alpha "150"				Linear 0.2 0.0
-	Animate		HudWeaponAmmoBGWhiteGlow	Alpha "0"				Pulse 1.0 0.2 0.5
+//	Animate 	AmmoNoClip			Position	"28 58"				Linear 0.0 0.0
+//	Animate		HudWeaponAmmoBGWhiteGlow	Alpha "150"				Linear 0.2 0.0
+//	Animate		HudWeaponAmmoBGWhiteGlow	Alpha "0"				Pulse 1.0 0.2 0.5
 }
 
 //===========================================
@@ -349,8 +349,8 @@ event AccountMoneyRemoved
 	Animate HudAccount		FgColor	"HudIcon_Red" Linear 0.0 0.0001
 	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
 
-	Animate	HudAccount		Ammo2Color "HudIcon_Red" Linear 0.0 0.0001
-	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
+//	Animate	HudAccount		Ammo2Color "HudIcon_Red" Linear 0.0 0.0001
+//	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
 }
 
 //activecolor - instantly turn green, fade back to yellow
@@ -359,14 +359,14 @@ event AccountMoneyAdded
 	Animate HudAccount		FgColor	"HudIcon_Green" Linear 0.0 0.0001
 	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
 
-	Animate HudAccount		Ammo2Color "HudIcon_Green" Accel 0.0 0.0001
-	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
+//	Animate HudAccount		Ammo2Color "HudIcon_Green" Accel 0.0 0.0001
+//	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
 }
 
 event AccountMoneyInvisible
 {
 	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 0.0001
-	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 0.0001
+//	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 0.0001
 }
 
 //===========================================
