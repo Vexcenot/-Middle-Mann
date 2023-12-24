@@ -165,6 +165,19 @@
 	}
 	"Fonts"
 	{
+		"AdvSettings+"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"14"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+				"name"			"Segoe UI" [$WINDOWS]
+				"name"			"Helvetica" [$POSIX]
+			}
+		}
 		"HudFontSmallBold"
 		{
 			"1"
