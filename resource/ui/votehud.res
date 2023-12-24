@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"border"		"SteamWorkshopBorder"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 150"
+		"bgcolor_override"	"46 43 42 220"
 				
 		"PassedIcon"
 		{
@@ -80,7 +80,7 @@
 		"enabled"		"1"
 		"border"		"SteamWorkshopBorder"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 150"
+		"bgcolor_override"	"46 43 42 220"
 		
 		"Header"
 		{
@@ -179,7 +179,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"88 119 140 220"
 			"visible"		"1"
 		}
 		
@@ -230,7 +230,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"88 119 140 220"
 			"visible"		"1"
 		}
 		
@@ -281,7 +281,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"88 119 140 220"
 			"visible"		"0"
 		}
 		
@@ -313,7 +313,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"88 119 140 220"
 			"visible"		"0"
 		}
 		
@@ -345,7 +345,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"88 119 140 220"
 			"visible"		"0"
 		}
 		
@@ -413,7 +413,7 @@
 		"enabled"		"1"
 		"border"		"SteamWorkshopBorder"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 150"
+		"bgcolor_override"	"46 43 42 220"
 				
 		"FailedIcon"
 		{
@@ -481,7 +481,7 @@
 		"enabled"		"1"
 		"border"		"SteamWorkshopBorder"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 150"
+		"bgcolor_override"	"46 43 42 220"
 				
 		"FailedIcon"
 		{
@@ -552,7 +552,7 @@
 		"settitlebarvisible"	"0"
 		"border"		"SteamWorkshopBorder"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 150"
+		"bgcolor_override"	"46 43 42 220"
 
 		"header_font"		"ItemFontNameLarge"
 		"header_fgcolor"	"Orange"
