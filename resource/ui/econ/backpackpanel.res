@@ -229,7 +229,7 @@
 		"textAlignment"								"west"
 		"textinsetx"								"3"
 		"labeltext"									"q"
-		"font"										"TFIcons"
+		"font"										"TF2 Icons"
 		"fgcolor"									"White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
