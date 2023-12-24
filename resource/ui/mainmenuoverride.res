@@ -1,4 +1,4 @@
-// used for preloading custom TFIcons and whatnot
+// used for preloading custom icons and whatnot
 #base "custom/preload.res"
 "Resource/UI/MainMenuOverride.res"
 {
