@@ -687,7 +687,7 @@
 		{
 			"1"
 			{
-				"name"				"FuturaStd-Heavy"
+				"name"				"TF2 Secondary"
 				"tall"				"18"
 				"tall_hidef"		"24"
 				"tall_lodef"		"20"
