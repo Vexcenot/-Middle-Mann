@@ -3026,8 +3026,9 @@
 				"dropshadow"	"1"
 			}
 		}
+	}
 
-    CustomFontFiles
+    "CustomFontFiles"
 	{
 		"1" "resource/fonts/tf.ttf"
 		"2" "resource/fonts/tfd.ttf"
@@ -3191,6 +3192,7 @@
 				"range" "0x0000 0xFFFF"
 			}
 		}
+
 		"11"
 		{
 			"font"		"resource/fonts/ToonHUD Montserrat.ttf"
@@ -3201,6 +3203,7 @@
 			"font"		"resource/fonts/TF2 Icons.ttf"
 			"name"		"TF2 Icons"
 		}
-		}
 	}
 }
+
+
