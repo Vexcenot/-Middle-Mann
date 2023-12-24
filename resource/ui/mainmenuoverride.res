@@ -1,4 +1,6 @@
-
+	#base "../../_defaulthud/resource/ui/custom/preload.res"
+	#base "../../_statichud/resource/preload.res"
+    #base "custom/preload.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
