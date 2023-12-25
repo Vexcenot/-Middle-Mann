@@ -152,7 +152,7 @@
 		"xpos"			"32"
 		"xpos_hidef"	"2"
 		"xpos_lodef"	"2"
-		"ypos"			"62"
+		"ypos"			"61"
 		"ypos_hidef"	"4"
 		//"ypos_lodef"	"4"
 		"zpos"			"5"

@@ -2,6 +2,135 @@
 // describes all the border types
 Borders
 	{
+	//lion hud main menu borders 
+			"MainMenuHighlightBorder"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"image"						"callout_bubble"
+			"src_corner_height"			"32"
+			"src_corner_width"			"32"
+			"draw_corner_width"			"8"
+			"draw_corner_height"		"8"
+		}
+		"noborder"
+		{
+			"inset"		"0 0 0 0"
+		}
+		"MainMenuButtonDefault"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"image"						"button_central"
+			"src_corner_height"			"32"
+			"src_corner_width"			"32"
+			"draw_corner_width"			"4"
+			"draw_corner_height"		"4"
+		}
+		"MainMenuButtonArmed"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"image"						"button_central_hover"
+			"src_corner_height"			"32"
+			"src_corner_width"			"32"
+			"draw_corner_width"			"4"
+			"draw_corner_height"		"4"
+		}
+		"MainMenuBGBorder"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"image"						"button_holder_central"
+			"src_corner_height"			"32"
+			"src_corner_width"			"32"
+			"draw_corner_width"			"4"
+			"draw_corner_height"		"4"
+		}
+		"InnerShadowBorder"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"image"						"inner_shadow_border"
+			"src_corner_height"			"5"
+			"src_corner_width"			"5"
+			"draw_corner_width"			"5"
+			"draw_corner_height"		"5"
+		}
+		"MainMenuSubButtonBorder3"
+		{
+			"inset"		"0 0 0 0"
+			"Right"
+			{
+				"1"
+				{
+					"color"			"TanDarker"
+					"offset"		"1 0"
+				}
+			}
+		}
+		"EconItemBorder"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"image"						"loadout_rect"
+			"src_corner_height"			"24"
+			"src_corner_width"			"24"
+			"draw_corner_width"			"5"
+			"draw_corner_height"		"5"
+		}
+		"TFThinLineBorder"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"image"						"../hud/tournament_panel_brown"
+			"src_corner_height"			"23"
+			"src_corner_width"			"23"
+			"draw_corner_width"			"8"
+			"draw_corner_height"		"8"
+		}
+		"MainMenuSubButtonBorder"
+		{
+			"inset"		"0 0 1 1"
+			"Left"
+			{
+				"1"
+				{
+					"color"			"TanDarker"
+					"offset"		"0 1"
+				}
+			}
+			"Right"
+			{
+				"1"
+				{
+					"color"			"TanDarker"
+					"offset"		"1 0"
+				}
+			}
+		}
+		"MainMenuSubButtonBorder2"
+		{
+			"inset"		"0 0 0 0"
+			"Left"
+			{
+				"1"
+				{
+					"color"			"TanDarker"
+					"offset"		"1 0"
+				}
+			}
+		}
+		"InnerShadowBorderThin"
+		{
+			"bordertype"				"scalable_image"
+			"backgroundtype"			"2"
+			"image"						"inner_shadow_border"
+			"src_corner_height"			"5"
+			"src_corner_width"			"5"
+			"draw_corner_width"			"4"
+			"draw_corner_height"		"4"
+		}
 		NoBorder
 		{
 			"inset" "0 0 0 0"
