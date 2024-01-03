@@ -1905,7 +1905,7 @@
 			"xpos"			"9999"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/ico_crit"
+			"image"			"replay/thumbnails/ico_crit"
 		}
 		"ico_crit_blu"
 		{
@@ -1914,7 +1914,7 @@
 			"xpos"			"9999"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/ico_crit_blu"
+			"image"			"replay/thumbnails/ico_crit_blu"
 		}
 		"ico_eyelander"
 		{
@@ -1923,7 +1923,7 @@
 			"xpos"			"9999"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/ico_eyelander"
+			"image"			"replay/thumbnails/ico_eyelander"
 		}
 		"ico_headshot"
 		{
@@ -1932,7 +1932,7 @@
 			"xpos"			"9999"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/ico_headshot"
+			"image"			"replay/thumbnails/ico_headshot"
 		}
 		"ico_spanner"
 		{
@@ -1941,7 +1941,7 @@
 			"xpos"			"9999"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/ico_spanner"
+			"image"			"replay/thumbnails/ico_spanner"
 		}
 		"ico_medic"
 		{
@@ -1950,7 +1950,7 @@
 			"xpos"			"9999"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/ico_medic"
+			"image"			"replay/thumbnails/ico_medic"
 		}
 	}
 }
