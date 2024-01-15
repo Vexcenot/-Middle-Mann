@@ -214,7 +214,7 @@
 			"Scout"
 			{
 				"fov"			"40"
-				"angles_x"		"-17"
+				"angles_x"		"-18"
 				"angles_y"		"230"
 				"angles_z"		"0"
 				"origin_x"		"165"
@@ -234,7 +234,7 @@
 			"Soldier"
 			{
 				"fov"			"40"
-				"angles_x"		"-15"
+				"angles_x"		"-17"
 				"angles_y"		"216"
 				"angles_z"		"0"
 				"origin_x"		"205"
@@ -245,7 +245,7 @@
 			{
 				"fov"			"39"
 				"angles_x"		"-28"
-				"angles_y"		"240"
+				"angles_y"		"230"
 				"angles_z"		"0"
 				"origin_x"		"200"
 				"origin_y"		"9"
@@ -255,17 +255,17 @@
 			"Medic"
 			{
 				"fov"			"39"
-				"angles_x"		"-13"
-				"angles_y"		"230"
+				"angles_x"		"-18"
+				"angles_y"		"235"
 				"angles_z"		"0"
 				"origin_x"		"195"
-				"origin_y"		"16"
+				"origin_y"		"13"
 				"origin_z"		"-90"
 			}
 			"Heavy"
 			{
 				"fov"			"40"
-				"angles_x"		"-13"
+				"angles_x"		"-16"
 				"angles_y"		"240"
 				"angles_z"		"0"
 				"origin_x"		"225"
@@ -275,8 +275,9 @@
 			"Pyro"
 			{
 				"fov"			"40"
-				"angles_x"		"-8"
-				"angles_y"		"230"
+				"angles_x"		"-15"
+				"angles_y"		"226"
+				"angles_y"		"227"
 				"angles_z"		"0"
 				"origin_x"		"205"
 				"origin_y"		"22"
@@ -285,8 +286,8 @@
 			"Spy"
 			{
 				"fov"			"38"
-				"angles_x"		"-13"
-				"angles_y"		"210"
+				"angles_x"		"-20"
+				"angles_y"		"218"
 				"angles_z"		"0"
 				"origin_x"		"195"
 				"origin_y"		"20"
@@ -295,11 +296,11 @@
 			"Engineer"
 			{
 				"fov"			"40"
-				"angles_x"		"-18"
-				"angles_y"		"230"
+				"angles_x"		"-24"
+				"angles_y"		"233"
 				"angles_z"		"0"
 				"origin_x"		"180"
-				"origin_y"		"16"
+				"origin_y"		"12"
 				"origin_z"		"-84"
 			}
 		}
