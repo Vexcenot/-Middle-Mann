@@ -229,11 +229,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-300"
-		"ypos"			"r82"
+		"ypos"			"r84"
 		"ypos"			"r90"
 		"zpos"			"-110"
 		"wide"			"345"
-		"tall"			"200"
+		"tall"			"300"
 	}
 	"CMainTargetID"
 	{
