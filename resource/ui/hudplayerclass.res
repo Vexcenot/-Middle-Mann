@@ -234,7 +234,7 @@
 			"Soldier"
 			{
 				"fov"			"40"
-				"angles_x"		"-17"
+				"angles_x"		"-12"
 				"angles_y"		"216"
 				"angles_z"		"0"
 				"origin_x"		"205"
@@ -244,7 +244,7 @@
 			"Demoman"
 			{
 				"fov"			"39"
-				"angles_x"		"-28"
+				"angles_x"		"-25"
 				"angles_y"		"230"
 				"angles_z"		"0"
 				"origin_x"		"200"
