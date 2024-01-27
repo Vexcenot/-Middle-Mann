@@ -759,19 +759,20 @@
 		"font"			"HudFontSmallBold"
 	}
 	
-	"MenuActualBG"
+	"BlurBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"MenuActualBG"
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"BlurBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-2"
+		"zpos"			"-3"
 		"wide"			"f0"
-		"tall"	 		"480"
-		"autoResize"		"0"
+		"tall"			"480"
 		"visible"		"1"
+		"alpha"			"205"
+		"image"					"replay/thumbnails/hp/REFRACTblur"
 		"enabled"		"1"
-		"fillcolor"	"0 0 0 225"
+		"scaleImage"	"1"	
 	}
 	"topbar"
 	{
