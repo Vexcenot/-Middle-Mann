@@ -321,11 +321,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageAlert"	
-			"xpos"			"-5"
-			"ypos"			"38"
+			"xpos"			"1"
+			"ypos"			"45"
 			"zpos"			"0"
-			"wide"			"61"
-			"tall"			"30"
+			"wide"			"49"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -337,8 +337,10 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"xpos"		"-5"
-				"ypos"		"75"
+				"xpos"		"2"
+				"ypos"		"72"
+				"wide"		"49"
+				"tall"		"24"
 			}
 		}
 		
