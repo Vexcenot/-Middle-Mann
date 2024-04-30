@@ -30,8 +30,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
 
-- O:
-- Resolution (and Aspect Ratio, eg. 1280x960 4:3):
+- OS [e.g. Windows 10, macOS 11.5, Ubuntu 20.04]:
+- Resolution and Aspect Ratio [eg. 1280x960 4:3]:
 
 **TF2 Specific Info (please complete the following information):**
 
