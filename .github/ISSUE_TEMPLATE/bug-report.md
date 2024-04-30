@@ -7,14 +7,16 @@ assignees: ''
 
 ---
 
-** Fill these checkmarks before reporting a bug!**
+**Fill these checkmarks before reporting a bug!**
+
 - [] i am not using any additional mods that might overwrite any hud files (things like portraits and stuff of the sort)
 
 **Describe the Issue**
 A clear and concise description of what the Issue is.
 
-**To Reproduce (gamemode/loadout etc)**
+**Steps To Reproduce (gamemode/loadout etc)**
 Steps to reproduce the behavior:
+
 1. Go to '...'
 2. Equip '...'
 3. Play on '...'
@@ -27,10 +29,12 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: 
- - Resolution (and Aspect Ratio, eg. 1280x960 4:3):
+
+- OS [e.g. Windows 10, macOS 11.5, Ubuntu 20.04]:
+- Resolution and Aspect Ratio [eg. 1280x960 4:3]:
 
 **TF2 Specific Info (please complete the following information):**
- - HUD Version (either commit # or release version):
- - Customizations Applied (if any, if none type "none"):
- - Other Mods in tf/custom? if so, which ones?:
+
+- HUD Version (either [commit #](https://i.imgur.com/Jx06jeZ.png) or release version):
+- Customizations Applied (if any, if none type "none"):
+- Other Mods in tf/custom? if so, which ones?:

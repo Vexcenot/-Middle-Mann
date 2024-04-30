@@ -71,19 +71,10 @@
 	{
 		"ControlName"				"CExLabel"
 		"proportionaltoparent" "1"
-		"xpos"						"r290"		[$WIN32]
-		"ypos"						"r316"		[$WIN32]
-		"xpos_minmode"				"-8"
-		"ypos_minmode"				"r106"		[$WIN32]
-		"xpos"						"-8"		[$X360]
-		"ypos"						"r506"		[$X360]
-		"ypos_hidef"				"r106"
-		"ypos_lodef"				"r106"
-		"wide"						"300"		[$WIN32]
+		"xpos"						"cs-0.5"		
+		"ypos"						"50"		
+		"wide"						"300"		
 		"tall"						"28"
-		"wide_minmode"				"300"
-		"wide"						"300"		[$X360]
-		"tall_hidef"				"28"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
