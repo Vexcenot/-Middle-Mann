@@ -55,7 +55,8 @@
 		"enabled"		"1"
 		"paintbackgroundtype" "2"
 		"bgcolor_override"	"G_TeamBlue"
-
+//	gotta figure out how to make it fit the bg	"border"							"TFFatLineBorderBlueBG"
+//		"paintborder"                                 "2"
 		if_mvm
 		{
 			"visible"	"0"

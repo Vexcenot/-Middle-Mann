@@ -72,7 +72,7 @@
 		"ControlName"				"CExLabel"
 		"proportionaltoparent" "1"
 		"xpos"						"cs-0.5"		
-		"ypos"						"cs-2"		
+		"ypos"						"cs-4"		
 		"wide"						"300"		
 		"tall"						"28"
 		"autoResize"				"0"
