@@ -39,7 +39,21 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-
+//	"G_BluePanel2"
+	//{
+//		"ControlName"	"EditablePanel"
+//		"fieldName"		"fuck"
+//		"xpos"			"c-69"
+//		"ypos"			"r30"
+//		"wide"			"56"
+//		"tall"			"24"
+//		"zpos"			"3"
+//		"autoResize"	"0"
+//		"pinCorner"		"0"
+//		"visible"		"1"
+	//	"enabled"		"1"
+//		"border"							"TFFatFlag"
+	//}
 	"G_BluePanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -55,8 +69,8 @@
 		"enabled"		"1"
 		"paintbackgroundtype" "2"
 		"bgcolor_override"	"G_TeamBlue"
-//	gotta figure out how to make it fit the bg	"border"							"TFFatLineBorderBlueBG"
-//		"paintborder"                                 "2"
+//		"border"							"BluBG"
+		"paintborder"                                 "2"
 		if_mvm
 		{
 			"visible"	"0"
@@ -74,6 +88,8 @@
 {
     "visible"    "0"
 }
+
+
 	}
 	"G_BluePanelTOP"
 	{
