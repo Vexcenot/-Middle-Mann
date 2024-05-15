@@ -275,5 +275,41 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		// makes the randomly appearing center text use tf2 secondary as requested by MartinCasas https://gamebanana.com/mods/438355
+				"Trebuchet24"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"weight"	"900"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+
+		"Trebuchet20"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+
+		"Trebuchet18"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"900"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
 	}
 }
