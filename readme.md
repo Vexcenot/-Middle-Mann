@@ -1,5 +1,5 @@
 # Middle Mann
-![](https://cdn.discordapp.com/attachments/1120021759261941820/1126905044286066709/new_thumbnail.png](https://imgur.com/a/QNpPpTU)
+![](https://i.imgur.com/Sri9sec.png)
 - *Vanilla Centered TF2 Hud with default health and ammo in the middle*
 # Description
 **It clears the clutters and keeps the Shit.**
