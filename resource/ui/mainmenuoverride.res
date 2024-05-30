@@ -2293,7 +2293,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"command"		"engine con_enable 1; toggleconsole; echo middle mann v21.1; echo updated: 30/04/24" //mostly used for bug reporting, remind self to update this string after every release
+		"command"		"engine con_enable 1; toggleconsole; echo middle mann v22; echo updated: 28/05/24" //mostly used for bug reporting, remind self to update this string after every release
 		"labeltext"		"Console"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
