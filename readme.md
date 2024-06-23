@@ -23,6 +23,7 @@
 
 # ADD-ONS
 - [Team Colored X hitmaker](https://gamebanana.com/mods/460476)
+- [Dyslexic Crosshair](https://github.com/Vexcenot/-Dyselxic-Crosshair)
 
 # LINKS
 - [DISCORD](https://discord.gg/9QzHkQx)
