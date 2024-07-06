@@ -1,8 +1,8 @@
 hudanimations_manifest
 {
-	"file"		"scripts/hudanimations_master_hitmarkers.txt" // To use with Master Hitmarkers https://gamebanana.com/mods/460476
-	"file"		"resource/crosshairs/crosshair_animation.txt"
-	"file"		"scripts/hudanimations_VEXCENOT'S centered default.txt"
 	"file"		"scripts/hudanimations.txt"
+	//"file"		"scripts/hudanimations_master_hitmarkers.txt" // To use with Master Hitmarkers https://gamebanana.com/mods/460476
+	"file"		"resource/crosshairs/crosshair_animation.txt"
+	"file"		"scripts/hudanimations_vexcenot.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }
