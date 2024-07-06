@@ -35,6 +35,6 @@ If applicable, add screenshots to help explain your problem.
 
 **TF2 Specific Info (please complete the following information):**
 
-- HUD Version (either [commit #](https://i.imgur.com/Jx06jeZ.png) or release version):
+- HUD Version (either [commit #](https://i.imgur.com/Jx06jeZ.png) or release version (click the console button in the main menu)):
 - Customizations Applied (if any, if none type "none"):
 - Other Mods in tf/custom? if so, which ones?:
