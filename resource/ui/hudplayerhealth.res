@@ -717,7 +717,7 @@
 		"PlayerStatusHealthBonusImage"
 	{
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
