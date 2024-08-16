@@ -50,10 +50,9 @@
 		"zpos"	"3"
 		"wide"	"27"
 		"tall"	"27"
-			"visible"		"1"
-					"enabled"		"1"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/ico_missions"
-\
 		}
 	}
 	"StatusIcon"
