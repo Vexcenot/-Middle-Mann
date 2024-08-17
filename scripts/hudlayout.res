@@ -1,21 +1,12 @@
+"#base"		"../customizations/killfeed.res"
+"#base"		"../customizations/vignette.res"
+"#base"		"../customizations/transparent_viewmodels.res"
+
 "#base"		"../resource/crosshairs/crosshair.res"
 "#base"		"../resource/ui/custom/master_hitmarkers.res"
+
 "Resource/HudLayout.res"
 {
-		"Vignette"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"Vignette"
-		"xpos"						"0"
-		"ypos"						"0"
-		"zpos"						"-999"
-		"wide"						"f0"
-		"tall"						"480"
-		"image"						"replay/thumbnails/screen_effects/vignette"
-		"scaleImage"				"1"
-		"enabled"					"0"
-		"visible"					"1"
-	}
 	"HudPlayerStatus"
 	{
 		"fieldName"		"HudPlayerStatus"
@@ -31,10 +22,10 @@
 		"fieldName"		"HudWeaponAmmo"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c88"
-		"ypos"			"rs1"
-		"wide"			"160"
-		"tall"			"100"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 	"HudObjectiveStatus"
 	{
@@ -77,10 +68,8 @@
 		"fieldName"			"HudMedicCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-128"
-		"xpos_minbad"		"c0"
-		"ypos"				"c70"
-		"ypos_minbad"		"r34"
+		"xpos"				"0"
+		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"f0"
 	}
