@@ -257,6 +257,14 @@ event HudHealthDyingPulse
 //	Animate PlayerStatusHealthValue3		Position 	"40 354" 				Pulse 1.0 0.2 1.0
 
 	RunEvent HudHealthDyingPulseLoop	0.25
+
+	// bring up the LOW HEALTH label (if the customization exists to begin with, otherwise nothing will show, dw. -techno)
+	Animate  LowHpLabel						fgcolor		"255 0 0 255"		Linear 0.001 0.002
+
+	// fade it out
+	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 2.0 2.51
+	Animate  LowHpLabelSha				fgcolor		"0 0 0 0"		Linear 2.0 2.51
+
 }
 
 // call to loop HudHealthDyingPulse
@@ -1468,21 +1476,9 @@ event QuestItem_Highlight_Off_Halloween
 }
 
 //--------------------------------------------------------------------------
-event CompetitiveGame_LowerChatWindow
-{
-	Animate HudChat ypos r140 Accel 0 0
-}
-
-event CompetitiveGame_RestoreChatWindow
-{
-	Animate HudChat ypos r250 Accel 0 0
-}
-
-event HudTournament_MoveChatWindow
-{
-	RunEvent CompetitiveGame_LowerChatWindow 0
-	RunEvent CompetitiveGame_RestoreChatWindow 10
-}
+event CompetitiveGame_LowerChatWindow {}
+event CompetitiveGame_RestoreChatWindow {}
+event HudTournament_MoveChatWindow {}
 
 //--------------------------------------------------------------------------
 
@@ -2370,46 +2366,3 @@ event DelayQuestMapClose
 	// For real close
 	FireCommand	1.0 "close"
 }
-
-
-event HudHealthBonusPulse
-{
-	Animate HealthBGBuff Alpha 175 linear 0.0 0.4
-	Animate HealthBGBuff Alpha 0 linear 0.4 0.4
-	Animate SpectatorGUIHealth FgColor "152 214 17  255" linear 0.4 0.4
-	Animate PlayerStatusHealthValueSpec FgColor "152 214 17  255" linear 0.4 0.4
-	RunEvent HudHealthBonusPulseLoop 0.8
-}
-event HudHealthBonusPulseLoop
-{
-	RunEvent HudHealthBonusPulse 0.0
-}
-event HudHealthBonusPulseStop
-{
-	StopEvent HudHealthBonusPulse 0.0
-	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate HealthBGBuff Alpha 0 linear 0.0 0.2
-	Animate HealthBGBuff Alpha 0 linear 0.2 0.4
-}
-event HudHealthDyingPulse
-{
-	Animate HealthBGLow Alpha 255 linear 0.0 0.2
-	Animate HealthBGLow Alpha 0 linear 0.2 0.4
-	RunEvent HudHealthDyingPulseLoop 0.4
-}
-event HudHealthDyingPulseLoop
-{
-	RunEvent HudHealthDyingPulse 0.0
-}
-event HudHealthDyingPulseStop
-{
-	StopEvent HudHealthDyingPulse 0.0
-	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate HealthBGLow Alpha 0 accel 0.0 0.0
-	StopEvent PlayerStatusHealthValueSpec 0.0
-	StopEvent PlayerStatusHealthValueSpec 0.0
-}
-//prevents chat from moving
-event CompetitiveGame_LowerChatWindow {}
-event CompetitiveGame_RestoreChatWindow {}
-event HudTournament_MoveChatWindow {}

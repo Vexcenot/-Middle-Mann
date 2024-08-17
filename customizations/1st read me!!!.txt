@@ -1,0 +1,13 @@
+//===================================================================================================================================
+// CUSTOMIZATION INSTRUCTIONS
+//===================================================================================================================================
+// 1. Pick the customization you want to change [example: transparent_viewmodels.res] and open it with notepad/whatever text editor you prefer
+// 2. Follow the Instructions inside said file to apply your customization
+// 3. Open your console and type "hud_reloadscheme" without quotes
+// 4. Profit.
+//===================================================================================================================================
+// that's pretty much it.
+//===================================================================================================================================
+
+
+
