@@ -3,22 +3,22 @@
 {
 	"HudWeaponAmmoBG"
 	{
-		"xpos"			"c70"
+		"xpos"			"rs1+65"
 	}
 	"HudWeaponAmmoIcon"
 	{
-		"xpos"			"c267"
+		"xpos"			"rs1-29"
 	}
 	"AmmoInClip"
 	{
-		"xpos"			"c145"
+		"xpos"			"rs1-90"
 	}
 	"AmmoInReserve"
 	{
-		"xpos"			"c235"
+		"xpos"			"rs1"
 	}
 	"AmmoNoClip"
 	{
-		"xpos"			"c185"
+		"xpos"			"rs1-45"
 	}
 }

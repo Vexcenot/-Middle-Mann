@@ -24,9 +24,14 @@
 		"pin_to_sibling" 	"PlayerStatusHealthValue"
 	}
 	"PlayerStatusHealthValueBG"
-		{
+	{
 		"xpos"			"-55"
 		"ypos"			"c165"
+	}
+	"PlayerStatusHealthBonusImage"
+	{
+		"xpos"			"c-286"
+		"ypos"			"rs1-18"
 	}
 
 	// someone mustve been angry
