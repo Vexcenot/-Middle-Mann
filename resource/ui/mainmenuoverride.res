@@ -2293,7 +2293,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"command"		"engine showconsole; clear; echo middle mann v23-BETA; echo last updated: XX/XX/XX" //mostly used for bug reporting, remind self to update this string after every release
+		"command"		"engine showconsole; clear; echo middle mann v23; echo last updated: 17/08/24" //mostly used for bug reporting, remind self to update this string after every release
 		"labeltext"		"Console"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
