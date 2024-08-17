@@ -1,5 +1,5 @@
+#base "../../customizations/sidemann-toggle.res"
 #base "../../customizations/damagenumbers.res"
-#base "huddamageaccount_last.res"
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"

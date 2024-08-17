@@ -2,7 +2,6 @@
 "#base"		"../customizations/vignette.res"
 "#base"		"../customizations/transparent_viewmodels.res"
 
-
 "#base"		"../resource/crosshairs/crosshair.res"
 "#base"		"../resource/ui/custom/master_hitmarkers.res"
 
@@ -23,10 +22,10 @@
 		"fieldName"		"HudWeaponAmmo"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c88"
-		"ypos"			"rs1"
-		"wide"			"160"
-		"tall"			"100"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 	"HudObjectiveStatus"
 	{

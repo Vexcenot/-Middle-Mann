@@ -714,7 +714,7 @@
 		"fgcolor"		"0 0 0 0"
 		"pin_to_sibling"	"LowHpLabel"
 	}
-		"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthBonusImage"
 	{
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"0"
