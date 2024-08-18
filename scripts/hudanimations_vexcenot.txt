@@ -260,11 +260,8 @@ event HudHealthDyingPulse
 
 	// bring up the LOW HEALTH label (if the customization exists to begin with, otherwise nothing will show, dw. -techno)
 	Animate  LowHpLabel						fgcolor		"255 0 0 255"		Linear 0.001 0.002
-
-	// fade it out
-	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 2.0 2.51
-	Animate  LowHpLabelSha				fgcolor		"0 0 0 0"		Linear 2.0 2.51
-
+	Animate  LowHpLabelSha					fgcolor		"0 0 0 255"			Linear 0.001 0.002
+	
 }
 
 // call to loop HudHealthDyingPulse
@@ -287,6 +284,11 @@ event HudHealthDyingPulseStop
 //	Animate PlayerStatusHealthValue3	Position "40 354" 				Linear 0.0 0.0
 //	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "100"		Linear 0.5 0.0
 //	Animate PlayerStatusHealthBonusImageWhiteGlow	Alpha "0"		Pulse 5.0 0.5 1.5
+
+	// fade it out but for real this time
+	Animate  LowHpLabel						fgcolor		"0 0 0 0"			Linear 0.001 0.002
+	Animate  LowHpLabelSha					fgcolor		"0 0 0 0"			Linear 0.001 0.002
+
 }
 
 //===========================================
