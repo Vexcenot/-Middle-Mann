@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "hud\hud_obj_status_health_69"
+	"$baseTexture" "vgui\replay\thumbnails\hud\hpicon"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

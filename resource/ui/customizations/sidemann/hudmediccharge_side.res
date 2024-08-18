@@ -18,4 +18,8 @@
 		"ypos"			"-4"
 		pin_to_sibling 	"ChargeLabel"
 	}
+	"HudWeaponAmmoIcon"
+	{
+		"xpos"			"rs1-29"
+	}
 }
