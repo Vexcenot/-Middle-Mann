@@ -492,8 +492,8 @@
 			"1"
 			{
 			"name"			"TF2 Build"
-			"tall"			"44"
-			"tall_lodef"	"52"
+			"tall"			"40"
+			"tall_lodef"	"48"
 			"weight"		"500"
 			"additive"		"0"
 			"antialias" 	"1"
