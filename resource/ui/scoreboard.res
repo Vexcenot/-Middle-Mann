@@ -86,7 +86,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"117 107 94 255"
 	}
-		"BlueScoreBG2"
+	"BlueScoreBG2"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"BlueScoreBG2"
@@ -230,7 +230,7 @@
 			"visible"		"0"
 		}
 	}
-		"RedScoreBGMin"
+	"RedScoreBGMin"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"RedBGMin"
@@ -625,8 +625,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"ChalkboardText2"
-		"font_//minmode"			"HudFontSmall"
+		"font"			"HudFontSmallest"
+		"font_//minmode"			"HudFontSmallest"
 		"labelText"		"%server%"
 		"textAlignment"		"east"
 		"xpos"			"279"
@@ -655,7 +655,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerDropshadow"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"Black"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
@@ -795,7 +795,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
 		"font"			"ChalkboardText2"
-		"font_//minmode"  "HudFontSmallest"
+		"font_//minmode"  "HudFontSmallestest"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -825,7 +825,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsDropshadow"
-		"font"			"HudFontSmallest"
+		"font"			"HudFontSmallestest"
 		"fgcolor"		"Black"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
@@ -854,7 +854,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
 		"font"			"ChalkboardText2"
-		"font_//minmode"  "HudFontSmallest"
+		"font_//minmode"  "HudFontSmallestest"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -881,7 +881,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueueDropshadow"
-		"font"			"HudFontSmallest"
+		"font"			"HudFontSmallestest"
 		"fgcolor"		"Black"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
@@ -1191,7 +1191,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"HudFontSmallest"
+				"font"			"HudFontSmallestest"
 			}
 			"Score"
 			{
@@ -1270,7 +1270,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"HudFontSmallest"
+				"font"			"HudFontSmallestest"
 			}
 			"Score"
 			{
@@ -1319,7 +1319,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1336,7 +1336,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1353,7 +1353,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1370,7 +1370,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1387,7 +1387,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1404,7 +1404,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1421,7 +1421,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
 			"xpos"			"435"
@@ -1439,7 +1439,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1456,7 +1456,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1473,7 +1473,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"	[$WIN32]
@@ -1490,7 +1490,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"	[$WIN32]
@@ -1507,7 +1507,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"	[$WIN32]
@@ -1525,7 +1525,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"	[$WIN32]
@@ -1542,7 +1542,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
 			"xpos"			"305"	[$WIN32]
@@ -1559,7 +1559,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
 			"xpos"			"305"	[$WIN32]
@@ -1576,7 +1576,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
 			"xpos"			"305"	[$WIN32]
@@ -1593,7 +1593,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"			"305"	[$WIN32]
@@ -1610,7 +1610,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"			"326"	[$WIN32]
@@ -1627,7 +1627,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"			"326"	[$WIN32]
@@ -1644,7 +1644,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"			"326"	[$WIN32]
@@ -1661,7 +1661,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"			"326"	[$WIN32]
@@ -1678,7 +1678,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
 			"xpos"			"425"	[$WIN32]
@@ -1695,7 +1695,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
 			"xpos"			"425"	[$WIN32]
@@ -1712,7 +1712,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
 			"xpos"			"425"	[$WIN32]
@@ -1729,7 +1729,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
 			"xpos"			"425"	[$WIN32]
@@ -1746,7 +1746,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"			"445"	[$WIN32]
@@ -1763,7 +1763,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"		[$WIN32]
 			"xpos"			"545"	[$WIN32]
@@ -1780,7 +1780,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"			"445"	[$WIN32]
@@ -1801,7 +1801,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"		[$WIN32]
 			"xpos"			"545"	[$WIN32]
@@ -1818,7 +1818,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"east"
 			"xpos"			"445"	[$WIN32]
@@ -1835,7 +1835,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%support%"
 			"textAlignment"	"west"		[$WIN32]
 			"xpos"			"545"	[$WIN32]
@@ -1852,7 +1852,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
 			"xpos"			"445"	[$WIN32]
@@ -1869,7 +1869,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"ChalkboardText2"
+			"font"			"HudFontSmallest"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"		[$WIN32]
 			"xpos"			"545"	[$WIN32]
@@ -1882,159 +1882,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-
 	}
 
-	"ButtonLegendBG"		[$X360]
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ButtonLegendBG"
-		"xpos"			"10"
-		"ypos"			"373"
-		"zpos"			"0"
-		"wide"			"539"
-		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"fillcolor"		"0 0 0 153"
-		"PaintBackgroundType"	"2"
-	}
-
-	"ButtonLegend"		[$X360]
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ButtonLegend"
-		"xpos"			"10"
-		"ypos"			"373"
-		"zpos"			"1"
-		"wide"			"539"
-		"tall"			"150"
-		"visible"		"1"
-
-		"SelectHintIcon"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SelectHintIcon"
-			"font"			"GameUIButtons"
-			"xpos"			"10"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"38"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"C"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-
-		"SelectHintLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SelectHintLabel"
-			"font"			"ChalkboardText2"
-			"xpos"			"25"
-			"ypos"			"2"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"39"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_Select"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-
-		"GamerCardIcon"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"GamerCardIcon"
-			"font"			"GameUIButtons"
-			"xpos"			"150"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"38"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"A"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-
-		"GamerCardLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"GamerCardLabel"
-			"font"			"ChalkboardText2"
-			"xpos"			"170"
-			"ypos"			"2"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"39"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#TF_ViewGamercard"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-
-		"ReputationIcon"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ReputationIcon"
-			"font"			"GameUIButtons"
-			"xpos"			"350"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"38"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"X"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-
-		"ReputationLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ReputationLabel"
-			"font"			"ChalkboardText2"
-			"xpos"			"403"
-			"ypos"			"2"
-			"zpos"			"1"
-			"wide"			"300"
-			"tall"			"39"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#GameUI_PlayerReview"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-	}
-		"classmodelpanel"
+	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"

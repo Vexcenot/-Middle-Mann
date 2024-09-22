@@ -25,7 +25,7 @@
 		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
 	}
-		"HudWeaponAmmoIcon"
+	"HudWeaponAmmoIcon"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoIcon"
@@ -38,7 +38,7 @@
 		"enabled"		"1"
 		"image"			"../hud/hud_obj_status_ammo_64"
 		"scaleImage"	"1"
-		"fgcolor"		"TanLight"
+		"drawcolor"		"239 228 195 255"
 	}
 	"AmmoInClip"
 	{
