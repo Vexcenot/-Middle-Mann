@@ -2,7 +2,7 @@
 "#base"		"../customizations/vignette.res"
 "#base"		"../customizations/transparent_viewmodels.res"
 
-"#base"		"../resource/crosshairs/crosshair.res"
+"#base"		"../customizations/hud_crosshairs.res"
 "#base"		"../resource/ui/custom/master_hitmarkers.res"
 
 "Resource/HudLayout.res"
