@@ -7,5 +7,5 @@
 //=============================================================================================
 
 #base "../resource/ui/customizations/playermodel/playermodel_on.res" // (Default) Player model on
-//#base "../resource/ui/customizations/playermodel/playermodel_off.res" // (Default) Player model off
+//#base "../resource/ui/customizations/playermodel/playermodel_off.res" // Player model off
 

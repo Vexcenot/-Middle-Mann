@@ -5,7 +5,17 @@
 	{
 		"xpos"			"-90"
 	}
-"classmodelpanel"
+	"PlayerStatusClassImage"
+	{
+		"xpos"			"120"
+		"ypos"			"r138"
+	}
+	"PlayerStatusSpyImage"
+	{
+		"xpos"			"3"		
+		"ypos"			"r67"	
+	}
+	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
