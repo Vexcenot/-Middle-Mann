@@ -4,10 +4,10 @@
 	{
 		"ControlName"				"ImagePanel"
 		"xpos"						"0"
-		"ypos"						"0"
+		"ypos"						"-20"
 		"zpos"						"-2"
 		"wide"						"f0" //Change this to "0" if you dont want a bg here
-		"tall"						"480"
+		"tall"						"400"
 		"image"						"replay/thumbnails/bg_images/loadout_bg"
 		"scaleImage"				"1"
 		"enabled"					"0"
