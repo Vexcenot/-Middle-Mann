@@ -48,7 +48,7 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"c-286"
+		"xpos"				"c-288"
 		"ypos"				"r15"
 		"wide"				"100"
 		"tall"				"100"
@@ -78,7 +78,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UpgradeLevelContainer"
-		"xpos"			"0"
+		"xpos"			"10"
 		"ypos"			"5"
 		"wide"			"640"
 		"tall"			"480"
