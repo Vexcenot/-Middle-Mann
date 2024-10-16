@@ -11,7 +11,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"SteamWorkshopBorder"
-		"PaintBackgroundType"	"0"
+		"paintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 220"
 				
 		"PassedIcon"
@@ -80,8 +80,8 @@
 		"enabled"		"1"
 		"border"		"SteamWorkshopBorder"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 220"
-		
+		"bgcolor_override"	"46 43 42 220"		
+
 		"Header"
 		{
 			"ControlName"	"Label"
@@ -107,7 +107,7 @@
 			"fieldName"		"Issue"
 			"xpos"			"10"
 			"ypos"			"22"
-			"wide"			"130"
+			"wide"			"120"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -120,7 +120,7 @@
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
 		}
-		
+
 		"TargetAvatarImage"
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -179,7 +179,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 220"
+			"fillcolor"		"88 119 140 180"
 			"visible"		"1"
 		}
 		
@@ -230,7 +230,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 220"
+			"fillcolor"		"88 119 140 180"
 			"visible"		"1"
 		}
 		
@@ -281,7 +281,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 220"
+			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 		}
 		
@@ -313,7 +313,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 220"
+			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 		}
 		
@@ -345,7 +345,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 220"
+			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 		}
 		
@@ -411,9 +411,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"SteamWorkshopBorder"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 220"
+		"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -479,9 +477,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"SteamWorkshopBorder"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 220"
+		"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -540,10 +536,10 @@
 	{
 		"ControlName"		"CVoteSetupDialog"
 		"fieldName"			"VoteSetupDialog"
-		"xpos"				"c-200"
-		"ypos"				"c-150"
-		"wide"				"400"
-		"tall"				"310"
+		"xpos"				"c-300"
+		"ypos"				"c-180"
+		"wide"				"600"
+		"tall"				"360"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -555,6 +551,7 @@
 		"bgcolor_override"	"46 43 42 220"
 
 		"header_font"		"ItemFontNameLarge"
+		"player_font"		"ItemFontNameLarge"
 		"header_fgcolor"	"Orange"
 
 		"issue_width"		"180"		
@@ -562,7 +559,7 @@
 		"issue_fgcolor"		"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
 		
-		"parameter_width"	"200"
+		"parameter_width"	"370"
 
 		"TitleLabel"
 		{
@@ -573,7 +570,7 @@
 			"textAlignment"	"north"
 			"xpos"			"0"
 			"ypos"			"10"
-			"wide"			"400"
+			"wide"			"550"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -607,8 +604,8 @@
 			"xpos"		"190"
 			"ypos"		"38"
 			"zpos"		"2"
-			"wide"		"200"
-			"tall"		"200"
+			"wide"		"400"
+			"tall"		"280"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -624,7 +621,7 @@
 			"font"			"HudFontSmallestBold"
 			"labelText"		"%combo_label%"
 			"textAlignment"	"east"
-			"xpos"			"5"
+			"xpos"			"10"
 			"ypos"			"245"
 			"zpos"			"1"
 			"wide"			"75"
@@ -639,10 +636,10 @@
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
 			"Font"				"HudFontSmallestBold"
-			"xpos"				"85"
-			"ypos"				"245"
+			"xpos"				"17"
+			"ypos"				"265"
 			"zpos"				"1"
-			"wide"				"205"
+			"wide"				"160"
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -668,9 +665,9 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"85"
-			"ypos"		"275"
-			"wide"		"100"
+			"xpos"		"330"
+			"ypos"		"325"
+			"wide"		"160"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -689,9 +686,9 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"Button1"
-			"xpos"		"190"
-			"ypos"		"275"
-			"wide"		"100"
+			"xpos"		"500"
+			"ypos"		"325"
+			"wide"		"80"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"

@@ -14,6 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"18"
+		"medal_column_width" "18"
 		"avatar_width"		"63"
 		"spacer"			"5"
 		"paintbackgroundtype" "2"
