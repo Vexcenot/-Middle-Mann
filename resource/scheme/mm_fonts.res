@@ -630,6 +630,7 @@
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"yres" "1 1199"
 			}
 			"2" // Misyl: Proportional
 			{
