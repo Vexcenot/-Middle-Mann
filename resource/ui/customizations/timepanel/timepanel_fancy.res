@@ -66,7 +66,6 @@
 		"enabled"			"1"
 		"image"				"replay/thumbnails/hud/vertical_line"
 		"scaleImage"		"1"	
-		
 		if_match
 		{
 			"visible"	"0"

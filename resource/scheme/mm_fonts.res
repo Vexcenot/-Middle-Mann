@@ -45,6 +45,15 @@
 
 			}
 		}
+		DefaultStreamer
+		{
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"0" 
+				"range"			"0x0000 0x017F"
+			}
+		}
 		"Default"
 		{
 			"1"

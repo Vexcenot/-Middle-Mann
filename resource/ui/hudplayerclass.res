@@ -1,3 +1,4 @@
+#base "../../customizations/streamermode/hudplayerclass.res"
 #base "../../customizations/sidemann-toggle.res"
 #base "../../customizations/playermodel.res"
 

@@ -6,7 +6,7 @@
 	}
 	
 	"$translucent" 1
-	"$baseTexture" "hud\null_texture"
+	"$baseTexture" "hud\gradient_blue"
 	"$detail" "hud\clock_area_mask"
 	$detailscale 1
 	$detailblendmode 8
