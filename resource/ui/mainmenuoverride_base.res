@@ -1464,7 +1464,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"BelowDarken"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-15"
 			"zpos"			"499"
 			"wide"			"f10"
 			"tall"			"113"
