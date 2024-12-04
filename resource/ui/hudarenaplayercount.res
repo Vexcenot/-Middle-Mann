@@ -38,7 +38,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
 			"xpos"			"23"
-			"ypos"			"-700"
+			"ypos"			"6"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"25"
@@ -55,8 +55,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
-			"ypos"			"8"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -68,6 +68,7 @@
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
+			"pin_to_sibling"	"count"
 		}
 		
 		"playerimage"
